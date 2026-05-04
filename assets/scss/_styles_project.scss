@@ -262,7 +262,7 @@ a:not([href]):not([class]):hover {
 
 // Left sidebar
 .td-sidebar-nav {
-  overflow: auto;
+  overflow: hidden;
   padding: 0px;
 
   &__section-title {
