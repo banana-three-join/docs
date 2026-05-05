@@ -76,7 +76,7 @@ cascade:
 
 Layer5 Cloud is the centralized management console and identity provider for the Layer5 ecosystem — specifically for **Kanvas** and **Meshery** deployments. It provides an extensible, highly flexible authorization framework that enables organizations to govern complex, multi-cloud infrastructure with confidence. Think of it as the command center where your teams, workspaces, and cloud-native assets come together under a single, unified platform.
 
-Layer5 Cloud is available both as a fully managed service and as a [self-hosted](/cloud/self-hosted/) deployment, giving organizations the flexibility to meet their own security and compliance requirements.
+Layer5 Cloud is available both as a fully managed service and as a [self-hosted](/cloud/guides/self-hosted/) deployment, giving organizations the flexibility to meet their own security and compliance requirements.
 
 ## Why use Layer5 Cloud?
 
