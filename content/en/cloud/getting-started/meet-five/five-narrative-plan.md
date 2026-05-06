@@ -28,11 +28,11 @@ The **Difficulty** column rates the effort to update that section:
 
 | Docs Section | Characters | Scenario | Five Illustration | Difficulty | Status |
 |---|---|---|---|---|---|
-| `cloud/concepts/identity-and-access/users` | Five, Maya | Five's profile card; Maya as Org Admin example | `/images/five/1.svg` | Low | Open |
-| `cloud/concepts/identity-and-access/organizations` | Maya, Marcus | Orbital Labs org creation walkthrough; Stellar Dynamics as enterprise tenant | — | Low | Open |
-| `cloud/concepts/identity-and-access/teams` | Zara, Rex, Jordan | Infrastructure team vs. Development team setup | `/images/five/team-of-fives.svg` | Low | Open |
-| `cloud/concepts/identity-and-access/roles` | Dr. Aiko, Maya, Zara | Provider Admin (Dr. Aiko) → Org Admin (Maya) → Team Admin (Zara) chain | `/images/five/layer5-five-mascot-means-business.svg` | Medium | Open |
-| `cloud/concepts/identity-and-access/keychains` | Zara | Zara configuring a keychain scoped to the Infrastructure team, locking down `prod-aws` access | — | Medium | Open |
+| `cloud/concepts/identity-and-security/users` | Five, Maya | Five's profile card; Maya as Org Admin example | `/images/five/1.svg` | Low | Open |
+| `cloud/concepts/identity-and-security/organizations` | Maya, Marcus | Orbital Labs org creation walkthrough; Stellar Dynamics as enterprise tenant | — | Low | Open |
+| `cloud/concepts/identity-and-security/teams` | Zara, Rex, Jordan | Infrastructure team vs. Development team setup | `/images/five/team-of-fives.svg` | Low | Open |
+| `cloud/concepts/identity-and-security/roles` | Dr. Aiko, Maya, Zara | Provider Admin (Dr. Aiko) → Org Admin (Maya) → Team Admin (Zara) chain | `/images/five/layer5-five-mascot-means-business.svg` | Medium | Open |
+| `cloud/concepts/identity-and-security/keychains` | Zara | Zara configuring a keychain scoped to the Infrastructure team, locking down `prod-aws` access | — | Medium | Open |
 | `cloud/concepts/spaces/workspaces` | Five, Maya | Five creates `orbital-staging`; Maya assigns Infrastructure and Development teams | — | Medium | Open |
 | `cloud/concepts/spaces/environments` | Five, Zara | Five connects `prod-aws` (EKS + RDS + S3) and `prod-gcp` (GKE + Pub/Sub); Zara approves | — | Medium | Open |
 | `cloud/getting-started` | Five | Five's first login, first workspace (`orbital-dev`), first design (`microservices-baseline`) | `/images/five/1.svg` | Low | Open |
@@ -85,13 +85,13 @@ When capturing screenshots for any section that references the Five narrative, f
 - `cloud/getting-started` — add intro paragraph and link to `/cloud/getting-started/meet-five` ✓ (done in this PR)
 
 ### Next Sprint — Batch 1: Identity (Low difficulty)
-1. `cloud/concepts/identity-and-access/users` — Five's profile card (replaces existing `<!-- TODO -->` placeholder)
-2. `cloud/concepts/identity-and-access/organizations` — Orbital Labs + Stellar Dynamics examples
-3. `cloud/concepts/identity-and-access/teams` — Infrastructure + Development team examples
+1. `cloud/concepts/identity-and-security/users` — Five's profile card (replaces existing `<!-- TODO -->` placeholder)
+2. `cloud/concepts/identity-and-security/organizations` — Orbital Labs + Stellar Dynamics examples
+3. `cloud/concepts/identity-and-security/teams` — Infrastructure + Development team examples
 
 ### Next Sprint — Batch 2: Security & Spaces (Medium difficulty)
-4. `cloud/concepts/identity-and-access/roles` — Provider Admin → Org Admin → Team Admin chain
-5. `cloud/concepts/identity-and-access/keychains` — Zara's Infrastructure team keychain
+4. `cloud/concepts/identity-and-security/roles` — Provider Admin → Org Admin → Team Admin chain
+5. `cloud/concepts/identity-and-security/keychains` — Zara's Infrastructure team keychain
 6. `cloud/concepts/spaces/workspaces` — `orbital-staging` creation and team assignment
 7. `cloud/concepts/spaces/environments` — `prod-aws` and `prod-gcp` setup
 

@@ -153,7 +153,7 @@ The following example demonstrate how to retrieve information from the Academy R
 
 ### Get the total number of registered learners in Academy
 
-Use the Layer5 Cloud API to retrieve the *total* number of registered learners. Pass your [Security Token](https://docs.layer5.io/cloud/concepts/identity-and-access/tokens/) as a Bearer token in the `Authorization` header (as shown in [Authenticating with API](/cloud/reference/api-reference/#authenticating-with-the-api)). The response JSON includes an array of user objects.
+Use the Layer5 Cloud API to retrieve the *total* number of registered learners. Pass your [Security Token](https://docs.layer5.io/cloud/concepts/identity-and-security/tokens/) as a Bearer token in the `Authorization` header (as shown in [Authenticating with API](/cloud/reference/api-reference/#authenticating-with-the-api)). The response JSON includes an array of user objects.
 
 
 {{< tabpane >}}
@@ -250,5 +250,4 @@ This returns the number of Total registered learners:
 ```
 130
 ``` 
-
 

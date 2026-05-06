@@ -6,7 +6,7 @@ categories: [Identity]
 tags: [perms]
 ---
 
-{{< alert title="Customizable Permissions" type="info" >}}Default permissions can be easily customized by simply creating your own [keychains](/cloud/concepts/identity-and-access/keychains/#keychains-management) and [roles](/cloud/concepts/identity-and-access/roles).{{< /alert >}}
+{{< alert title="Customizable Permissions" type="info" >}}Default permissions can be easily customized by simply creating your own [keychains](/cloud/concepts/identity-and-security/keychains/#keychains-management) and [roles](/cloud/concepts/identity-and-security/roles).{{< /alert >}}
 
 **Legend:**
 

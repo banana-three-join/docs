@@ -12,16 +12,16 @@ aliases:
 
 This guide outlines methods for creating user accounts, adding users to organizations, inviting new members, and managing user access within Layer5 Cloud to maintain a secure and organized environment.
 
-![User Management options](/cloud/concepts/identity-and-access/users/org_invite.png)
+![User Management options](/cloud/concepts/identity-and-security/users/org_invite.png)
 
 ## Create User Account
 
 Seamlessly initiate new user accounts, ensuring a smooth onboarding process. Specify user details, such as email, and tailor their access by adding them to one or more organizations. Optionally assign roles, defining their scope within the platform. Complete the process by sending a personalized account setup email, streamlining the user's introduction to Layer5 Cloud.
 
-![Create User](/cloud/concepts/identity-and-access/users/create-user.gif)
+![Create User](/cloud/concepts/identity-and-security/users/create-user.gif)
 
 {{< alert type="info" title="Permission Required for User Creation" >}}
-Only Provider Admins and Organization Admins can create users. For more information, see [Roles](/cloud/concepts/identity-and-access/roles).
+Only Provider Admins and Organization Admins can create users. For more information, see [Roles](/cloud/concepts/identity-and-security/roles).
 {{< /alert >}}
 
 ## Add / Remove Existing User
@@ -40,7 +40,7 @@ If someone already has a Layer5 Cloud account but isn't part of your organizatio
 4. Select the user from the list of available users.
 5. Assign appropriate roles within the organization.
 
-![Add User to Organization](/cloud/concepts/identity-and-access/users/add-user.gif)
+![Add User to Organization](/cloud/concepts/identity-and-security/users/add-user.gif)
 
 ### Removing Users from an Organization
 
@@ -56,7 +56,7 @@ You can remove users from an organization one by one or several at once. This ac
    * **Use Bulk Action:** Click the "Delete" button.
    * **Confirm:** When prompted, confirm that you want to remove all the selected users from the organization.
 
-![Removing Users from an Organization](/cloud/concepts/identity-and-access/users/remove_user.png)
+![Removing Users from an Organization](/cloud/concepts/identity-and-security/users/remove_user.png)
 
 ## Invite User via Email
 
@@ -70,5 +70,5 @@ You can invite new or existing users to join one of your organizations by sendin
 * **What the User Does:** The person you invited will click a link in the email to accept. If they're new to Layer5 Cloud, they'll need to create an account first before they can join your organization.
 
 {{< alert type="info" title="Permissions for Role Assignment" >}}
-An Organization Admin can assign organization roles to users, but provider roles can only be assigned by Provider Admins. For more information, see [Roles](/cloud/concepts/identity-and-access/roles).
+An Organization Admin can assign organization roles to users, but provider roles can only be assigned by Provider Admins. For more information, see [Roles](/cloud/concepts/identity-and-security/roles).
 {{< /alert >}}

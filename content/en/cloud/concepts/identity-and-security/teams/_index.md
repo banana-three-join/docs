@@ -38,7 +38,7 @@ Controls access to the development workspace (`orbital-dev`). Rex deploys often;
 {{< /cardpane >}}
 
 {{< alert type="info" >}}
-An Org Admin may also serve as a Team Admin — Maya Chen holds both roles at Orbital Labs. See [Roles](/cloud/concepts/identity-and-access/roles/) for more on how role assignments stack.
+An Org Admin may also serve as a Team Admin — Maya Chen holds both roles at Orbital Labs. See [Roles](/cloud/concepts/identity-and-security/roles/) for more on how role assignments stack.
 {{< /alert >}}
 
 ## Add a Team
@@ -49,7 +49,7 @@ A team is simply a group that an administrator can create in the Google Admin co
 
 Below the top-level organization, you can add as many teams as you want - at the same level. Hierarchal teams are not currently supported. When you change a setting at the higher level organization, the settings for all child teams that inherit that setting also change. Custom settings at the team level, however, remain unchanged.
 
->Learn more about the [organizational structure](/cloud/concepts/identity-and-access).
+>Learn more about the [organizational structure](/cloud/concepts/identity-and-security).
 
 {{< alert type="info" title="Team Ownership">}}
 If you are the current team owner, you can’t remove yourself from the team until you transfer ownership to another team administrator.
@@ -59,7 +59,7 @@ If you are the current team owner, you can’t remove yourself from the team unt
 
 The "Open Team Invite" feature allows administrators to use shareable "Team Invite Links" for users to join a particular team. This link-based invitation method functions much like an [Open Org Invite Link](https://docs.layer5.io/cloud/guides/organizations/org-management/), but is tailored for team-specific invitations and provides a direct alternative to adding members manually.
 
-![Process of open team invite](/cloud/concepts/identity-and-access/teams/open_team_invite.gif)
+![Process of open team invite](/cloud/concepts/identity-and-security/teams/open_team_invite.gif)
 
 ### When to Use
 

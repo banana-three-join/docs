@@ -52,7 +52,7 @@ For more information, see [Layer5 subscription plans](https://layer5.io/pricing)
 Teams allow you to organize users into groups and conveniently assign access to workspaces or to assign roles with associated keychains and keys to control permissions.
 
 {{< alert type="info" >}}
-You need to have the default `Team Admin` role to assign permissions to users in your team. For more information, see [Teams](/cloud/concepts/identity-and-access/teams).
+You need to have the default `Team Admin` role to assign permissions to users in your team. For more information, see [Teams](/cloud/concepts/identity-and-security/teams).
 {{< /alert >}}
 
 Organizations may have any number of teams and teams may have any number of users. User accounts are treated as sovereign entities that are owned by individual individuals, not by corporations.
@@ -62,7 +62,7 @@ Organization and teams may have any number of users accounts. User accounts are 
 Users and their tokens may be authorized to access resources. Users can be created and managed by the Provider Admins, Organization Admins, or Team Admins. Users of one organization may be granted access to resources (e.g. Workspaces and Designs) of another organization. User entitlement, roles and permissions are org-scoped, meaning that the entitlements and permissions that a given user has in one organization does not necessarily reflect the same level of access that their membership in another oganziation does.
 
 {{< alert type="info" >}}
-Only Provider Admins and Organization Admin can create users. For more information, see [Roles](/cloud/concepts/identity-and-access/roles/).
+Only Provider Admins and Organization Admin can create users. For more information, see [Roles](/cloud/concepts/identity-and-security/roles/).
 {{< /alert >}}
 
 ## Account Linking
@@ -97,7 +97,7 @@ When a user deletes their account, the following behaviors apply:
 
 **3. Organization Ownership**
 
-- If you are the [only Org Admin or Owner](https://docs.layer5.io/cloud/concepts/identity-and-access/roles/), the organization may become **unmanageable** after you delete your account.
+- If you are the [only Org Admin or Owner](https://docs.layer5.io/cloud/concepts/identity-and-security/roles/), the organization may become **unmanageable** after you delete your account.
 - It is strongly recommended to assign multiple admins before deletion.
 
 **4. Organization Deletion**

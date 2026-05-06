@@ -73,7 +73,7 @@ Marcus opens the **Share** panel on `stellar-saas-platform`. He types Five's nam
 Marcus clicks **Share**. Five receives an in-app notification in his Orbital Labs account.
 
 {{< alert type="info" title="Cross-Org Access" >}}
-Cross-organization design sharing requires that both organizations exist under a shared Provider (Constellation Cloud in this scenario). The Provider Admin (Dr. Aiko Sato) must have configured cross-org permissions before sharing can occur. See [Roles and Keychains](/cloud/concepts/identity-and-access/roles/) for the permission model.
+Cross-organization design sharing requires that both organizations exist under a shared Provider (Constellation Cloud in this scenario). The Provider Admin (Dr. Aiko Sato) must have configured cross-org permissions before sharing can occur. See [Roles and Keychains](/cloud/concepts/identity-and-security/roles/) for the permission model.
 {{< /alert >}}
 
 ### Step 6: Five reviews the design from Orbital Labs

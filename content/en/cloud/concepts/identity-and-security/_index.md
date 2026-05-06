@@ -1,6 +1,6 @@
 ---
-title: Identity and Access
-linkTitle: Identity and Access
+title: Identity and Security
+linkTitle: Identity and Security
 description: >
   Organizations, teams, users, roles, keychains, keys, sessions, and tokens.
 weight: 3
@@ -72,4 +72,4 @@ Tokens provide temporary, secure access to the platform.
 
 ### Need more detail?
 
-Check out the [Roles Reference](/cloud/concepts/identity-and-access/roles/) for a complete matrix of permissions for each role.
+Check out the [Roles Reference](/cloud/concepts/identity-and-security/roles/) for a complete matrix of permissions for each role.

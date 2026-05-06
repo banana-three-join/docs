@@ -12,7 +12,7 @@ aliases:
 
 {{< cardpane >}}
 {{% card header="Default User Role" %}}
-<img src="/cloud/concepts/identity-and-access/images/user-role.svg" link="images/user-role.svg"  width="100%" alt="User Role" />
+<img src="/cloud/concepts/identity-and-security/images/user-role.svg" link="images/user-role.svg"  width="100%" alt="User Role" />
 {{% /card %}}
 {{< /cardpane >}}
 

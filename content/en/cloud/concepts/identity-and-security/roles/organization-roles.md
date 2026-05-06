@@ -12,7 +12,7 @@ aliases:
 
 {{< cardpane >}}
 {{% card header="Default Organization Roles" %}}
-<img src="/cloud/concepts/identity-and-access/images/organization-roles.svg" link="images/organization-roles.svg"  width="100%" alt="Organization Roles" />
+<img src="/cloud/concepts/identity-and-security/images/organization-roles.svg" link="images/organization-roles.svg"  width="100%" alt="Organization Roles" />
 {{% /card %}}
 {{< /cardpane >}}
 

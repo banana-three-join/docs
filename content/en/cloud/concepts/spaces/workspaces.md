@@ -61,7 +61,7 @@ Designs belong to only one Workspace at any given time. See [Designs](https://do
 - Same team can be assigned to multiple workspaces.
 
 {{< alert type="info" title="Team Access Control in Workspaces" >}}
-Teams offer control access to workspaces and to workspace resources such as environments and managed and unmanaged connections. See [Teams](/cloud/concepts/identity-and-access/teams).
+Teams offer control access to workspaces and to workspace resources such as environments and managed and unmanaged connections. See [Teams](/cloud/concepts/identity-and-security/teams).
 {{< /alert >}}
 
 ### Connections

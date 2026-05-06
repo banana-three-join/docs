@@ -12,7 +12,7 @@ aliases:
 
 {{< cardpane >}}
 {{% card header="Academy Administrator" %}}
-<img src="/cloud/concepts/identity-and-access/images/academy-admin.svg" link="images/academy-admin.svg"  width="100%" alt="Academy Administrator Roles" />
+<img src="/cloud/concepts/identity-and-security/images/academy-admin.svg" link="images/academy-admin.svg"  width="100%" alt="Academy Administrator Roles" />
 {{% /card %}}
 {{< /cardpane >}}
 
@@ -50,7 +50,7 @@ aliases:
 {{< cardpane >}}
 {{% card header="Learner" %}}
 Learner = A [User](../roles/user-role.md) who has registered for academy content.
-<img src="/cloud/concepts/identity-and-access/images/learner.svg" link="images/learner.svg"  width="100%" alt="Learner Roles" />
+<img src="/cloud/concepts/identity-and-security/images/learner.svg" link="images/learner.svg"  width="100%" alt="Learner Roles" />
 {{% /card %}}
 {{< /cardpane >}}
 

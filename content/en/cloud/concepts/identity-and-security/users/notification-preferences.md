@@ -11,7 +11,7 @@ aliases:
 
 Layer5 Cloud offers a range of user-configurable preferences that allows you to control the types of email notifications you receive.
 
-<img src="/cloud/concepts/identity-and-access/users/notification-preferences.gif" alt="How to set your notifications preferences" />
+<img src="/cloud/concepts/identity-and-security/users/notification-preferences.gif" alt="How to set your notifications preferences" />
 
 ## To change the notification preferences
 

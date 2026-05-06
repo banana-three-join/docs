@@ -14,7 +14,7 @@ Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. Organi
 
 Outside of grouping users together, teams offer control access to workspaces and to workspace resources such as environments and managed and unmanaged connections
 
-<img src="/cloud/concepts/identity-and-access/images/organization_units.svg" alt="Organizational units" style="width: 35%;" />
+<img src="/cloud/concepts/identity-and-security/images/organization_units.svg" alt="Organizational units" style="width: 35%;" />
 
 ## Example: The Orbital Labs Ecosystem
 

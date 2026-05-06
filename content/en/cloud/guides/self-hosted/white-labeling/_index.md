@@ -38,7 +38,7 @@ This example includes a custom branding with colors and full-sized logo.
 
 Layer5 Cloud supports customizing themes on a per organization basis. This includes the ability to upload your own logo and define your own color scheme. Your logo will be displayed in the top left corner of the dashboard. Both a full-sized logo and a logo mark are supported.
 
-As an [Organization Administrator](/cloud/concepts/identity-and-access/roles/organization-roles/), you can add your organization's logo to the global navigation bar, which supports a large, horizontal logo for desktop users and a small, square logo for mobile users. The logo appears at the top of each user's window for all Layer5 Cloud pages within your organization.
+As an [Organization Administrator](/cloud/concepts/identity-and-security/roles/organization-roles/), you can add your organization's logo to the global navigation bar, which supports a large, horizontal logo for desktop users and a small, square logo for mobile users. The logo appears at the top of each user's window for all Layer5 Cloud pages within your organization.
 
 {{% card header="Preference Example" footer="<i>Example: Selection of theme</i>" %}}
 This example shows how to customize through different themes
@@ -141,7 +141,7 @@ To set up a www or custom subdomain, such as `www.example.com` or `meshery.examp
 
 In Layer5 Cloud, navigate to your Provider Organization.
 
-Under your Organization name, click Edit. If you cannot click the "Edit" action, verify that you are a [Provider Administrator](/cloud/concepts/identity-and-access/roles).
+Under your Organization name, click Edit. If you cannot click the "Edit" action, verify that you are a [Provider Administrator](/cloud/concepts/identity-and-security/roles).
 
 Under "Custom domain", type your custom domain, then click Save. This will create a server configuration that will require a reboot in order to take effect.
 

@@ -69,7 +69,7 @@ If your organization requires Team Admin approval before production deployments,
 3. She clicks **Approve** — the deployment proceeds to `prod-aws`.
 
 {{< alert type="info" title="Why does Zara need to approve?" >}}
-The Infrastructure team's keychain grants `orbital-production` workspace access and `prod-aws` environment deployment rights only to members who have been explicitly granted those keys. Zara, as Team Admin, holds the approval authority for production environment assignments. See [Keychains](/cloud/concepts/identity-and-access/keychains/) for how this is configured.
+The Infrastructure team's keychain grants `orbital-production` workspace access and `prod-aws` environment deployment rights only to members who have been explicitly granted those keys. Zara, as Team Admin, holds the approval authority for production environment assignments. See [Keychains](/cloud/concepts/identity-and-security/keychains/) for how this is configured.
 {{< /alert >}}
 
 ### Step 5 — Verify the deployment

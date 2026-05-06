@@ -7,7 +7,7 @@ categories: [Identity]
 tags: [orgs]
 aliases:
   - /cloud/identity/organizations/org-management/navigating-organizations/
-  - /cloud/concepts/identity-and-access/organizations/org-management/navigating-organizations/
+  - /cloud/concepts/identity-and-security/organizations/org-management/navigating-organizations/
 
 ---
 
@@ -90,4 +90,4 @@ Your roles and permissions are organization-scoped. This means:
 - Administrative capabilities in one organization do not automatically grant administrative access in another.
 - Team memberships and their associated permissions are specific to each organization.
 
-For more details about roles and permissions, see the [Roles documentation](/cloud/concepts/identity-and-access/roles/).
+For more details about roles and permissions, see the [Roles documentation](/cloud/concepts/identity-and-security/roles/).

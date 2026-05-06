@@ -12,13 +12,13 @@ aliases:
 
 Roles map permissions to users. Roles contain any number of keychains, which contain any number of keys (permissions). Assign roles to users to grant permissions.
 
-![roles](/cloud/concepts/identity-and-access/images/roles-overview.svg "image-center-no-shadow")
+![roles](/cloud/concepts/identity-and-security/images/roles-overview.svg "image-center-no-shadow")
 
 ## Provider Admin Role
 
 {{< cardpane >}}
 {{% card header="<a href='https://docs.layer5.io/cloud/reference/default-permissions/#Provider+Admin' target='_blank'>Provider Admin Role</a>" %}}
-![role-provider](/cloud/concepts/identity-and-access/images/role-provider-admin.svg)
+![role-provider](/cloud/concepts/identity-and-security/images/role-provider-admin.svg)
 {{% /card %}}
 {{% card %}}
 
@@ -55,7 +55,7 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 
 {{< cardpane >}}
 {{% card %}}
-![organization-administrator and manager](/cloud/concepts/identity-and-access/images/organization-roles.svg)
+![organization-administrator and manager](/cloud/concepts/identity-and-security/images/organization-roles.svg)
 {{% /card %}}
 {{< /cardpane >}}
 
@@ -116,14 +116,14 @@ Organization owners carry the organization administrator role, and may be joined
 
 The entitlement of "organization owner" is automatically bestowed to the creator of a organization. The individual user who created a given organization initially is therefore granted certain administrative privileges beyond that of other organization administrators. Specifically, organization owners retain the sole permission to delete the organization.
 
-For more information, see [Organization](/cloud/concepts/identity-and-access/organizations).
+For more information, see [Organization](/cloud/concepts/identity-and-security/organizations).
 {{< /alert >}}
 
 ## Workspace Roles
 
 {{< cardpane >}}
 {{% card %}}
-![workspace-administrator](/cloud/concepts/identity-and-access/images/workspace-roles.svg)
+![workspace-administrator](/cloud/concepts/identity-and-security/images/workspace-roles.svg)
 {{% /card %}}
 {{< /cardpane >}}
 
@@ -166,7 +166,7 @@ The entitlement of "workspace owner" is automatically bestowed to the creator of
 
 {{< cardpane >}}
 {{% card %}}
-![team-admins-and-manager](/cloud/concepts/identity-and-access/images/team-roles.svg)
+![team-admins-and-manager](/cloud/concepts/identity-and-security/images/team-roles.svg)
 {{% /card %}}
 {{< /cardpane >}}
 
@@ -215,7 +215,7 @@ Team owners carry the team administrator role, and may be joined in their team a
 
 The entitlement of "team owner" is automatically bestowed to the creator of a team. The individual user who created a given team initially is therefore granted certain administrative privileges beyond that of other team administrators. Specifically, team owners retain the sole permission to delete the team.
 
-For more information, see [Teams](/cloud/concepts/identity-and-access/teams).
+For more information, see [Teams](/cloud/concepts/identity-and-security/teams).
 {{< /alert >}}
 
 ## Example: The Orbital Labs Role Hierarchy

@@ -12,7 +12,7 @@ aliases:
 
 {{< cardpane >}}
 {{% card %}}
-<img src="/cloud/concepts/identity-and-access/images/workspace-roles.svg" link="images/workspace-roles.svg"  width="100%" alt="Workspace Roles" />
+<img src="/cloud/concepts/identity-and-security/images/workspace-roles.svg" link="images/workspace-roles.svg"  width="100%" alt="Workspace Roles" />
 {{% /card %}}
 {{< /cardpane >}}
 

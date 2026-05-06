@@ -7,7 +7,7 @@ categories: [Identity]
 tags: [orgs]
 aliases:
   - /cloud/identity/organizations/org-management/
-  - /cloud/concepts/identity-and-access/organizations/org-management/
+  - /cloud/concepts/identity-and-security/organizations/org-management/
 
 ---
 
@@ -65,7 +65,7 @@ To invite multiple users to your organization at once, or to allow open sign-ups
 ![Obtain Organization Invite Link](/cloud/guides/organizations/org-management/org_open_invite.gif)
 
 {{< alert title="Inviting Users to Specific Teams" type="info" >}}
-If you want to invite users directly to a specific team within your organization, please refer to the documentation on [Open Team Invites](https://docs.layer5.io/cloud/concepts/identity-and-access/teams/)
+If you want to invite users directly to a specific team within your organization, please refer to the documentation on [Open Team Invites](https://docs.layer5.io/cloud/concepts/identity-and-security/teams/)
 {{< /alert >}}
 
 ### How it Works

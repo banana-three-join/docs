@@ -44,7 +44,7 @@ On successful login, you will be prompted to setup your first organization and w
 Organization are unit of tenant in Layer5 Cloud. Every user on Layer5 Cloud is part of at least one organization. You can create your own organization or join an existing one. By default you are the owner of the organization you create.
 
 {{< alert type="info" >}}
-For more information, see [Organizations](/cloud/concepts/identity-and-access/organizations/)
+For more information, see [Organizations](/cloud/concepts/identity-and-security/organizations/)
 {{< /alert >}}
 
 
