@@ -325,19 +325,17 @@
   }
 };
   function getAvatarUrl(response) {
-    if (
-      response &&
-      typeof response.avatar_url === "string" &&
-      response.avatar_url.trim()
-    ) {
-      return response.avatar_url.trim();
+    const avatarUrl = response?.avatarUrl || response?.avatar_url;
+
+    if (typeof avatarUrl === "string" && avatarUrl.trim()) {
+      return avatarUrl.trim();
     }
 
     return "";
   }
 
   function getUserProfileUrl(response) {
-    const userId = response?.id;
+    const userId = response?.id ?? response?.userId ?? response?.user_id;
     if (userId) {
       return `${cloudAppUrl}/user/${encodeURIComponent(userId)}`;
     }
