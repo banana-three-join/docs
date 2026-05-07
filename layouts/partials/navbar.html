@@ -327,11 +327,7 @@
   function getAvatarUrl(response) {
     const avatarUrl = response?.avatarUrl;
 
-    if (typeof avatarUrl === "string" && avatarUrl.trim()) {
-      return avatarUrl.trim();
-    }
-
-    return "";
+    return (typeof avatarUrl === 'string' && avatarUrl.trim()) || '';
   }
 
   function getUserProfileUrl(response) {
