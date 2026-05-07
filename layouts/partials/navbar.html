@@ -325,15 +325,9 @@
   }
 };
   function getAvatarUrl(response) {
-    if (
-      response &&
-      typeof response.avatar_url === "string" &&
-      response.avatar_url.trim()
-    ) {
-      return response.avatar_url.trim();
-    }
+    const avatarUrl = response?.avatarUrl;
 
-    return "";
+    return (typeof avatarUrl === 'string' && avatarUrl.trim()) || '';
   }
 
   function getUserProfileUrl(response) {
