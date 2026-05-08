@@ -259,7 +259,6 @@ Layer5 Academy supports four question formats:
         marks: 2
         correctAnswer: "kubectl get pods"  # expected answer
     ---
-  </code></pre>
 </details>
   
 
@@ -341,7 +340,6 @@ Instructions can be override in frontmatter by defining a custom intruction for 
             text: "Option C"
             isCorrect: true    # correct option
     ---
-  </code></pre>
 </details>
   
 
