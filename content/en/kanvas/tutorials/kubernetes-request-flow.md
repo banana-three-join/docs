@@ -43,7 +43,9 @@ Start by opening the prebuilt design from here:
 
 [![Kubernetes Flow Diagram](/kanvas/tutorials/images/kubernetes-request-flow/k8s-request-flow.png)](https://kanvas.new/extension/meshmap?mode=design&design=629b6039-ebb3-4bd8-9b1b-19184fade225)
 
-> Click the image above to open the interactive design in Kanvas.
+{{< alert type="info" title="Note" >}}
+Click the image above to open the interactive design in Kanvas.
+{{< /alert >}}
 
 Once inside Kanvas, we will see a complete layout of how a request flows through the Kubernetes architecture. We are going to understand what's happening in this architecture.
 
@@ -57,8 +59,8 @@ This isn't a Kubernetes object, but it's been included to show where the request
 
 #### 2. Service (ClusterIP)
 
-- This is the entry point into the cluster.
-- It forwards traffic to the Pods. While this visual is a placeholder, in a real Kubernetes Service, we would typically define a type (like ClusterIP or NodePort) and use selectors to route traffic to matching Pods. This is how services know where to forward requests.
+- This is where traffic is routed once it has reached the cluster. A ClusterIP Service is reachable only from inside the cluster — external traffic typically enters through an Ingress, LoadBalancer, or NodePort first.
+- In this design, the Service is configured as a **ClusterIP**. In a production setup, you would use selectors to route traffic to matching Pods, which is how the Service knows where to forward requests.
 - A Kubernetes Service acts like a load balancer inside the cluster.
 
 #### 3. Deployment
@@ -91,7 +93,7 @@ Understanding this path helps us:
 - **Scale smarter** — Once we know where the load hits, we can add replicas where it actually matters.
 - **Design better** — From tracing logs to optimizing performance, knowing the flow helps us place the right tools in the right spots.
 
-Think of this request path as the backbone of your Kubernetes understanding. Everything else like Ingress, HPA (Horizontal Pod Autoscalers), or Service Meshes builds upon this foundation.
+Think of this request path as the backbone of your Kubernetes understanding. Everything else, such as Ingress Controllers, HPAs (Horizontal Pod Autoscalers), or Service Meshes, builds upon this foundation.
 
 ### Operate This Flow
 
