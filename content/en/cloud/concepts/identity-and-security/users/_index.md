@@ -16,7 +16,7 @@ Anyone who uses Layer5 Cloud signs into a user account. Your user account is you
 
 {{< cardpane >}}
 {{% card header="**Five** — Platform Engineer" %}}
-<img src="/images/five/1.svg" alt="Five" style="width:70px; float:right; margin-left:1rem;" />
+<img src="/images/five/1.svg" alt="Five" style="width:70px; float:right; margin-left:1rem; background:#fff;" />
 
 **Organization:** Orbital Labs  
 **Role:** User (Platform Engineer)  
@@ -27,7 +27,7 @@ Curious, enthusiastic, and reliably the first to discover that a feature works d
 [See full cast →](/cloud/getting-started/meet-five)
 {{% /card %}}
 {{% card header="**Maya Chen** — Org Admin" %}}
-<img src="/images/five/2.svg" alt="Maya Chen" style="width:70px; float:right; margin-left:1rem;" />
+<img src="/images/five/2.svg" alt="Maya Chen" style="width:70px; float:right; margin-left:1rem; background:#fff;" />
 
 **Organization:** Orbital Labs  
 **Role:** Org Admin + Development Team Admin  
