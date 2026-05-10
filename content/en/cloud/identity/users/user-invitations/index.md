@@ -15,6 +15,16 @@ You can create highly customized invitations for any scenario, from onboarding s
 Managing invitations requires the **Manage Invitations** permission within your organization. Contact your organization administrator if you need access.
 {{< /alert >}}
 
+### Default organization state
+
+By default, organizations are **closed**: there is no open registration. A user cannot join your organization simply by navigating to a URL — they must either click a valid invitation link or register through a page associated with an organization that has a [default invitation](#invitation-properties-explained) configured.
+
+When no default invitation is set, new users who arrive at your organization's registration page are registered as platform users but are **not** automatically added to your organization. They will have no organization membership and no roles until an administrator adds them or they accept an invitation link.
+
+{{< alert type="info" title="Roles are not assigned automatically" >}}
+When a user joins an organization via invitation, they receive only the roles explicitly listed on that invitation. If the invitation has no roles configured, the user joins with no role. Use the `roles` field on each invitation to ensure new members receive the correct initial permissions.
+{{< /alert >}}
+
 ### Key capabilities
 
 The invitation system provides three main areas of control to help you manage access effectively.
@@ -32,7 +42,7 @@ Patterns like `@company.com` allow anyone with that domain. Verify ownership and
 #### Control the invitation lifecycle
 Manage access with settings that put you in control:
 - **Expiration date**: Set a specific date and time after which the invitation link can no longer be used to join. This prevents new signups but does not affect members who have already accepted the invitation.
-- **Usage quota**: Limit the number of times an invitation can be used. The invitations table shows current usage alongside the limit (e.g., `2 / 5`).
+- **Usage quota**: Limit the number of times an invitation can be used. The invitations table shows current acceptance count alongside the limit (e.g., `2 / 5`).
 
 {{< alert type="info" title="Blank means unlimited" >}}
 If `expiresAt` is not set, the invitation never expires. If `quota` is not set, the invitation has unlimited uses.
@@ -59,18 +69,18 @@ After an invitation is created, a notification email is sent only to addresses l
 | Property | Description |
 | :--- |  :--- |
 | `emails` | List of email addresses or domain patterns allowed to use the invitation. Exact addresses (e.g., `user@example.com`) and domain patterns (e.g., `@example.com`) are both supported. If empty, the invitation is public. |
-| `roles` | List of roles automatically assigned to new members upon accepting the invitation. |
+| `roles` | List of roles automatically assigned to new members upon accepting the invitation. If empty, the user joins with no role. |
 | `teams` | List of teams new members are automatically added to upon accepting the invitation. |
 | `quota` | Number that limits how many users can accept the invitation. If not set, there is no usage limit. |
 | `expiresAt` | Date after which the invitation link can no longer be used. Does not affect existing members. If not set, the invitation never expires. |
 | `status` | Invitation status: `enabled` = active and usable; `disabled` = inactive (can be re-enabled later). |
 | `name` | A human-readable name used to identify the invitation. |
 | `description` | Additional information about the invitation's purpose, for internal reference. |
-| `isDefault` | When enabled, marks this invitation as the organization's open signup invitation. Users who register through your organization's registration link are automatically enrolled through this invitation, receiving the pre-configured roles and teams without needing to click a separate link. Only one invitation should be designated as the default at a time. |
+| `isDefault` | When enabled, marks this invitation as the organization's open signup invitation. Users who register through your organization's registration page are automatically enrolled through this invitation, receiving the pre-configured roles and teams. Without a default invitation, the registration page does not automatically add users to the organization. Only one invitation should be designated as the default at a time. |
 
 ### Managing existing invitations
 
-All existing invitations are displayed in a table showing key details for each invitation: its name and description, a copyable acceptance link, the owner, expiration date, quota usage (e.g., `2 / 5` or `Unlimited`), assigned roles and teams, and current status.
+All existing invitations are displayed in a table showing key details for each invitation: its name and description, a copyable acceptance link, the owner, expiration date, quota usage, assigned roles and teams, and current status.
 
 ![Invitations Overview Table](./images/overview.png)
 
@@ -85,6 +95,12 @@ From the table you can perform the following management actions on each invitati
 * **Edit Invitation**: Click the pencil icon to open the edit dialog and modify any invitation properties.
 * **Delete Invitation**: Click the trash icon to permanently remove the invitation. This action cannot be undone.
 
+### Tracking who has accepted an invitation
+
+The **Quota** column in the invitations table always shows the number of users who have accepted an invitation alongside the configured limit — for example, `2 / 5` if a quota is set, or `2 / Unlimited` if no quota is configured. This lets you monitor uptake at a glance.
+
+To see the individual users who are now members of the organization, navigate to the [User Management](/cloud/identity/users/user-management/) page. Members who joined via invitation appear there alongside their assigned roles.
+
 ### What happens when a user accepts an invitation
 
 When a user clicks an acceptance link and is logged in, the system performs the following steps in order:
@@ -92,7 +108,7 @@ When a user clicks an acceptance link and is logged in, the system performs the 
 1. **Validates the invitation** — confirms it exists, is `enabled`, has not passed its expiration date, and has not exceeded its quota.
 2. **Checks email eligibility** — verifies the user's email matches the invitation's `emails` list. An empty list allows any email (public invitation).
 3. **Adds the user to the organization** — the user immediately becomes a member of the organization that owns the invitation.
-4. **Assigns roles** — all roles configured on the invitation are assigned to the user in that organization.
+4. **Assigns roles** — all roles configured on the invitation are assigned to the user in that organization. If no roles are configured, the user joins with no role.
 5. **Adds the user to teams** — the user is added to all teams configured on the invitation.
 
 Role and team assignment failures are non-blocking: the user is still added to the organization even if an individual role or team assignment fails.
