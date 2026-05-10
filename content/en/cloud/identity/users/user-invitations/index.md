@@ -31,7 +31,7 @@ Patterns like `@company.com` allow anyone with that domain. Verify ownership and
 
 #### Control the invitation lifecycle
 Manage access with settings that put you in control:
-- **Expiration date**: Set a specific date and time for an invitation to automatically become invalid.
+- **Expiration date**: Set a specific date and time after which the invitation link can no longer be used to join. This prevents new signups but does not affect members who have already accepted the invitation.
 - **Usage quota**: Limit the number of times an invitation can be used. The invitations table shows current usage alongside the limit (e.g., `2 / 5`).
 
 {{< alert type="info" title="Blank means unlimited" >}}
@@ -62,7 +62,7 @@ After an invitation is created, a notification email is sent only to addresses l
 | `roles` | List of roles automatically assigned to new members upon accepting the invitation. |
 | `teams` | List of teams new members are automatically added to upon accepting the invitation. |
 | `quota` | Number that limits how many users can accept the invitation. If not set, there is no usage limit. |
-| `expiresAt` | Date when the invitation becomes invalid. If not set, it never expires. |
+| `expiresAt` | Date after which the invitation link can no longer be used. Does not affect existing members. If not set, the invitation never expires. |
 | `status` | Invitation status: `enabled` = active and usable; `disabled` = inactive (can be re-enabled later). |
 | `name` | A human-readable name used to identify the invitation. |
 | `description` | Additional information about the invitation's purpose, for internal reference. |
@@ -141,8 +141,12 @@ The available seats for learners are determined by your organization's subscript
 - **Configuration**:
   - Email: Use the partner's domain (e.g., `@partner.com`).
   - Teams: Add them only to a shared project team (e.g., `Project-X-Shared`).
-  - Expiration date: Set to the project's end date to automatically revoke access.
+  - Expiration date: Set to the project's end date to prevent new signups after the project concludes.
   - Description: Add a note for internal reference, such as "Temporary access for Project X contractors".
+
+{{< alert type="warning" title="Expiration does not remove existing members" >}}
+Setting an expiration date prevents new users from using the invitation link after that date. It does not automatically remove partners who have already joined. When the project ends, manually remove those users from the organization or team.
+{{< /alert >}}
 
 {{< alert type="warning" title="Public invitations" >}}
 Public links can be forwarded broadly. Always set an expiration date and a quota to limit unintended signups.
