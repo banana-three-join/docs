@@ -4,12 +4,7 @@ description: Helm CLI plugin to visually render a snapshot of your Helm charts.
 display_title: false
 categories: [kanvas]
 ---
-
-# <img style="height: 4rem; width: 4rem;" src="/kanvas/concepts/images/helm-chart-color.svg" /> Helm Kanvas Snapshot
-
-## Extension Overview
-
-The **Kanvas Snapshot Helm Plugin** allows users to generate a visual snapshot of their Helm charts directly from the command line. It simplifies the process of creating Meshery Snapshots, providing a visual representation of packaged Helm charts. This plugin integrates with Meshery Cloud and GitHub Actions to automate the workflow of snapshot creation, which is especially useful for Helm users who need to quickly visualize their chart configurations.
+<img style="text-align: left; position:relative; display:inline; height: 32px; width: 32px;" src="/kanvas/concepts/images/helm-chart-color.svg" /> The **Kanvas Snapshot Helm Plugin** allows users to generate a visual snapshot of their Helm charts directly from the command line. It simplifies the process of creating Meshery Snapshots, providing a visual representation of packaged Helm charts. This plugin integrates with Meshery Cloud and GitHub Actions to automate the workflow of snapshot creation, which is especially useful for Helm users who need to quickly visualize their chart configurations.
 
 Helm charts can be complex, especially when custom configurations are applied via `values.yaml` files. This Meshery extension bridges the gap between Helm chart configurations and their visual representation by converting Helm charts into **Kanvas Snapshots**. These snapshots can be received either via email or as a URL displayed directly in the terminal.
 
@@ -22,12 +17,12 @@ Helm charts can be complex, especially when custom configurations are applied vi
 
 ## Installation and Use
 
-To install the Meshery Snapshot Helm Plugin, use the following steps:
+To install the Kanvas Snapshot Helm Plugin, use the following steps:
 
 ### Prerequisites
 
 - `helm` must be installed on your system.
-- (Optional) A free [Meshery Cloud](https://cloud.meshery.io) user account.
+- (Optional) A free [Layer5 Cloud](https://cloud.layer5.io) user account.
 
 **Plugin Installation**
 
@@ -69,22 +64,10 @@ Once the plugin is installed, you can generate a snapshot using either a package
 
 **Example**
 
-To generate a snapshot for a Helm chart located at `https://meshery.io/charts/v0.8.0-meshery.tar.gz`, you can use:
+To generate a snapshot for a Helm chart located at `https://meshery.github.io/meshery.io/charts/meshery-v1.0.20.tgz`, you can use:
 
 <pre class="codeblock-pre">
   <div class="codeblock">
-     <div class="clipboardjs">helm snapshot -f https://meshery.io/charts/v0.8.0-meshery.tar.gz --name meshery-chart</div>
+     <div class="clipboardjs">helm snapshot -f https://meshery.github.io/meshery.io/charts/meshery-v1.0.20.tgz --name meshery-chart</div>
    </div>
 </pre>
-
-<hr />
-
-## About Meshery Extensions
-
-[Meshery Extensions](https://meshery.io/extensions) are plugins or add-ons that enhance the functionality of the Meshery platform beyond its core capabilities. Meshery supports different types of extensions ([docs](/extensions/)):
-
-- [Adapters](/concepts/architecture/adapters): Adapters allow Meshery to interface with the different cloud native infrastructure.
-- [Load Generators](/extensibility/load-generators): for performance characterization and benchmarking
-- [Integrations](/extensibility/integrations): model-based support for a broad variety of design and orchestration of cloud and cloud native platforms, tools, and technologies.
-- [Providers](/extensibility/providers): for connecting to different cloud providers and infrastructure platforms
-- [UI Plugins](/extensibility/ui): Meshery UI has a number of extension points that allow users to customize their experience with third-party plugins.

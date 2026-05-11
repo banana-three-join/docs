@@ -1,15 +1,13 @@
 ---
-title: Kanvas Snapshot
-description: Screenshot service provided via Kanvas to capture a snapshot of your infrastructure at any given time.
+title: Kanvas GitHub Snapshot
+description: Capture a screenshot of your infrastructure as a comment in your GitHub pull request.
 display_title: false
 categories: [kanvas]
 aliases: 
 - /kanvas/concepts/snapshot
 ---
 
-# <img style="height: 4rem; width: 4rem;" src="/kanvas/concepts/images/kanvas-icon-color.svg" /> Kanvas Snapshot
-
-Kanvas Snapshot is a screenshot service provided via Kanvas for your designs. Visualize changes to your code-base with each pull request made. The SnapShot GitHub Action is configurable from within your Cloud account.
+<img style="height: 32px; width: 32px;" src="/kanvas/concepts/images/kanvas-icon-color.svg" /> Kanvas Snapshot is a screenshot service provided via Kanvas for your designs. Visualize changes to your code-base with each pull request made. The SnapShot GitHub Action is configurable from within your Cloud account.
 
 <details>
 <summary>How the SnapShot service works</summary>
@@ -23,22 +21,20 @@ Kanvas Snapshot is a screenshot service provided via Kanvas for your designs. Vi
 
 Connect MeshMap to your GitHub repo and see changes pull request-to-pull request. Get snapshots of your infrastructure directly in your PRs.
 <ul>
-<li>Step 1: Log in to your Meshery Dashboard.</li>
-<li>Step 2: Navigate to Extensions and Enable GitHub Action: Kanvas Snapshot.</li>
-<li>Step 3: You will be directed to Meshery Cloud.</li>
-<li>Step 4: Click on the "Let's Go" button in the onboarding modal.</li>
-<li>Step 5: Now, select the second option, 'GitOps your infrastructure with Kanvas Snapshot'.</li>
-<li>Step 6: Once that's complete, follow the guided instructions.</li>
+  <li>Open Layer5 Cloud.</li>
+  <li>Navigate to your Spaces --> Integrations.</li>
+  <li>Open your "GitHub" connection(s).</li>
+  <li>Configure the integration to snapshot your specific infrastructure file.</li>
 </ul>
 
 ## Configurating the SnapShot Service
 
-The Snapshot service does not need access to your Meshery deployment. It is a standalone service.
+The Kanvas Snapshot service does not need access to your infrastructure deployment. It is a standalone service.
 
 ### When Infrastructure is located in the file-system
 
 ```yaml
-name: "Kanvas Snapshot With File-located in Fs"
+name: Kanvas Snapshot (from filesystem)
 on: # rebuild any PRs and main branch changes
   pull_request:
   push:
@@ -70,11 +66,10 @@ jobs:
           filePath: "action/__tests__/manifest-test" # relative file-path from the root directory in the github-runner env, you might require to checkout the repository as described in step 2
 ```
 
-
 ### When Infrastructure is identified via URL
 
 ```yaml
-name: "Kanvas Snapshot With URL-Upload"
+name: "Kanvas Snapshot (from remote URL)"
 on: # rebuild any PRs and main branch changes
   pull_request:
   push:
@@ -91,12 +86,12 @@ jobs:
         run: |
           export pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
           echo "PULL_NO=$pull_number" >> $GITHUB_ENV
-      - uses: actions/checkout@v3 #this step would go and would be no longer needed to be written
+      - uses: actions/checkout@v6 #this step would go and would be no longer needed to be written
         with:
           path: action
           repository: layer5labs/kanvas-snapshot
       - id: test_result
-        uses: layer5labs/MeshMap-Snapshot@v0.0.4
+        uses: layer5labs/Kanvas-Snapshot@v0.2.44
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }} # github's personal access token example: "ghp_...."
           providerToken: ${{ secrets.PROVIDER_TOKEN }} # Meshery Cloud Authentication token, signin to meshery-cloud to get one, example: ey.....
@@ -109,7 +104,7 @@ jobs:
 
 The filesystem-approach asks for your relative file-path and automatically merges all the yaml files together to bundle up into one. So you might like to give the root directory where all the yamls are located. It doesn't move recursevely in internal folders, so only the first level yaml files are checked.
 
-## List of Input variables supported:
+### List of input variables supported
 
 ```yaml
 designId: # id of input  #deprecated
@@ -140,7 +135,7 @@ application_url:
   required: false
 ```
 
-## Customizing Snapshot Workflow Triggers in Kanvas Snapshot
+### Customizing Snapshot Workflow Triggers in Kanvas Snapshot
 
 You can configure your workflows to run when specific activity on GitHub happens, at a scheduled time, or when an event outside of GitHub occurs.
 
@@ -150,8 +145,7 @@ GitHub Actions provides a variety of events that can trigger workflows, allowing
 
 ### Supported Events
 
-The Kanvas Snapshot Action supports all of the events listed in the GitHub documentation:
-For detailed information about each event, including its properties and payloads, refer to the [GitHub Actions documentation](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
+The Kanvas Snapshot Action supports all of the events listed in the GitHub documentation. For detailed information about each event, including its properties and payloads, refer to the [GitHub Actions documentation](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
 
 ### Workflow Syntax for Event Filtering
 
@@ -200,13 +194,12 @@ After testing you can [create a v1 tag](https://github.com/actions/toolkit/blob/
 
 ```
  - id: test_result
-        uses: layer5labs/MeshMap-Snapshot@v0.0.5 # <-- Update the version to latest from the Kanvas-Snapshot release page
+        uses: layer5labs/Kanvas-Snapshot@v0.2.44 # <-- Update the version to latest from the Kanvas-Snapshot release page
         with:
         ...
 ```
 
-## Upgrade/Migrate Guide - For Meshery
+## Upgrade/Migrate Guide
 
-1. Given changes done in `action.yml` in Kanvas Snapshot, updating the workflows is required.
-2. Given changes done other than in `action.yml` in Kanvas Snapshot, the update in the `.github/worflows` is not a hard requirement, but doesnt hurt.
-
+1. Given changes done in `kanvas.yml` in Kanvas Snapshot, updating the workflows is required.
+2. Given changes done other than in `kanvas.yml` in Kanvas Snapshot, the update in the `.github/worflows` is not a hard requirement, but doesnt hurt.
