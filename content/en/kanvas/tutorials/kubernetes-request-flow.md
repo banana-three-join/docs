@@ -119,4 +119,4 @@ You can design this yourself using the components in Kanvas.
 
 ## Conclusion
 
-Congratulations! You have now visually walked through one of the most fundamental flows in Kubernetes: how a request reaches your app and how each component plays its part. This foundation is key for deeper learning — from Ingress Controllers to autoscalers and service meshes. Keep exploring, keep designing in Kanvas to enhance your skills.
+Congratulations! You have now visually walked through one of the most fundamental flows in Kubernetes: how a request reaches your app and how each component plays its part. This foundation is key for deeper learning - from Ingress Controllers to autoscalers and service meshes. Keep exploring, keep designing in Kanvas to enhance your skills.
