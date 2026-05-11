@@ -75,12 +75,13 @@
         const results = idx
           .query((q) => {
             const tokens = lunr.tokenizer(searchQuery.toLowerCase());
-            tokens.forEach((token) => {
+            idx.pipeline.run(tokens).forEach((token) => {
               const queryString = token.toString();
+              q.term(queryString, { boost: 100 });
               q.term(queryString, {
                 presence: lunr.Query.presence.REQUIRED,
                 wildcard: lunr.Query.wildcard.TRAILING,
-                boost: 100,
+                boost: 10,
               });
             });
           })
