@@ -78,15 +78,9 @@
             tokens.forEach((token) => {
               const queryString = token.toString();
               q.term(queryString, {
+                presence: lunr.Query.presence.REQUIRED,
+                wildcard: lunr.Query.wildcard.TRAILING,
                 boost: 100,
-              });
-              q.term(queryString, {
-                wildcard:
-                  lunr.Query.wildcard.LEADING | lunr.Query.wildcard.TRAILING,
-                boost: 10,
-              });
-              q.term(queryString, {
-                editDistance: 2,
               });
             });
           })
