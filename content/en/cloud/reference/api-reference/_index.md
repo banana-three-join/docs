@@ -10,7 +10,7 @@ To create integrations, retrieve data, and automate your cloud native infrastruc
 
 ## Authenticating with the API
 
-In order to authenticate to Layer5 Cloud's REST API, you need to generate and use a [security token](../security/tokens). Visit your [user account's security tokens](https://cloud.layer5.io/security/tokens) and generate a long-lived token. Security tokens remain valid until you revoke them, and you can issue as many as you need.
+In order to authenticate to Layer5 Cloud's REST API, you need to generate and use a [security token](/cloud/concepts/identity-and-security/tokens/). Visit your [user account's security tokens](https://cloud.layer5.io/security/tokens) and generate a long-lived token. Security tokens remain valid until you revoke them, and you can issue as many as you need.
 
 To authenticate with the API, pass the token as a bearer token in the `Authorization` header. For example, in cURL:
 
@@ -249,5 +249,4 @@ func main() {
 This returns the number of Total registered learners:
 ```
 130
-``` 
-
+```
