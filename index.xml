@@ -735,7 +735,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[473 11 364 95 146 469]" src="./images/overview.png" onclick="openModal(this.id)" alt="Example of Academy" 
+ &lt;img id="[71 93 153 20 472 83]" src="./images/overview.png" onclick="openModal(this.id)" alt="Example of Academy" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Integrating GitHub with Meshery</title><link>/cloud/getting-started/github-integration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/getting-started/github-integration/</guid><description>&lt;h2 id="introduction" class="heading-link"&gt;
  Introduction
@@ -751,7 +751,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[365 84 250 348 112 214]" src="images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
+ &lt;img id="[270 466 210 114 253 12]" src="images/leaderboard-page.gif" onclick="openModal(this.id)" alt="Leaderboard page overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -874,7 +874,7 @@ Think of Designer mode as your blueprint studio. Just like architects use specif
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[103 25 224 427 180 85]" src="images/style-edge.gif" onclick="openModal(this.id)" alt="Examples of changing edge styles in Kanvas" 
+ &lt;img id="[92 89 36 256 55 48]" src="images/style-edge.gif" onclick="openModal(this.id)" alt="Examples of changing edge styles in Kanvas" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -915,7 +915,7 @@ Think of Designer mode as your blueprint studio. Just like architects use specif
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[298 349 445 345 424 162]" src="images/validating-designs/performing-validation-1.png" onclick="openModal(this.id)" alt="Navigate to Actions button" 
+ &lt;img id="[198 176 278 150 394 84]" src="images/validating-designs/performing-validation-1.png" onclick="openModal(this.id)" alt="Navigate to Actions button" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Whiteboarding</title><link>/kanvas/tasks/whiteboarding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/tasks/whiteboarding/</guid><description>&lt;p&gt;With Kanvas Designer you can draw shapes, lines, text, add custom styles, images and icons to represent the components and relationships of your Kubernetes clusters as you see fit. Kanvas supports freestyle design, meaning that you can customize the appearance and layout of your diagrams without any constraints. Kanvas also enables real-time collaboration, meaning that you can invite others to join your sessions and edit the diagrams together.&lt;/p&gt;
 
@@ -1051,7 +1051,7 @@ tutorial first or
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[178 230 232 415 190 136]" src="images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
+ &lt;img id="[500 68 336 176 361 373]" src="images/catalog-view.gif" onclick="openModal(this.id)" alt="Catalog main page view" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1123,7 +1123,7 @@ tutorial first or
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[149 111 106 181 352 423]" src="images/importing-designs/drag-drop.gif" onclick="openModal(this.id)" alt="Drag and Drop Import" 
+ &lt;img id="[145 260 192 222 96 38]" src="images/importing-designs/drag-drop.gif" onclick="openModal(this.id)" alt="Drag and Drop Import" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Interpreting Component Badges</title><link>/kanvas/designer/interpreting-component-badges/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/interpreting-component-badges/</guid><description>&lt;p&gt;Ever wondered what those little icons in the corners of your components are? Think of them as your component&amp;rsquo;s real-time status display. These indicators, called &lt;strong&gt;badges&lt;/strong&gt;, give you at-a-glance information about everything from configuration errors to live performance.&lt;/p&gt;
 &lt;p&gt;
@@ -1134,7 +1134,7 @@ tutorial first or
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[238 99 468 200 125 299]" src="images/example.png" onclick="openModal(this.id)" alt="Example" 
+ &lt;img id="[281 404 132 177 106 320]" src="images/example.png" onclick="openModal(this.id)" alt="Example" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1173,7 +1173,7 @@ tutorial first or
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[267 230 209 392 466 94]" src="images/undeploying-designs/undeploy.png" onclick="openModal(this.id)" alt="undeploying designs" 
+ &lt;img id="[89 473 182 242 206 64]" src="images/undeploying-designs/undeploy.png" onclick="openModal(this.id)" alt="undeploying designs" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;!-- Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
@@ -1613,7 +1613,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[324 421 493 99 291 437]" src="images/default.gif" onclick="openModal(this.id)" alt="Click" 
+ &lt;img id="[50 463 355 247 154 376]" src="images/default.gif" onclick="openModal(this.id)" alt="Click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1629,7 +1629,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[330 159 380 35 113 262]" src="images/click_and_drag.gif" onclick="openModal(this.id)" alt="Click and drag" 
+ &lt;img id="[334 114 369 17 371 42]" src="images/click_and_drag.gif" onclick="openModal(this.id)" alt="Click and drag" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1645,7 +1645,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[244 383 256 107 443 119]" src="images/click.png" onclick="openModal(this.id)" alt="Click" 
+ &lt;img id="[116 276 353 180 20 275]" src="images/click.png" onclick="openModal(this.id)" alt="Click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1661,7 +1661,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[339 69 52 99 161 285]" src="images/double_click.png" onclick="openModal(this.id)" alt="Double-click component" 
+ &lt;img id="[70 8 428 176 498 444]" src="images/double_click.png" onclick="openModal(this.id)" alt="Double-click component" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1677,7 +1677,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[422 280 94 248 296 488]" src="images/text-box-double-click.gif" onclick="openModal(this.id)" alt="Double-click textbox" 
+ &lt;img id="[405 26 57 375 451 298]" src="images/text-box-double-click.gif" onclick="openModal(this.id)" alt="Double-click textbox" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1693,7 +1693,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[167 294 407 95 196 14]" src="images/right_click.png" onclick="openModal(this.id)" alt="Right-click" 
+ &lt;img id="[195 63 19 47 190 290]" src="images/right_click.png" onclick="openModal(this.id)" alt="Right-click" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1709,7 +1709,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[454 365 157 45 135 375]" src="images/select.gif" onclick="openModal(this.id)" alt="Box selection" 
+ &lt;img id="[2 361 155 187 366 375]" src="images/select.gif" onclick="openModal(this.id)" alt="Box selection" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1725,7 +1725,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[382 84 312 53 243 398]" src="images/scroll_up_down.gif" onclick="openModal(this.id)" alt="Scroll" 
+ &lt;img id="[345 350 45 165 365 101]" src="images/scroll_up_down.gif" onclick="openModal(this.id)" alt="Scroll" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1741,7 +1741,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[176 35 8 478 444 457]" src="images/zoom_in_out.gif" onclick="openModal(this.id)" alt="Zoom" 
+ &lt;img id="[274 238 136 176 372 15]" src="images/zoom_in_out.gif" onclick="openModal(this.id)" alt="Zoom" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1757,7 +1757,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[56 7 274 170 271 498]" src="images/scroll_left_right.gif" onclick="openModal(this.id)" alt="Scroll left/right" 
+ &lt;img id="[250 133 403 441 54 203]" src="images/scroll_left_right.gif" onclick="openModal(this.id)" alt="Scroll left/right" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -1796,7 +1796,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[346 311 72 55 292 493]" src="images/overview.png" onclick="openModal(this.id)" alt="Shapes Introduction" 
+ &lt;img id="[40 119 450 159 112 44]" src="images/overview.png" onclick="openModal(this.id)" alt="Shapes Introduction" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;The whiteboarding feature introduces versatile, freestyle drawing capabilities within Kanvas. Enabling the whiteboard feature augments your ability to diagram with a suite of predefined shapes, and pen and pencil annotation, allowing you full freedom of expression of your engineering diagrams.&lt;/p&gt;
@@ -1913,7 +1913,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[421 225 194 163 308 57]" src="images/deploy-designs/success-deploy.png" onclick="openModal(this.id)" alt="success-deploy" 
+ &lt;img id="[154 173 112 386 208 287]" src="images/deploy-designs/success-deploy.png" onclick="openModal(this.id)" alt="success-deploy" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -1932,7 +1932,7 @@ Kanvas Designer offers three modes: Default, Pencil, and Connector, which behave
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[122 399 238 475 31 259]" src="images/deploy-designs/missing-ns.png" onclick="openModal(this.id)" alt="missing-ns" 
+ &lt;img id="[183 370 83 74 154 175]" src="images/deploy-designs/missing-ns.png" onclick="openModal(this.id)" alt="missing-ns" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Integrating Assessments in the Academy</title><link>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</guid><description>&lt;p&gt;&lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Cloud Academy&lt;/a&gt; implements &lt;strong&gt;Learning Paths&lt;/strong&gt;, &lt;strong&gt;Challenges&lt;/strong&gt;, and &lt;strong&gt;Certifications&lt;/strong&gt; to enrich the learner experience. We support multi-level assessments to guide and evaluate progress. The content structure is hierarchical and modular, enabling scalable learning design.&lt;/p&gt;
 &lt;p&gt;Think of it as a &lt;strong&gt;botanical garden&lt;/strong&gt;:&lt;/p&gt;
@@ -2020,7 +2020,7 @@ See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderbo
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[336 153 361 75 301 323]" src="images/org_invite.png" onclick="openModal(this.id)" alt="User Management options" 
+ &lt;img id="[394 334 441 19 253 83]" src="images/org_invite.png" onclick="openModal(this.id)" alt="User Management options" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -2041,7 +2041,7 @@ See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderbo
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[219 371 474 53 385 288]" src="images/working-with-components/configuration-panel.png" onclick="openModal(this.id)" alt="configuration-panel" 
+ &lt;img id="[367 255 473 77 351 229]" src="images/working-with-components/configuration-panel.png" onclick="openModal(this.id)" alt="configuration-panel" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Steps to Configure Components:&lt;/strong&gt;&lt;/p&gt;
@@ -2076,7 +2076,7 @@ See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderbo
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[80 364 169 225 132 221]" src="./images/academy-admin.svg" onclick="openModal(this.id)" alt="Academy Admin Role" 
+ &lt;img id="[168 314 246 463 6 445]" src="./images/academy-admin.svg" onclick="openModal(this.id)" alt="Academy Admin Role" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Building Certifications</title><link>/cloud/academy/creating-content/building-certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/building-certifications/</guid><description>&lt;p&gt;In &lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Academy&lt;/a&gt;, a &lt;strong&gt;Certification&lt;/strong&gt; is a formal assessment designed to validate a learner&amp;rsquo;s professional skills in a specific domain. Unlike a Learning Path, which guides a user through a curriculum, a Certification&amp;rsquo;s primary goal is evaluation.&lt;/p&gt;
 &lt;p&gt;The successful completion of a Certification results in an official, shareable &lt;strong&gt;Certificate of Completion&lt;/strong&gt; and a valuable badge, signifying a verified level of proficiency.&lt;/p&gt;
@@ -2088,7 +2088,7 @@ See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderbo
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[186 226 207 469 267 369]" src="./images/index-page.png" onclick="openModal(this.id)" alt="example image" 
+ &lt;img id="[4 103 453 152 487 423]" src="./images/index-page.png" onclick="openModal(this.id)" alt="example image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -2114,7 +2114,7 @@ See the badge leaderboard in the [Leaderboard](https://badges.layer5.io/leaderbo
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[236 116 334 148 50 468]" src="images/deploy-designs/clone-design.gif" onclick="openModal(this.id)" alt="Copy of a Design" 
+ &lt;img id="[392 55 54 22 37 312]" src="images/deploy-designs/clone-design.gif" onclick="openModal(this.id)" alt="Copy of a Design" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Default User Permissions</title><link>/cloud/concepts/identity-and-security/users/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/default-permissions/</guid><description>&lt;table class="td-initial"&gt;
  &lt;thead&gt;
@@ -2248,7 +2248,7 @@ The Instance Details tab is accessible when you select a specific Kubernetes res
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[281 296 146 453 248 82]" src="images/Views.svg" onclick="openModal(this.id)" alt="Operator Views" 
+ &lt;img id="[198 296 329 163 366 275]" src="images/Views.svg" onclick="openModal(this.id)" alt="Operator Views" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -2281,7 +2281,7 @@ creating learning paths, challenges, and certifications by collecting all necess
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[193 200 45 415 236 250]" src="images/template-creator.png" onclick="openModal(this.id)" alt="Academy Content Template Creator" 
+ &lt;img id="[436 108 9 320 270 87]" src="images/template-creator.png" onclick="openModal(this.id)" alt="Academy Content Template Creator" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -2369,7 +2369,7 @@ Choose the option that matches your workflow (see table below).&lt;/li&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[346 209 424 175 301 449]" src="images/export-modal.gif" onclick="openModal(this.id)" alt="Export Icon" 
+ &lt;img id="[62 249 22 465 489 182]" src="images/export-modal.gif" onclick="openModal(this.id)" alt="Export Icon" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Kubernetes Request Flow – A Visual Guide</title><link>/kanvas/tutorials/kubernetes-request-flow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/tutorials/kubernetes-request-flow/</guid><description>&lt;p&gt;In this tutorial, we will explore the exact journey a request takes inside a Kubernetes cluster — from the moment a user hits &amp;ldquo;Enter&amp;rdquo; in their browser, to the moment a response is sent back. We will understand the fundamental data path of a request — from the user to the container, using a &lt;strong&gt;diagram built in Kanvas&lt;/strong&gt;.&lt;/p&gt;
 
@@ -2457,7 +2457,7 @@ Choose the option that matches your workflow (see table below).&lt;/li&gt;
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[457 156 123 31 185 299]" src="images/pin-to-dock.png" onclick="openModal(this.id)" alt="Pin To Dock action" 
+ &lt;img id="[390 122 394 60 339 201]" src="images/pin-to-dock.png" onclick="openModal(this.id)" alt="Pin To Dock action" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Policy Engine</title><link>/kanvas/designer/relationship-evaluation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/relationship-evaluation/</guid><description>&lt;p&gt;As you build a design, Kanvas continuously evaluates the
 &lt;a href="/kanvas/concepts/relationships/"&gt;relationships&lt;/a&gt; between your components — to
@@ -2490,7 +2490,1159 @@ to read the relationship indicator, and how to diagnose results that look wrong.
 &lt;p&gt;&lt;strong&gt;Acknowledgment:&lt;/strong&gt; You&amp;rsquo;ll receive notifications about badges you&amp;rsquo;ve been awarded and related updates.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Approval Requests:&lt;/strong&gt; You&amp;rsquo;ll be notified about Workspace, Account, Permissions, Catalog&lt;/p&gt;</description></item><item><title>v1.0.49-1</title><link>/kanvas/reference/releases/v1.0.49-1/</link><pubDate>Fri, 26 Jun 2026 10:55:09 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.49-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+&lt;p&gt;&lt;strong&gt;Approval Requests:&lt;/strong&gt; You&amp;rsquo;ll be notified about Workspace, Account, Permissions, Catalog&lt;/p&gt;</description></item><item><title>v1.0.224</title><link>/cloud/reference/releases/v1.0.224/</link><pubDate>Tue, 04 Aug 2026 15:55:37 +0000</pubDate><guid>/cloud/reference/releases/v1.0.224/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): shield nav sections whose pages the user cannot reach @willcalcote (#5874)&lt;/li&gt;
+&lt;li&gt;fix(badges): repair mis-labelled and consolidation-stranded badge data @jijillery (#5871)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.45 @l5io (#5870)&lt;/li&gt;
+&lt;li&gt;docs(testing): verify PR #5822 hard-delete paths on a real stack; record deletion semantics @jijillery (#5828)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @fitzergerald, @hamza-mohd, @hortison, @jijillery, @l5io, @rishiraj38, @suttonskate and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.223</title><link>/cloud/reference/releases/v1.0.223/</link><pubDate>Tue, 04 Aug 2026 05:52:23 +0000</pubDate><guid>/cloud/reference/releases/v1.0.223/</guid><description>&lt;ul&gt;
+&lt;li&gt;docs(testing): verify PR #5822 hard-delete paths on a real stack; record deletion semantics @jijillery (#5828)&lt;/li&gt;
+&lt;li&gt;fix(badges): refuse destructive empty badge writes, stop silent award failures @jijillery (#5865)&lt;/li&gt;
+&lt;li&gt;feat(ui): pair Join Date with Last Active on the public profile @jijillery (#5862)&lt;/li&gt;
+&lt;li&gt;fix(academy): enforce registration ownership before starting a test session or reading a progress tracker @jijillery (#5860)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @hamza-mohd, @hortison, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.222</title><link>/cloud/reference/releases/v1.0.222/</link><pubDate>Tue, 04 Aug 2026 00:15:10 +0000</pubDate><guid>/cloud/reference/releases/v1.0.222/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): stop 500s locking learners out of quiz re-attempts @jijillery (#5858)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @leecalcote and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.221</title><link>/cloud/reference/releases/v1.0.221/</link><pubDate>Mon, 03 Aug 2026 23:30:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.221/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(dao): constrain membership mappings and repair index-unsafe role writes @jijillery (#5822)&lt;/li&gt;
+&lt;li&gt;[identity] Exclude Last column from default Users table columns @hortison (#5853)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @leecalcote and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.64-1</title><link>/kanvas/reference/releases/v1.0.64-1/</link><pubDate>Mon, 03 Aug 2026 21:14:20 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.64-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(skills): hard-rename iterate-pr &amp;ndash;full mode to &amp;ndash;merge @hamza-mohd (#4314)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @l5io&lt;/p&gt;</description></item><item><title>v1.0.220</title><link>/cloud/reference/releases/v1.0.220/</link><pubDate>Mon, 03 Aug 2026 21:09:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.220/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): Instructor Console 500s on historical quiz payloads (not an authorization bug) @westcalcote (#5855)&lt;/li&gt;
+&lt;li&gt;chore(skills): hard-rename iterate-pr &amp;ndash;full mode to &amp;ndash;merge @hamza-mohd (#5851)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @westcalcote&lt;/p&gt;</description></item><item><title>v1.0.219</title><link>/cloud/reference/releases/v1.0.219/</link><pubDate>Mon, 03 Aug 2026 18:43:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.219/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): report real registration counts on the instructor console @jijillery (#5849)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery and @westcalcote&lt;/p&gt;</description></item><item><title>v1.0.218</title><link>/cloud/reference/releases/v1.0.218/</link><pubDate>Mon, 03 Aug 2026 06:15:25 +0000</pubDate><guid>/cloud/reference/releases/v1.0.218/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(roles): let a Provider Admin list organization and team roles @jijillery (#5847)&lt;/li&gt;
+&lt;li&gt;[UI] Wire allure-playwright e2e reporter so the Layer5 Cloud QA report can repopulate @fitzergerald (#5846)&lt;/li&gt;
+&lt;li&gt;chore: track shared Claude Code hook registrations and harden the guards @jijillery (#5830)&lt;/li&gt;
+&lt;li&gt;chore(skills): fix iterate-pr feedback fetcher and bump vendored skill to 2.3.1 @jijillery (#5827)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;9 changes&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): bump github.com/labstack/echo/v4 from 4.15.1 to 4.15.4 @dependabot (#5843)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @mui/material from 9.1.2 to 9.2.0 in /ui @dependabot (#5842)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @stripe/stripe-js from 9.8.0 to 9.12.1 in /ui @dependabot (#5840)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump github.com/PuerkitoBio/goquery from 1.11.0 to 1.12.0 @dependabot (#5838)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump github.com/oapi-codegen/runtime from 1.4.2 to 1.6.0 @dependabot (#5839)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @casl/react from 7.0.0 to 7.0.1 in /ui @dependabot (#5837)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump @rjsf/validator-ajv8 from 6.6.2 to 6.7.1 in /ui @dependabot (#5836)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump golang.org/x/net from 0.56.0 to 0.57.0 @dependabot (#5844)&lt;/li&gt;
+&lt;li&gt;chore(deps): bump npm from 11.18.0 to 12.0.1 in /ui @dependabot (#5845)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @dependabot, @fitzergerald, @hortison, @jijillery, @leecalcote, @meshery-ci, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.217</title><link>/cloud/reference/releases/v1.0.217/</link><pubDate>Sat, 01 Aug 2026 05:14:08 +0000</pubDate><guid>/cloud/reference/releases/v1.0.217/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(auth): front dev Kratos at /kratos and pin its ngrok base_url for local OIDC @willcalcote (#5835)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @hortison and @willcalcote&lt;/p&gt;</description></item><item><title>v1.0.216</title><link>/cloud/reference/releases/v1.0.216/</link><pubDate>Thu, 30 Jul 2026 20:50:28 +0000</pubDate><guid>/cloud/reference/releases/v1.0.216/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): gate anonymous-session minting and bound pseudo-JWT lifetimes @jijillery (#5819)&lt;/li&gt;
+&lt;li&gt;[UI] Add permission shields to Keys page action icons @rishiraj38 (#5824)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.44 @l5io (#5823)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @l5io, @leecalcote, @rishiraj38 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.63-2</title><link>/kanvas/reference/releases/v1.0.63-2/</link><pubDate>Thu, 30 Jul 2026 20:35:19 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.63-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;refactor(ui): remove 8,123 lines of unreachable code, no functional change @jijillery (#4313)&lt;/li&gt;
+&lt;li&gt;[UI] Drop the ConfigurationSubscription prop @aabidsofi19 (#4289)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.44 @l5io (#4312)&lt;/li&gt;
+&lt;li&gt;chore(skills): consolidate agent skills into a single .agents/skills source of truth @sarajkrishnasingh (#4311)&lt;/li&gt;
+&lt;li&gt;refactor(ui): import permission keys from schemas @rishiraj38 (#4297)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19, @jijillery, @l5io, @leecalcote, @miacycle, @pontusringblom, @rishiraj38, @sarajkrishnasingh, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.215</title><link>/cloud/reference/releases/v1.0.215/</link><pubDate>Tue, 28 Jul 2026 22:43:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.215/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): stop serving user email addresses to anonymous catalog callers @jijillery (#5821)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jamieplu, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.214</title><link>/cloud/reference/releases/v1.0.214/</link><pubDate>Tue, 28 Jul 2026 15:57:21 +0000</pubDate><guid>/cloud/reference/releases/v1.0.214/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(skills): consolidate agent skills into .agents/skills as single source of truth @leecalcote (#5815)&lt;/li&gt;
+&lt;li&gt;fix(server): restrict what unauthenticated and anonymous-status callers receive from the public user endpoints @leecalcote (#5812)&lt;/li&gt;
+&lt;li&gt;fix(handlers): Stop badge delete from printing SQL and tenant IDs to stdout @leecalcote (#5813)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop serving soft-deleted accounts from the public user profile @leecalcote (#5810)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @arjunmehta-git, @hortison, @leecalcote, @sarajkrishnasingh, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.213</title><link>/cloud/reference/releases/v1.0.213/</link><pubDate>Tue, 28 Jul 2026 00:17:15 +0000</pubDate><guid>/cloud/reference/releases/v1.0.213/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(handlers): scope badge catalog writes to the caller&amp;rsquo;s organization @jijillery (#5808)&lt;/li&gt;
+&lt;li&gt;Make the Helm chart publish survive a concurrent push to layer5io/docs @winkletinkle (#5805)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @hortison, @jijillery, @leecalcote, @winkletinkle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.212</title><link>/cloud/reference/releases/v1.0.212/</link><pubDate>Mon, 27 Jul 2026 17:14:03 +0000</pubDate><guid>/cloud/reference/releases/v1.0.212/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(deps): align both meshery/schemas pins on v1.3.39 @jijillery (#5804)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery&lt;/p&gt;</description></item><item><title>v1.0.211</title><link>/cloud/reference/releases/v1.0.211/</link><pubDate>Mon, 27 Jul 2026 16:18:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.211/</guid><description>&lt;ul&gt;
+&lt;li&gt;Fix Edit User Profile modal layout, arm Save on notification changes @leecalcote (#5777)&lt;/li&gt;
+&lt;li&gt;test(connect): cover the GitHub wizard, fix its app-URL and the modal mapping @suttonskate (#5802)&lt;/li&gt;
+&lt;li&gt;Stop deriving the plans row type from generated data; guard the module-scope reads that 500 every route @leecalcote (#5778)&lt;/li&gt;
+&lt;li&gt;fix(workspaces): answer a malformed listing filter with a 400 naming the resource @leecalcote (#5799)&lt;/li&gt;
+&lt;li&gt;fix(collaboration): make client IDs collision-resistant and fail closed @carlosriosilva (#5797)&lt;/li&gt;
+&lt;li&gt;chore(ui): clear the 91 pre-existing prettier violations so &lt;code&gt;make ui-lint&lt;/code&gt; is green @winkletinkle (#5801)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop nil-user panic in the admin-gated events endpoints @hortison (#5794)&lt;/li&gt;
+&lt;li&gt;fix(handlers): stop InstallGithubAction deadlocking and racing on a shared err @miacycle (#5798)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@carlosriosilva, @hortison, @leecalcote, @marblom007, @miacycle, @ritzorama, @suttonskate and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.210</title><link>/cloud/reference/releases/v1.0.210/</link><pubDate>Mon, 27 Jul 2026 13:31:30 +0000</pubDate><guid>/cloud/reference/releases/v1.0.210/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): bound and quote the state-decoded ref on the Hydra callback log line @hamza-mohd (#5796)&lt;/li&gt;
+&lt;li&gt;test(e2e): make 2FA OAuth sign-in tooling runnable against a local ngrok custom-domain target @jijillery (#5790)&lt;/li&gt;
+&lt;li&gt;fix(credentials): resolve TypeError on modal close/cancel/continue @rishiraj38 (#5789)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd, @jijillery, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.209</title><link>/cloud/reference/releases/v1.0.209/</link><pubDate>Mon, 27 Jul 2026 12:38:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.209/</guid><description>&lt;ul&gt;
+&lt;li&gt;refactor: six behaviour-preserving complexity reductions (-123 lines) @yi-nuo426 (#5788)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.208</title><link>/cloud/reference/releases/v1.0.208/</link><pubDate>Mon, 27 Jul 2026 05:08:53 +0000</pubDate><guid>/cloud/reference/releases/v1.0.208/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): close the ref open redirect in the shared post-auth redirect guard @jijillery (#5787)&lt;/li&gt;
+&lt;li&gt;feat(ui): migrate action buttons and icons to PermissionShield (Pattern A/B) @rishiraj38 (#5772)&lt;/li&gt;
+&lt;li&gt;fix: workspace table row click TypeError on name extraction @rishiraj38 (#5773)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @jijillery, @marblom007, @rishiraj38, @simihablo and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.207</title><link>/cloud/reference/releases/v1.0.207/</link><pubDate>Mon, 27 Jul 2026 03:58:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.207/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): close open redirect on unauthenticated GET /account @ritzorama (#5784)&lt;/li&gt;
+&lt;li&gt;document(release): close the merge, supersession, and post-publish gaps in the cut-release skill @alexquincy (#5782)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @hortison and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.206</title><link>/cloud/reference/releases/v1.0.206/</link><pubDate>Mon, 27 Jul 2026 03:12:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.206/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ci): fail the feature-data sync closed on bad payloads @jijillery (#5781)&lt;/li&gt;
+&lt;li&gt;harden return_to normalization against browser-normalized redirects; refresh post-#5769 sign-in docs @jijillery (#5771)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @jijillery, @l5io, @meshery-ci and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.63-1</title><link>/kanvas/reference/releases/v1.0.63-1/</link><pubDate>Sun, 26 Jul 2026 16:02:01 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.63-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.43 @l5io (#4310)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.42 @l5io (#4309)&lt;/li&gt;
+&lt;li&gt;chore(skills): add /cut-release skill @jamieplu (#4308)&lt;/li&gt;
+&lt;li&gt;chore(ui): drop the date-fns dependency @simihablo (#4307)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @alexquincy, @jamieplu, @jijillery, @l5io, @leecalcote, @mascot-five, @miacycle, @ritzorama, @simihablo and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.205</title><link>/cloud/reference/releases/v1.0.205/</link><pubDate>Sat, 25 Jul 2026 06:20:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.205/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(academy): replay deep-link enroll intent across OAuth sign-in @jijillery (#5774)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @hortison, @jijillery and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.204</title><link>/cloud/reference/releases/v1.0.204/</link><pubDate>Fri, 24 Jul 2026 21:06:18 +0000</pubDate><guid>/cloud/reference/releases/v1.0.204/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(email): org-first footer contacts and a catalog deep link in the approval mail @jijillery (#5767)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.43 @l5io (#5768)&lt;/li&gt;
+&lt;li&gt;[Auth] Fix custom-domain sign-in stranding: mint a Hydra login challenge on every sign-in entry @CodeAhmedJamil (#5769)&lt;/li&gt;
+&lt;li&gt;test(ui): add browser coverage for the permission gates repaired by #5762 @jijillery (#5766)&lt;/li&gt;
+&lt;li&gt;fix(ui): resolve error on user edit action @rishiraj38 (#5758)&lt;/li&gt;
+&lt;li&gt;feat(ui): Mount PermissionProvider in AppShell and add permissionKey to NavigationNavbar items @rishiraj38 (#5757)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @carlosriosilva, @hamza-mohd, @jamieplu, @jijillery, @l5io, @leecalcote, @mascot-five, @miacycle, @pontusringblom, @rishiraj38, @ritzorama and @suttonskate&lt;/p&gt;</description></item><item><title>v1.0.203</title><link>/cloud/reference/releases/v1.0.203/</link><pubDate>Fri, 24 Jul 2026 05:56:20 +0000</pubDate><guid>/cloud/reference/releases/v1.0.203/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): write schema-complete Kratos rows in OIDC credential link (meshery-cloud-1735) @mascot-five (#5761)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.42 @l5io (#5760)&lt;/li&gt;
+&lt;li&gt;fix(ui): repair orphaned permission-key references breaking next build @jamieplu (#5762)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @chellej, @fitzergerald, @jamieplu, @l5io, @marblom007, @mascot-five, @meshery-ci, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.202</title><link>/cloud/reference/releases/v1.0.202/</link><pubDate>Thu, 23 Jul 2026 21:28:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.202/</guid><description>&lt;ul&gt;
+&lt;li&gt;[UI] Fix RJSF array validation crash in Catalog InfoModal @NSTKrishna (#5743)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna and @jamieplu&lt;/p&gt;</description></item><item><title>v1.0.201</title><link>/cloud/reference/releases/v1.0.201/</link><pubDate>Thu, 23 Jul 2026 19:17:48 +0000</pubDate><guid>/cloud/reference/releases/v1.0.201/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(orgs): enforce syntactic hostname validation on org custom domains @simihablo (#5756)&lt;/li&gt;
+&lt;li&gt;fix(catalog): preserve deep-linked filters on catalog page load @simihablo (#5754)&lt;/li&gt;
+&lt;li&gt;fix(catalog): surface failed catalog-propagation dispatch instead of silent success @simihablo (#5753)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @alexquincy, @arjunmehta-git, @carlosriosilva, @jamieplu, @leecalcote, @meshery-ci, @ritzorama and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.200</title><link>/cloud/reference/releases/v1.0.200/</link><pubDate>Wed, 22 Jul 2026 23:55:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.200/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): authorize environment/workspace writes against the request&amp;rsquo;s target org @simihablo (#5750)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @jamieplu and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.199</title><link>/cloud/reference/releases/v1.0.199/</link><pubDate>Wed, 22 Jul 2026 13:10:48 +0000</pubDate><guid>/cloud/reference/releases/v1.0.199/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.41 @l5io (#5747)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.39 @l5io (#5746)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.38 @l5io (#5744)&lt;/li&gt;
+&lt;li&gt;refactor: replace local permission constants with Keys from schemas @rishiraj38 (#5707)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @marblom007, @meshery-ci, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.62-1</title><link>/kanvas/reference/releases/v1.0.62-1/</link><pubDate>Wed, 22 Jul 2026 11:54:28 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.62-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore: enforce exact pinning for externalized dependencies @marblom007 (#4301)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.41 @l5io (#4306)&lt;/li&gt;
+&lt;li&gt;Extensions: Compatibility guarantee @marblom007 (#4303)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.40 @l5io (#4305)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.39 @l5io (#4304)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @l5io, @leecalcote, @marblom007, @miacycle and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.61-2</title><link>/kanvas/reference/releases/v1.0.61-2/</link><pubDate>Tue, 21 Jul 2026 17:40:32 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.61-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fix design not opening @aabidsofi19 (#4302)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19 and @l5io&lt;/p&gt;</description></item><item><title>v1.0.61-1</title><link>/kanvas/reference/releases/v1.0.61-1/</link><pubDate>Tue, 21 Jul 2026 13:54:38 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.61-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.38 @l5io (#4300)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.60-1</title><link>/kanvas/reference/releases/v1.0.60-1/</link><pubDate>Tue, 21 Jul 2026 04:24:29 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.60-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.59-1</title><link>/kanvas/reference/releases/v1.0.59-1/</link><pubDate>Mon, 20 Jul 2026 06:01:24 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.59-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io&lt;/p&gt;</description></item><item><title>v1.0.58-1</title><link>/kanvas/reference/releases/v1.0.58-1/</link><pubDate>Mon, 20 Jul 2026 04:00:14 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.58-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Kanvas] Call the canonical Meshery /api/registry routes @marblom007 (#4299)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @marblom007, @miacycle and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.57-1</title><link>/kanvas/reference/releases/v1.0.57-1/</link><pubDate>Fri, 17 Jul 2026 06:18:39 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.57-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.37 @l5io (#4298)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.36 @l5io (#4296)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.35 @l5io (#4295)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.34 @l5io (#4293)&lt;/li&gt;
+&lt;li&gt;fix(help): restore version + release-notes link in Help Center @leecalcote (#4292)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@chellej, @hortison, @l5io, @leecalcote, @miacycle, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.198</title><link>/cloud/reference/releases/v1.0.198/</link><pubDate>Thu, 16 Jul 2026 18:25:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.198/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): Migrate data tables to use standardized DataTableToolbar @KhushamBansal (#5740)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KhushamBansal and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.197</title><link>/cloud/reference/releases/v1.0.197/</link><pubDate>Thu, 16 Jul 2026 16:57:47 +0000</pubDate><guid>/cloud/reference/releases/v1.0.197/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.37 @l5io (#5741)&lt;/li&gt;
+&lt;li&gt;fix(users): serve names on user search; route share flows to the searchable projection @hortison (#5738)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.36 @l5io (#5739)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @l5io, @leecalcote, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.196</title><link>/cloud/reference/releases/v1.0.196/</link><pubDate>Thu, 16 Jul 2026 04:26:41 +0000</pubDate><guid>/cloud/reference/releases/v1.0.196/</guid><description>&lt;ul&gt;
+&lt;li&gt;Prevent double-submit in Kratos form; CSS tweak @NSTKrishna (#5737)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.195</title><link>/cloud/reference/releases/v1.0.195/</link><pubDate>Thu, 16 Jul 2026 03:38:39 +0000</pubDate><guid>/cloud/reference/releases/v1.0.195/</guid><description>&lt;ul&gt;
+&lt;li&gt;[UI] Fix spurious /auth/switch-domain redirect on port-bearing org domains; stabilize the Playwright e2e suite @ritzorama (#5735)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.194</title><link>/cloud/reference/releases/v1.0.194/</link><pubDate>Thu, 16 Jul 2026 03:25:22 +0000</pubDate><guid>/cloud/reference/releases/v1.0.194/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Cloud] Backfill accurate acceptance counts for open, unlimited invitations (+ audit events) @hortison (#5736)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.193</title><link>/cloud/reference/releases/v1.0.193/</link><pubDate>Wed, 15 Jul 2026 23:28:13 +0000</pubDate><guid>/cloud/reference/releases/v1.0.193/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Fix] Exclude soft-deleted events from event queries and severity counts @NSTKrishna (#5719)&lt;/li&gt;
+&lt;li&gt;[Cloud] Invitation fixes: retain linked invitation cross-org, unlimited-quota accounting, per-acceptance audit events @hortison (#5732)&lt;/li&gt;
+&lt;li&gt;[dao] Exclude severity filter from breakdown, close remaining soft-delete gaps @hortison (#5734)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @hortison and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.192</title><link>/cloud/reference/releases/v1.0.192/</link><pubDate>Wed, 15 Jul 2026 22:46:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.192/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Server] Fix GetUserKeys to read org ID from URL path param on org switch @rishiraj38 (#5730)&lt;/li&gt;
+&lt;li&gt;[Server] Harden GetUserKeys org resolution and add tests (review fixes for #5730) @hortison (#5733)&lt;/li&gt;
+&lt;li&gt;[UI] Never flash the sign-in carousel when an org has it disabled @hortison (#5731)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote, @rishiraj38 and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.191</title><link>/cloud/reference/releases/v1.0.191/</link><pubDate>Wed, 15 Jul 2026 17:37:05 +0000</pubDate><guid>/cloud/reference/releases/v1.0.191/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.35 @l5io (#5728)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tata Consulting v2.2.2 content update @l5io (#5729)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.190</title><link>/cloud/reference/releases/v1.0.190/</link><pubDate>Wed, 15 Jul 2026 04:59:42 +0000</pubDate><guid>/cloud/reference/releases/v1.0.190/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(startup): non-blocking cron first-run + legible end of data seeding @hortison (#5726)&lt;/li&gt;
+&lt;li&gt;Stamp the RTK consumer-swap execution log complete @hortison (#5725)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison&lt;/p&gt;</description></item><item><title>v1.0.189</title><link>/cloud/reference/releases/v1.0.189/</link><pubDate>Wed, 15 Jul 2026 02:35:57 +0000</pubDate><guid>/cloud/reference/releases/v1.0.189/</guid><description>&lt;ul&gt;
+&lt;li&gt;Align Go meshery/schemas pin with npm at v1.3.30 @hortison (#5724)&lt;/li&gt;
+&lt;li&gt;Retire the 136 hand-authored RTK endpoints duplicating the generated cloudApi @hortison (#5723)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison and @meshery-ci&lt;/p&gt;</description></item><item><title>v1.0.188</title><link>/cloud/reference/releases/v1.0.188/</link><pubDate>Wed, 15 Jul 2026 00:10:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.188/</guid><description>&lt;ul&gt;
+&lt;li&gt;Bridge cache invalidation and auth sync across the two RTK APIs @hortison (#5722)&lt;/li&gt;
+&lt;li&gt;Accept canonical pageSize in every direct query-param reader @hortison (#5720)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.34 @l5io (#5717)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tata Consulting v2.2.0 content update @l5io (#5721)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KhushamBansal, @hortison, @l5io and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.187</title><link>/cloud/reference/releases/v1.0.187/</link><pubDate>Tue, 14 Jul 2026 04:24:59 +0000</pubDate><guid>/cloud/reference/releases/v1.0.187/</guid><description>&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tata Consulting v2.1.11 content update @l5io (#5716)&lt;/li&gt;
+&lt;li&gt;Tata Consulting v2.1.10 content update @l5io (#5715)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io&lt;/p&gt;</description></item><item><title>v1.0.186</title><link>/cloud/reference/releases/v1.0.186/</link><pubDate>Tue, 14 Jul 2026 00:16:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.186/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(invitations): display linked open invitation in edit-org form; implement GET /invitations/:id @leecalcote (#5714)&lt;/li&gt;
+&lt;li&gt;fix(invitations): allow nil emails &amp;amp; surface expiresAt in edit form (#5712) @leecalcote (#5713)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.56-1</title><link>/kanvas/reference/releases/v1.0.56-1/</link><pubDate>Mon, 13 Jul 2026 22:06:25 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.56-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.33 @l5io (#4290)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.32 @l5io (#4288)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.31 @l5io (#4287)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@aabidsofi19, @l5io, @leecalcote, @rishiraj38 and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.185</title><link>/cloud/reference/releases/v1.0.185/</link><pubDate>Mon, 13 Jul 2026 21:31:59 +0000</pubDate><guid>/cloud/reference/releases/v1.0.185/</guid><description>&lt;h2 id="-academy" class="heading-link"&gt;
+ 📚 Academy
+ &lt;a href="#-academy" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Academy latest content update @l5io (#5711)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@banana-three-join and @l5io&lt;/p&gt;</description></item><item><title>v1.0.184</title><link>/cloud/reference/releases/v1.0.184/</link><pubDate>Sat, 11 Jul 2026 12:18:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.184/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Auth] Stop public Academy pages from 401ing anonymous visitors @ritzorama (#5708)&lt;/li&gt;
+&lt;li&gt;Bump @sistent/sistent 0.21.32 to 0.21.33 @KhushamBansal (#5710)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@KhushamBansal, @leecalcote, @ritzorama and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.183</title><link>/cloud/reference/releases/v1.0.183/</link><pubDate>Fri, 10 Jul 2026 15:49:41 +0000</pubDate><guid>/cloud/reference/releases/v1.0.183/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Events] Hide Organization filter for single-org members @ritzorama (#5704)&lt;/li&gt;
+&lt;li&gt;[ui][server] Fix My Designs edit crash, repetitive related designs, and image rendering @ritzorama (#5696)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.32 @l5io (#5706)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @marblom007, @meshery-ci, @rishiraj38 and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.182</title><link>/cloud/reference/releases/v1.0.182/</link><pubDate>Thu, 09 Jul 2026 14:59:34 +0000</pubDate><guid>/cloud/reference/releases/v1.0.182/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(cron): run anonymous-user maintenance on the in-process scheduler (#5701) @hortison (#5705)&lt;/li&gt;
+&lt;li&gt;[docs] Correct stale pg_cron references; Layer5 Cloud uses its own scheduler @ritzorama (#5702)&lt;/li&gt;
+&lt;li&gt;Fix horizontal overflow and add custom scrollbars to mobile pricing table @NSTKrishna (#5670)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.31 @l5io (#5703)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @hortison, @l5io, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.181</title><link>/cloud/reference/releases/v1.0.181/</link><pubDate>Wed, 08 Jul 2026 21:18:36 +0000</pubDate><guid>/cloud/reference/releases/v1.0.181/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore: address deferred review feedback (locale date, PID echo, static titles) @leecalcote (#5700)&lt;/li&gt;
+&lt;li&gt;fix(auth): fold + allowlist-check directionless order columns (closes #5691 gap) @leecalcote (#5699)&lt;/li&gt;
+&lt;li&gt;fix(ui): derive error-page type in render to kill the session-expired modal flash @leecalcote (#5698)&lt;/li&gt;
+&lt;li&gt;feat(ui): present 404, 403, and version-incompatibility as distinct error concerns @leecalcote (#5697)&lt;/li&gt;
+&lt;li&gt;fix(ui): render the incompatible-version error instead of a login loop; quiet SPA 404 log @leecalcote (#5695)&lt;/li&gt;
+&lt;li&gt;fix(auth): compare Meshery core version so kanvas v1.0.55-1 passes the min-version gate @leecalcote (#5694)&lt;/li&gt;
+&lt;li&gt;Icon cleanup and import naming compliance @leecalcote (#5546)&lt;/li&gt;
+&lt;li&gt;refactor(auth): guard custom-org-domain resolve behind the org-context check @leecalcote (#5693)&lt;/li&gt;
+&lt;li&gt;fix(auth): silence benign org-domain ERROR on sign-in; clarify linked-account debug logs @leecalcote (#5692)&lt;/li&gt;
+&lt;li&gt;fix(roles): translate camelCase sort column so ?order=roleName works (fixes roles 500) @leecalcote (#5691)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.55-1</title><link>/kanvas/reference/releases/v1.0.55-1/</link><pubDate>Tue, 07 Jul 2026 19:55:42 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.55-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[graphql] Fix build break from removed User.UserId field @leecalcote (#4286)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald, @l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.180</title><link>/cloud/reference/releases/v1.0.180/</link><pubDate>Tue, 07 Jul 2026 19:22:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.180/</guid><description>&lt;ul&gt;
+&lt;li&gt;[db] Materialized-view cleanup: retire pattern_metrics, fix summary_by_user owner anchor @hortison (#5688)&lt;/li&gt;
+&lt;li&gt;fix(dev): stop lsof port-kill hang on smbfs mounts; drop meshery_filters seeding @leecalcote (#5690)&lt;/li&gt;
+&lt;li&gt;fix(db): correct seed user first_name and per-user workspace scope @leecalcote (#5689)&lt;/li&gt;
+&lt;li&gt;fix(db): repoint seed scripts off dropped users.user_id column @leecalcote (#5687)&lt;/li&gt;
+&lt;li&gt;chore(deploy): bump MIN_MESHERY_VERSION to v1.0.55 for the v1beta3 cutover @leecalcote (#5685)&lt;/li&gt;
+&lt;li&gt;feat(users): Phase 4 hard cutover - drop users.user_id, re-key JWT sub to users.id (#5410) @leecalcote (#5683)&lt;/li&gt;
+&lt;li&gt;[docs] Add optional BYOC signup scenario matrix to TP-003 @hortison (#5684)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald, @hortison, @leecalcote and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.179</title><link>/cloud/reference/releases/v1.0.179/</link><pubDate>Tue, 07 Jul 2026 04:51:31 +0000</pubDate><guid>/cloud/reference/releases/v1.0.179/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Type CheckNotificationPreference against models.UserPreference alias @hortison (#5682)&lt;/li&gt;
+&lt;li&gt;chore(errors): add ErrEmailAlreadyInUse (3211) to the error catalog @leecalcote (#5681)&lt;/li&gt;
+&lt;li&gt;[docs] Comprehensive make targets, agent-tooling index, and environment-connection runbook @ritzorama (#5679)&lt;/li&gt;
+&lt;li&gt;docs(consolidation): add reusable outcome report SQL @leecalcote (#5680)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote, @ritzorama, @simihablo and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.178</title><link>/cloud/reference/releases/v1.0.178/</link><pubDate>Tue, 07 Jul 2026 00:33:16 +0000</pubDate><guid>/cloud/reference/releases/v1.0.178/</guid><description>&lt;ul&gt;
+&lt;li&gt;refactor(dao): single-source the canonical-user ORDER BY @leecalcote (#5678)&lt;/li&gt;
+&lt;li&gt;feat(users): graceful 409 on duplicate-email create @leecalcote (#5677)&lt;/li&gt;
+&lt;li&gt;fix(consolidation): retire a merged-away user&amp;rsquo;s email addresses on merge @leecalcote (#5675)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.177</title><link>/cloud/reference/releases/v1.0.177/</link><pubDate>Tue, 07 Jul 2026 00:23:43 +0000</pubDate><guid>/cloud/reference/releases/v1.0.177/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Map env/workspace single-resource GET not-found to 404 instead of 500 @ritzorama (#5676)&lt;/li&gt;
+&lt;li&gt;feat(db): enforce email uniqueness (Phase 3, #5410 Gate B) @leecalcote (#5672)&lt;/li&gt;
+&lt;li&gt;Fix OIDC account linking parameter propagation @NSTKrishna (#5658)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @leecalcote, @pontusringblom and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.176</title><link>/cloud/reference/releases/v1.0.176/</link><pubDate>Mon, 06 Jul 2026 23:01:29 +0000</pubDate><guid>/cloud/reference/releases/v1.0.176/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(consolidation): &amp;ndash;by-email mode for no-identity residual clusters @leecalcote (#5671)&lt;/li&gt;
+&lt;li&gt;docs(consolidation): fix live-run commands (&amp;ndash;dry-run=false) + document post-merge residuals @leecalcote (#5667)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.175</title><link>/cloud/reference/releases/v1.0.175/</link><pubDate>Mon, 06 Jul 2026 18:17:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.175/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(cmd): backfill skips sibling-anchored identities instead of aborting @leecalcote (#5666)&lt;/li&gt;
+&lt;li&gt;chore(db): refresh cloud-schema snapshot post anonymous-cleanup (v1.0.174) @leecalcote (#5665)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hamza-mohd and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.174</title><link>/cloud/reference/releases/v1.0.174/</link><pubDate>Mon, 06 Jul 2026 14:27:02 +0000</pubDate><guid>/cloud/reference/releases/v1.0.174/</guid><description>&lt;ul&gt;
+&lt;li&gt;chore(db): drop antiquated anonymous-user delete functions @leecalcote (#5664)&lt;/li&gt;
+&lt;li&gt;FIx: Tweak social layout spacing @NSTKrishna (#5659)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.54-1</title><link>/kanvas/reference/releases/v1.0.54-1/</link><pubDate>Mon, 06 Jul 2026 06:55:24 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.54-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(kanvas): fall back to model metadata when component styles are empty @ritzorama (#4285)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @pontusringblom, @ritzorama and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.173</title><link>/cloud/reference/releases/v1.0.173/</link><pubDate>Mon, 06 Jul 2026 05:05:12 +0000</pubDate><guid>/cloud/reference/releases/v1.0.173/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(db): clean resource_access_mappings in anonymous-user cleanup @arjunmehta-git (#5663)&lt;/li&gt;
+&lt;li&gt;docs(plan): consolidation execution status + post-deploy checklist @leecalcote (#5662)&lt;/li&gt;
+&lt;li&gt;fix(cmd): backfill-external-id must surface its startup errors, not exit silently @leecalcote (#5661)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.172</title><link>/cloud/reference/releases/v1.0.172/</link><pubDate>Mon, 06 Jul 2026 03:20:11 +0000</pubDate><guid>/cloud/reference/releases/v1.0.172/</guid><description>&lt;ul&gt;
+&lt;li&gt;[identity] Account consolidation: identity anchor, resolution funnel, multi-email, one-time merge (#5410) @leecalcote (#5652)&lt;/li&gt;
+&lt;li&gt;chore(dev): server frees its own port; drop dead pg-version yaml parsing; trim key comments @leecalcote (#5660)&lt;/li&gt;
+&lt;li&gt;[server] Fix DAO tests: FK-ordered cleanup, shared-DB residue, pattern_file opt-in @hortison (#5657)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@hortison, @leecalcote, @pontusringblom and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.53-2</title><link>/kanvas/reference/releases/v1.0.53-2/</link><pubDate>Sun, 05 Jul 2026 21:01:49 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.53-2/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(kanvas): restore missing component icons on the designer canvas @ritzorama (#4284)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.53-1</title><link>/kanvas/reference/releases/v1.0.53-1/</link><pubDate>Sun, 05 Jul 2026 05:18:51 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.53-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs: rendering-engine diligence — React Flow vs Cytoscape (+ POC) @ritzorama (#4283)&lt;/li&gt;
+&lt;li&gt;docs: progressive-disclosure agent instructions + ecosystem-shared directives @leecalcote (#4282)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote, @miacycle and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.171</title><link>/cloud/reference/releases/v1.0.171/</link><pubDate>Sat, 04 Jul 2026 20:05:02 +0000</pubDate><guid>/cloud/reference/releases/v1.0.171/</guid><description>&lt;ul&gt;
+&lt;li&gt;swap staging-cloud name @miacycle (#5656)&lt;/li&gt;
+&lt;li&gt;[ci] Fix meshery-qa-planner skill symlink (breaks claude-review on all PRs) @leecalcote (#5655)&lt;/li&gt;
+&lt;li&gt;docs: progressive-disclosure refactor of AGENTS.md; align ecosystem engineering directives @leecalcote (#5644)&lt;/li&gt;
+&lt;li&gt;[docs] Add multi-email-per-account gap to fragmentation plan @leecalcote (#5642)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote, @meshery-ci, @miacycle and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.170</title><link>/cloud/reference/releases/v1.0.170/</link><pubDate>Fri, 03 Jul 2026 05:19:08 +0000</pubDate><guid>/cloud/reference/releases/v1.0.170/</guid><description>&lt;ul&gt;
+&lt;li&gt;[server] Correct EventSummary user_id db tag; audit ownership-consolidation constructs (#5615) @ritzorama (#5640)&lt;/li&gt;
+&lt;li&gt;[UI] Update Account Link Cards Layout @NSTKrishna (#5641)&lt;/li&gt;
+&lt;li&gt;Fix: Prevent role-fetching crashes from interfering with password resets @NSTKrishna (#5635)&lt;/li&gt;
+&lt;li&gt;refactor(filters): migrate off homegrown UniversalFilter onto Sistent @alexquincy (#5638)&lt;/li&gt;
+&lt;li&gt;Add claude GitHub actions 1783029322939 @ritzorama (#5639)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.30 @l5io (#5633)&lt;/li&gt;
+&lt;li&gt;[UI] Fix stretched background layout on Account Profile link @NSTKrishna (#5636)&lt;/li&gt;
+&lt;li&gt;[UI] Migrate data-table filters to the shared @sistent/sistent UniversalFilter @claude (#5634)&lt;/li&gt;
+&lt;li&gt;[UI] Use the shared UniversalFilter for the catalog leaderboard @claude (#5632)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;chore(deps): Bump github.com/ozontech/allure-go/pkg/framework from 0.6.32 to 0.8.2 @dependabot (#5607)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump github.com/bradleyfalzon/ghinstallation/v2 from 2.17.0 to 2.19.0 @dependabot (#5602)&lt;/li&gt;
+&lt;li&gt;chore(deps): Bump go.opentelemetry.io/otel/trace from 1.43.0 to 1.44.0 @dependabot (#5604)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @alexquincy, @arjunmehta-git, @claude, @dependabot, @l5io, @leecalcote and @ritzorama&lt;/p&gt;</description></item><item><title>v1.0.52-1</title><link>/kanvas/reference/releases/v1.0.52-1/</link><pubDate>Thu, 02 Jul 2026 21:40:43 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.52-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.30 @l5io (#4281)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.29 @l5io (#4280)&lt;/li&gt;
+&lt;li&gt;[canvas] Default grid to hidden in user preferences @hortison (#4279)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.27 @l5io (#4278)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.26 @l5io (#4277)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@CodeAhmedJamil, @alexquincy, @hortison, @l5io, @leecalcote and @simihablo&lt;/p&gt;</description></item><item><title>v1.0.169</title><link>/cloud/reference/releases/v1.0.169/</link><pubDate>Thu, 02 Jul 2026 15:26:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.169/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): resolve infinite scroll-reset loop on subscriptions page @rishiraj38 (#5630)&lt;/li&gt;
+&lt;li&gt;Fix Connections modal layout padding and scroll overlap @rishiraj38 (#5631)&lt;/li&gt;
+&lt;li&gt;[UI] Hide author data columns and add leaderboard filter @claude (#5626)&lt;/li&gt;
+&lt;li&gt;[server] Retire local connection/design/roles models onto @meshery/schemas (plan 3.1 resource group) @leecalcote (#5629)&lt;/li&gt;
+&lt;li&gt;[server/models] Retire local Team onto schemas team.Team (plan 3.1 org group) @leecalcote (#5628)&lt;/li&gt;
+&lt;li&gt;[Server/UI] Consume schemas v1.3.22 pagination envelopes; collapse totalCount dual-reads @leecalcote (#5625)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@claude, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.168</title><link>/cloud/reference/releases/v1.0.168/</link><pubDate>Wed, 01 Jul 2026 23:33:51 +0000</pubDate><guid>/cloud/reference/releases/v1.0.168/</guid><description>&lt;ul&gt;
+&lt;li&gt;Add full and full-release modes for iterate-pr @miacycle (#5623)&lt;/li&gt;
+&lt;li&gt;[Server] Consume schemas team.TeamPayload; retire local model_team_payload.go @leecalcote (#5622)&lt;/li&gt;
+&lt;li&gt;chore(db): refresh cloud-schema.sql from prod (owner-consolidation) + uniformity remediation plan @leecalcote (#5620)&lt;/li&gt;
+&lt;li&gt;fix(ui): read totalCount for team/credential/view/keychain counts @leecalcote (#5619)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@arjunmehta-git, @leecalcote and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.166</title><link>/cloud/reference/releases/v1.0.166/</link><pubDate>Wed, 01 Jul 2026 17:25:57 +0000</pubDate><guid>/cloud/reference/releases/v1.0.166/</guid><description>&lt;ul&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.21.26 @l5io (#5614)&lt;/li&gt;
+&lt;li&gt;Database: Refresh schema on change of DDL @leecalcote (#5612)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-cloud-ui" class="heading-link"&gt;
+ 🖥 Cloud UI
+ &lt;a href="#-cloud-ui" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): BYOC social buttons, All-Orgs identity views, invitations scope @leecalcote (#5613)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): BYOC social buttons, All-Orgs identity views, invitations scope @leecalcote (#5613)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.165</title><link>/cloud/reference/releases/v1.0.165/</link><pubDate>Tue, 30 Jun 2026 20:38:55 +0000</pubDate><guid>/cloud/reference/releases/v1.0.165/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(flow-emails): custom-domain signup verification links use the org host, not cloud.layer5.io @leecalcote (#5597)&lt;/li&gt;
+&lt;li&gt;style: customize scrollbar in widget picker drawer @rishiraj38 (#5601)&lt;/li&gt;
+&lt;li&gt;[server] Fix hidden 2042-2044 error-code collision; add collision guard @hortison (#5599)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @hortison, @jamieplu, @leecalcote and @rishiraj38&lt;/p&gt;</description></item><item><title>v1.0.164</title><link>/cloud/reference/releases/v1.0.164/</link><pubDate>Tue, 30 Jun 2026 16:27:54 +0000</pubDate><guid>/cloud/reference/releases/v1.0.164/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(profile): route profile updates through the Kratos admin API, not self-service @leecalcote (#5600)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.163</title><link>/cloud/reference/releases/v1.0.163/</link><pubDate>Tue, 30 Jun 2026 12:47:20 +0000</pubDate><guid>/cloud/reference/releases/v1.0.163/</guid><description>&lt;ul&gt;
+&lt;li&gt;test(domain_routing): deflake concurrent evict-vs-refresh cache test @leecalcote (#5596)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(migrations): renumber colliding oidc_pending_states migration + version-collision CI guard @leecalcote (#5598)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(migrations): renumber colliding oidc_pending_states migration + version-collision CI guard @leecalcote (#5598)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.162</title><link>/cloud/reference/releases/v1.0.162/</link><pubDate>Tue, 30 Jun 2026 01:59:46 +0000</pubDate><guid>/cloud/reference/releases/v1.0.162/</guid><description>&lt;ul&gt;
+&lt;li&gt;[DAO] Guard organization-scoped queries against empty org scope (supersedes #5559) @leecalcote (#5587)&lt;/li&gt;
+&lt;li&gt;feat(idp): create/tear down Identity Providers Environment on-behalf @leecalcote (#5593)&lt;/li&gt;
+&lt;li&gt;fix(ui): Identity Providers tab shows default state (not an error) for orgs without BYOC @leecalcote (#5588)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.161</title><link>/cloud/reference/releases/v1.0.161/</link><pubDate>Tue, 30 Jun 2026 01:45:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.161/</guid><description>&lt;h2 id="-features" class="heading-link"&gt;
+ 🚀 Features
+ &lt;a href="#-features" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-cloud-ui" class="heading-link"&gt;
+ 🖥 Cloud UI
+ &lt;a href="#-cloud-ui" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-infrastructure" class="heading-link"&gt;
+ 🦴 Infrastructure
+ &lt;a href="#-infrastructure" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-documentation" class="heading-link"&gt;
+ 📖 Documentation
+ &lt;a href="#-documentation" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(oidc): eTLD-agnostic OIDC state via a server-side nonce-keyed store (#5420) @leecalcote (#5590)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.160</title><link>/cloud/reference/releases/v1.0.160/</link><pubDate>Tue, 30 Jun 2026 01:22:26 +0000</pubDate><guid>/cloud/reference/releases/v1.0.160/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(webhook): configure GITHUB_WEBHOOK_SECRET and surface misconfig once at startup @leecalcote (#5594)&lt;/li&gt;
+&lt;li&gt;[chore] add MeshKit-error PreToolUse guard for the Go backend @leecalcote (#5592)&lt;/li&gt;
+&lt;li&gt;[chore] register no-ai-attribution PreToolUse hook in settings @leecalcote (#5591)&lt;/li&gt;
+&lt;li&gt;[server] fix: catalog Technology dropdown shows full model registry (honor camelCase pageSize) @leecalcote (#5589)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@fitzergerald and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.159</title><link>/cloud/reference/releases/v1.0.159/</link><pubDate>Mon, 29 Jun 2026 22:02:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.159/</guid><description>&lt;ul&gt;
+&lt;li&gt;[docs] Plan: rename built-in roles (admin -&amp;gt; provider admin, Anonymous User -&amp;gt; anonymous user) @leecalcote (#5586)&lt;/li&gt;
+&lt;li&gt;docs: resolve TP-003 test-ID collision and sweep em-dashes @leecalcote (#5585)&lt;/li&gt;
+&lt;li&gt;docs: reorganize and consolidate internal documentation @leecalcote (#5584)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.50-1</title><link>/kanvas/reference/releases/v1.0.50-1/</link><pubDate>Mon, 29 Jun 2026 12:16:41 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.50-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
+ What&amp;rsquo;s New
+ &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;h2 id="-general" class="heading-link"&gt;
+ 🔤 General
+ &lt;a href="#-general" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Track model dir move to repo-root models/ and bump meshkit v1.0.19 @miacycle (#4276)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@l5io, @leecalcote and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.49-1</title><link>/kanvas/reference/releases/v1.0.49-1/</link><pubDate>Fri, 26 Jun 2026 10:55:09 +0000</pubDate><guid>/kanvas/reference/releases/v1.0.49-1/</guid><description>&lt;h2 id="whats-new" class="heading-link"&gt;
  What&amp;rsquo;s New
  &lt;a href="#whats-new" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -28834,6 +29986,57 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
  
  &lt;h2&gt;Catalog Permissions&lt;/h2&gt;
@@ -29378,6 +30581,10 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -29502,6 +30709,20 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -29783,6 +31004,8 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;/tr&gt;
+ 
+ 
  
  
  
@@ -31473,6 +32696,22 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -31732,6 +32971,258 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  
  
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Publish WASM Filter
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Publish WASM Filter
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Unpublish WASM Filter
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Unpublish WASM Filter
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
  
  
  
@@ -32668,6 +34159,22 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -32789,6 +34296,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -33363,437 +34874,6 @@ Thank you to our contributors for making this release possible:
  
  
  
- &lt;/tbody&gt;
- &lt;/table&gt;
- 
- &lt;h2&gt; Permissions&lt;/h2&gt;
- &lt;table class="csvtable td-initial"&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- 
- 
- 
- 
- 
- &lt;th&gt;Permission&lt;/th&gt;
- 
- 
- 
- 
- 
- &lt;th&gt;Description&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;tr&gt;
- 
- 
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- &lt;td&gt;
- 
- 
- ❌
- 
- 
- &lt;/td&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;/tr&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
@@ -33929,6 +35009,8 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
  
  
  
@@ -34503,6 +35585,22 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -34624,6 +35722,8 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
  
  
  
@@ -34812,6 +35912,147 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Leave Team
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Leave a team
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -35069,6 +36310,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -36768,6 +38013,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -36889,6 +38148,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -38463,6 +39726,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -38584,6 +39861,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -39533,6 +40814,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -39654,6 +40949,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -40603,6 +41902,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -40724,6 +42037,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -41673,6 +42990,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -41794,6 +43125,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -42993,6 +44328,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -43114,6 +44463,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -43920,7 +45273,7 @@ Thank you to our contributors for making this release possible:
  
  &lt;td&gt;
  
- Remove connections from environments
+ Remove connections from environment
  
  &lt;/td&gt;
  
@@ -44035,6 +45388,20 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -44184,6 +45551,10 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
  
  
  
@@ -45633,6 +47004,20 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -45952,6 +47337,10 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -45961,7 +47350,7 @@ Thank you to our contributors for making this release possible:
  
  &lt;td&gt;
  
- Access the Academy console
+ View Academy Metrics
  
  &lt;/td&gt;
  
@@ -46058,6 +47447,2247 @@ Thank you to our contributors for making this release possible:
  
  
  ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ 
+ &lt;h2&gt;Operator Permissions&lt;/h2&gt;
+ &lt;table class="csvtable td-initial"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Permission&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Description&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ View Views
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ See all views within a workspace
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Delete View
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Dissolve environment and all connection memberships. Leave associated resources intact.
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅ *
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Assign Views to Workspace
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Add new views to workspace
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Unassign Views from Workspace
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Remove views from workspace 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ 
+ &lt;h2&gt;Credentials Permissions&lt;/h2&gt;
+ &lt;table class="csvtable td-initial"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Permission&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Description&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ View Credentials
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ 
+ &lt;h2&gt;Tokens Permissions&lt;/h2&gt;
+ &lt;table class="csvtable td-initial"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Permission&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Description&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Download Token
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ 
+ &lt;h2&gt;Roles Permissions&lt;/h2&gt;
+ &lt;table class="csvtable td-initial"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Permission&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Description&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Assign User Roles
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
  
  
  &lt;/td&gt;
@@ -46969,8 +50599,134 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
 
  
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Publish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Publish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unpublish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Unpublish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
  
  
  
@@ -49810,6 +53566,122 @@ Thank you to our contributors for making this release possible:
  &lt;tr&gt;
  &lt;td&gt;View All Kubernetes Clusters &lt;/td&gt;
  &lt;td&gt;View all configured Kubernetes clusters&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Leave Team &lt;/td&gt;
+ &lt;td&gt;Leave a team&lt;/td&gt;
  &lt;/tr&gt;
  
  
@@ -57146,6 +61018,778 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Views &lt;/td&gt;
+ &lt;td&gt;See all views within a workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete View &lt;/td&gt;
+ &lt;td&gt;Dissolve environment and all connection memberships. Leave associated resources intact.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Download Token &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  &lt;/div&gt;
@@ -57236,6 +61880,960 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -78108,6 +83706,960 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  &lt;/div&gt;
@@ -78881,6 +85433,238 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
+ &lt;td&gt;Publish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Publish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unpublish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Unpublish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
  &lt;td&gt;View Catalog Requests &lt;/td&gt;
  &lt;td&gt;View the catalog publication request queue&lt;/td&gt;
  &lt;/tr&gt;
@@ -79116,112 +85900,6 @@ Thank you to our contributors for making this release possible:
  &lt;td&gt;Deny Catalog Request &lt;/td&gt;
  &lt;td&gt;Deny catalog publication requests&lt;/td&gt;
  &lt;/tr&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
  
  
  
@@ -81763,6 +88441,122 @@ Thank you to our contributors for making this release possible:
  &lt;tr&gt;
  &lt;td&gt;View All Kubernetes Clusters &lt;/td&gt;
  &lt;td&gt;View all configured Kubernetes clusters&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Leave Team &lt;/td&gt;
+ &lt;td&gt;Leave a team&lt;/td&gt;
  &lt;/tr&gt;
  
  
@@ -87735,7 +94529,7 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
- &lt;td&gt;Remove connections from environments &lt;/td&gt;
+ &lt;td&gt;Remove connections from environment &lt;/td&gt;
  &lt;td&gt;Remove connections from environment, &lt;/td&gt;
  &lt;/tr&gt;
  
@@ -89229,6 +96023,798 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Views &lt;/td&gt;
+ &lt;td&gt;See all views within a workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete View &lt;/td&gt;
+ &lt;td&gt;Dissolve environment and all connection memberships. Leave associated resources intact.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Assign Views to Workspace &lt;/td&gt;
+ &lt;td&gt;Add new views to workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unassign Views from Workspace &lt;/td&gt;
+ &lt;td&gt;Remove views from workspace &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Download Token &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  &lt;/div&gt;
@@ -89319,6 +96905,218 @@ Thank you to our contributors for making this release possible:
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -94785,6 +102583,748 @@ Thank you to our contributors for making this release possible:
  &lt;td&gt;View Organizations &lt;/td&gt;
  &lt;td&gt;See all organizations of which you are an administrator. See all members of those organizations.&lt;/td&gt;
  &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -100543,6 +109083,238 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
+ &lt;td&gt;Publish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Publish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unpublish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Unpublish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
  &lt;td&gt;View Catalog Requests &lt;/td&gt;
  &lt;td&gt;View the catalog publication request queue&lt;/td&gt;
  &lt;/tr&gt;
@@ -100778,112 +109550,6 @@ Thank you to our contributors for making this release possible:
  &lt;td&gt;Deny Catalog Request &lt;/td&gt;
  &lt;td&gt;Deny catalog publication requests&lt;/td&gt;
  &lt;/tr&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
  
  
  
@@ -103436,6 +112102,112 @@ Thank you to our contributors for making this release possible:
  &lt;td&gt;View All Kubernetes Clusters &lt;/td&gt;
  &lt;td&gt;View all configured Kubernetes clusters&lt;/td&gt;
  &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -109697,7 +118469,7 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
- &lt;td&gt;Remove connections from environments &lt;/td&gt;
+ &lt;td&gt;Remove connections from environment &lt;/td&gt;
  &lt;td&gt;Remove connections from environment, &lt;/td&gt;
  &lt;/tr&gt;
  
@@ -111198,6 +119970,818 @@ Thank you to our contributors for making this release possible:
  
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Views &lt;/td&gt;
+ &lt;td&gt;See all views within a workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete View &lt;/td&gt;
+ &lt;td&gt;Dissolve environment and all connection memberships. Leave associated resources intact.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Assign Views to Workspace &lt;/td&gt;
+ &lt;td&gt;Add new views to workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unassign Views from Workspace &lt;/td&gt;
+ &lt;td&gt;Remove views from workspace &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Credentials &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Download Token &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Assign User Roles &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
  
  
  
@@ -111974,6 +121558,238 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
+ &lt;td&gt;Publish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Publish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unpublish WASM Filter &lt;/td&gt;
+ &lt;td&gt;Unpublish WASM Filter&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
  &lt;td&gt;View Catalog Requests &lt;/td&gt;
  &lt;td&gt;View the catalog publication request queue&lt;/td&gt;
  &lt;/tr&gt;
@@ -112209,112 +122025,6 @@ Thank you to our contributors for making this release possible:
  &lt;td&gt;Deny Catalog Request &lt;/td&gt;
  &lt;td&gt;Deny catalog publication requests&lt;/td&gt;
  &lt;/tr&gt;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
  
  
  
@@ -114866,6 +124576,122 @@ Thank you to our contributors for making this release possible:
  &lt;tr&gt;
  &lt;td&gt;View All Kubernetes Clusters &lt;/td&gt;
  &lt;td&gt;View all configured Kubernetes clusters&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Leave Team &lt;/td&gt;
+ &lt;td&gt;Leave a team&lt;/td&gt;
  &lt;/tr&gt;
  
  
@@ -121128,7 +130954,7 @@ Thank you to our contributors for making this release possible:
  
  
  &lt;tr&gt;
- &lt;td&gt;Remove connections from environments &lt;/td&gt;
+ &lt;td&gt;Remove connections from environment &lt;/td&gt;
  &lt;td&gt;Remove connections from environment, &lt;/td&gt;
  &lt;/tr&gt;
  
@@ -122632,6 +132458,818 @@ Thank you to our contributors for making this release possible:
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Views &lt;/td&gt;
+ &lt;td&gt;See all views within a workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete View &lt;/td&gt;
+ &lt;td&gt;Dissolve environment and all connection memberships. Leave associated resources intact.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Assign Views to Workspace &lt;/td&gt;
+ &lt;td&gt;Add new views to workspace&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Unassign Views from Workspace &lt;/td&gt;
+ &lt;td&gt;Remove views from workspace &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Credentials &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Download Token &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Assign User Roles &lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  &lt;/div&gt;
@@ -122879,7 +133517,7 @@ To pin a model to the dock in Layer5 Kanvas, click the pin icon next to the mode
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[173 114 264 181 38 239]" src="images/publish-to-artifacthub/2024-07-30_1.png" onclick="openModal(this.id)" alt="" 
+ &lt;img id="[276 14 43 48 391 411]" src="images/publish-to-artifacthub/2024-07-30_1.png" onclick="openModal(this.id)" alt="" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;</description></item><item><title>Search Results</title><link>/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/search/</guid><description/></item><item><title>Troubleshooting Kanvas</title><link>/kanvas/reference/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/reference/troubleshooting/</guid><description>&lt;h2 id="meshery-extension" class="heading-link"&gt;
  Meshery Extension
