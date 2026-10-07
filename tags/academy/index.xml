@@ -14,12 +14,21 @@
 
 
 
-
-
 &lt;div class="md__image"&gt;
- &lt;img id="[240 39 407 307 114 490]" src="./images/overview.png" onclick="openModal(this.id)" alt="Example of Academy" 
+ &lt;picture&gt;
+ &lt;source srcset="/contentimg/cloud/academy/creating-content/extending-the-academy/images/overview_hu_be86832c49259e3b.webp" type="image/webp" width="1534" height="993"&gt;
+ &lt;img src="./images/overview.png" onclick="openModal(this)" alt="Example of Academy"
+ width="1534" height="993"
  class="md-image-responsive" /&gt;
-&lt;/div&gt;&lt;/p&gt;</description></item><item><title>Learner Guide</title><link>/cloud/academy/using-the-academy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/using-the-academy/</guid><description>&lt;p&gt;This guide is designed to be your friendly companion, helping you navigate the platform, understand its features, and make the most of your learning experience.&lt;/p&gt;
+ &lt;/picture&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id="who-can-create-content" class="heading-link"&gt;
+ Who Can Create Content
+ &lt;a href="#who-can-create-content" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The ability to create, manage, and publish content is available to organizations on our &lt;strong&gt;Enterprise Plan&lt;/strong&gt;. This plan includes full support for:&lt;/p&gt;</description></item><item><title>Learner Guide</title><link>/cloud/academy/using-the-academy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/using-the-academy/</guid><description>&lt;p&gt;This guide is designed to be your friendly companion, helping you navigate the platform, understand its features, and make the most of your learning experience.&lt;/p&gt;
 &lt;p&gt;Here, you can achieve:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A systematic understanding of complex topics&lt;/li&gt;
@@ -58,50 +67,7 @@
 &lt;li&gt;&lt;a href="https://docs.layer5.io/cloud/academy/using-the-academy/"&gt;Learners&lt;/a&gt;: Engage with Learning paths, challenges, and certifications to build and validate cloud-native skills&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.layer5.io/cloud/academy/creating-content/"&gt;Content Creators (Instructors)&lt;/a&gt;: Develop and publish structured materials, and manage the overall learning experience&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.layer5.io/cloud/academy/platform-development/"&gt;Platform Developers&lt;/a&gt;: Extend and maintain the Academy platform, enabling new features and integrations&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Default Academy Roles</title><link>/cloud/concepts/identity-and-security/roles/academy-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/academy-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
-&lt;div class="td-card card border me-4"&gt;
-&lt;div class="card-header"&gt;
- Academy Administrator
- &lt;/div&gt;
-&lt;div class="card-body"&gt;
- &lt;p class="card-text"&gt;
- &lt;img src="images/academy-admin.svg" link="images/academy-admin.svg" width="100%" alt="Academy Administrator Roles" /&gt;
-&lt;/p&gt;
- &lt;/div&gt;
- &lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;div class="td-card-group card-group p-0 mb-4"&gt;
-
-&lt;div class="td-card card border me-4"&gt;
-&lt;div class="card-header"&gt;
- 
-&lt;h2 id="academy-administrator" class="heading-link"&gt;
- Academy Administrator
- &lt;a href="#academy-administrator" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-
- &lt;/div&gt;
-&lt;div class="card-body"&gt;
- &lt;p class="card-text"&gt;
- &lt;p&gt;&lt;strong&gt;What is the purpose of this role?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Management of an organization&amp;rsquo;s academy, learner management, and access to academy instructor console.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Organization Administrators&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Manually assigned by an Organization Administrator.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;How many instances of these roles?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Min: 0, Max: many&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Who can remove assignment of this role?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Integrating Assessments in the Academy</title><link>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</guid><description>&lt;p&gt;&lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Cloud Academy&lt;/a&gt; implements &lt;strong&gt;Learning Paths&lt;/strong&gt;, &lt;strong&gt;Challenges&lt;/strong&gt;, and &lt;strong&gt;Certifications&lt;/strong&gt; to enrich the learner experience. We support multi-level assessments to guide and evaluate progress. The content structure is hierarchical and modular, enabling scalable learning design.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Integrating Assessments in the Academy</title><link>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/integrating-assessments-in-the-academy/</guid><description>&lt;p&gt;&lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Cloud Academy&lt;/a&gt; implements &lt;strong&gt;Learning Paths&lt;/strong&gt;, &lt;strong&gt;Challenges&lt;/strong&gt;, and &lt;strong&gt;Certifications&lt;/strong&gt; to enrich the learner experience. We support multi-level assessments to guide and evaluate progress. The content structure is hierarchical and modular, enabling scalable learning design.&lt;/p&gt;
 &lt;p&gt;Think of it as a &lt;strong&gt;botanical garden&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learning Path = the comprehensive plant collection
@@ -142,24 +108,26 @@
 
 
 
-
-
 &lt;div class="md__image"&gt;
- &lt;img id="[58 448 345 140 352 30]" src="./images/academy-admin.svg" onclick="openModal(this.id)" alt="Academy Admin Role" 
+ &lt;img src="./images/academy-admin.svg" onclick="openModal(this)" alt="Academy Admin Role"
  class="md-image-responsive" /&gt;
-&lt;/div&gt;&lt;/p&gt;</description></item><item><title>Building Certifications</title><link>/cloud/academy/creating-content/building-certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/building-certifications/</guid><description>&lt;p&gt;In &lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Academy&lt;/a&gt;, a &lt;strong&gt;Certification&lt;/strong&gt; is a formal assessment designed to validate a learner&amp;rsquo;s professional skills in a specific domain. Unlike a Learning Path, which guides a user through a curriculum, a Certification&amp;rsquo;s primary goal is evaluation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Building Certifications</title><link>/cloud/academy/creating-content/building-certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/building-certifications/</guid><description>&lt;p&gt;In &lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Academy&lt;/a&gt;, a &lt;strong&gt;Certification&lt;/strong&gt; is a formal assessment designed to validate a learner&amp;rsquo;s professional skills in a specific domain. Unlike a Learning Path, which guides a user through a curriculum, a Certification&amp;rsquo;s primary goal is evaluation.&lt;/p&gt;
 &lt;p&gt;The successful completion of a Certification results in an official, shareable &lt;strong&gt;Certificate of Completion&lt;/strong&gt; and a valuable badge, signifying a verified level of proficiency.&lt;/p&gt;
 &lt;p&gt;
 
 
 
 
-
-
 &lt;div class="md__image"&gt;
- &lt;img id="[281 328 129 452 297 61]" src="./images/index-page.png" onclick="openModal(this.id)" alt="example image" 
+ &lt;picture&gt;
+ &lt;source srcset="/contentimg/cloud/academy/creating-content/building-certifications/images/index-page_hu_68368cf0e80d09b4.webp" type="image/webp" width="1684" height="1384"&gt;
+ &lt;img src="./images/index-page.png" onclick="openModal(this)" alt="example image"
+ width="1684" height="1384"
  class="md-image-responsive" /&gt;
-&lt;/div&gt;&lt;/p&gt;
+ &lt;/picture&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 
 &lt;h3 id="when-to-use-a-certification" class="heading-link"&gt;
  When to Use a Certification
@@ -238,12 +206,15 @@ creating learning paths, challenges, and certifications by collecting all necess
 
 
 
-
-
 &lt;div class="md__image"&gt;
- &lt;img id="[121 130 498 196 249 348]" src="images/template-creator.png" onclick="openModal(this.id)" alt="Academy Content Template Creator" 
+ &lt;picture&gt;
+ &lt;source srcset="/contentimg/cloud/academy/creating-content/using-content-template-creator/images/template-creator_hu_7864663dcbca87fe.webp" type="image/webp" width="1674" height="906"&gt;
+ &lt;img src="images/template-creator.png" onclick="openModal(this)" alt="Academy Content Template Creator"
+ width="1674" height="906"
  class="md-image-responsive" /&gt;
-&lt;/div&gt;&lt;/p&gt;
+ &lt;/picture&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Access the Creator: Click on the &amp;ldquo;Create New Content&amp;rdquo; card in your Academy dashboard&lt;/li&gt;
 &lt;li&gt;Create Your Content: The wizard will guide you through &lt;strong&gt;5 essential steps&lt;/strong&gt; to create your content template&lt;/li&gt;
