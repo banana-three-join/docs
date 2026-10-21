@@ -1,4 +1,356 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.273</title><link>/cloud/reference/releases/v1.0.273/</link><pubDate>Tue, 06 Oct 2026 23:41:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.273/</guid><description>&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on Layer5 Documentation</title><link>/cloud/reference/releases/</link><description>Recent content in Releases on Layer5 Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/cloud/reference/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>v1.0.304</title><link>/cloud/reference/releases/v1.0.304/</link><pubDate>Tue, 20 Oct 2026 08:02:18 +0000</pubDate><guid>/cloud/reference/releases/v1.0.304/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(server): add profile environment purpose @leecalcote (#6272)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.303</title><link>/cloud/reference/releases/v1.0.303/</link><pubDate>Tue, 20 Oct 2026 06:36:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.303/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(handlers): accept publishing-destination connection kinds with https url @leecalcote (#6271)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.302</title><link>/cloud/reference/releases/v1.0.302/</link><pubDate>Tue, 20 Oct 2026 05:45:45 +0000</pubDate><guid>/cloud/reference/releases/v1.0.302/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(handlers): serve org-scoped content pieces API @leecalcote (#6261)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.301</title><link>/cloud/reference/releases/v1.0.301/</link><pubDate>Tue, 20 Oct 2026 01:47:13 +0000</pubDate><guid>/cloud/reference/releases/v1.0.301/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(deploy): point Kanvas production sign-in at cloud.kanvas.new @leecalcote (#6270)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.300</title><link>/cloud/reference/releases/v1.0.300/</link><pubDate>Mon, 19 Oct 2026 07:03:59 +0000</pubDate><guid>/cloud/reference/releases/v1.0.300/</guid><description>&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): native client sign-in works on custom domains and for child-organization users @leecalcote (#6260)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(identity): native client sign-in works on custom domains and for child-organization users @leecalcote (#6260)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.299</title><link>/cloud/reference/releases/v1.0.299/</link><pubDate>Mon, 19 Oct 2026 05:56:27 +0000</pubDate><guid>/cloud/reference/releases/v1.0.299/</guid><description>&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(email): a branded tenant without a logo never gets the provider&amp;rsquo;s mark in verification or recovery mail @leecalcote (#6259)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.298</title><link>/cloud/reference/releases/v1.0.298/</link><pubDate>Mon, 19 Oct 2026 05:09:19 +0000</pubDate><guid>/cloud/reference/releases/v1.0.298/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(branding): a branded tenant never sees the provider&amp;rsquo;s brand in email or UI @leecalcote (#6258)&lt;/li&gt;
+&lt;li&gt;[auth] One-screen sign-up, signed in at once, verified on click, back to the origin @leecalcote (#6254)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.297</title><link>/cloud/reference/releases/v1.0.297/</link><pubDate>Mon, 19 Oct 2026 04:39:13 +0000</pubDate><guid>/cloud/reference/releases/v1.0.297/</guid><description>&lt;h2 id="-features" class="heading-link"&gt;
+ 🚀 Features
+ &lt;a href="#-features" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(permissions): grant Create Token to the plain user role through User Edit @leecalcote (#6256)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;feat(permissions): grant Create Token to the plain user role through User Edit @leecalcote (#6256)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.296</title><link>/cloud/reference/releases/v1.0.296/</link><pubDate>Mon, 19 Oct 2026 04:19:32 +0000</pubDate><guid>/cloud/reference/releases/v1.0.296/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(invitations): child organizations start with the inviting organization&amp;rsquo;s branding (childOrganizationBranding) @leecalcote (#6252)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.295</title><link>/cloud/reference/releases/v1.0.295/</link><pubDate>Mon, 19 Oct 2026 03:44:28 +0000</pubDate><guid>/cloud/reference/releases/v1.0.295/</guid><description>&lt;h2 id="-server" class="heading-link"&gt;
+ 💻 Server
+ &lt;a href="#-server" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(tokens): filter GET /api/identity/tokens by purpose @leecalcote (#6253)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-bug-fixes" class="heading-link"&gt;
+ 🐛 Bug Fixes
+ &lt;a href="#-bug-fixes" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;fix(tokens): filter GET /api/identity/tokens by purpose @leecalcote (#6253)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.294</title><link>/cloud/reference/releases/v1.0.294/</link><pubDate>Mon, 19 Oct 2026 03:01:37 +0000</pubDate><guid>/cloud/reference/releases/v1.0.294/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(tokens): default isOauth to false when omitted @leecalcote (#6249)&lt;/li&gt;
+&lt;li&gt;fix(invitations): child_organization places a registrant at sign-up; direct_membership waits for verification; verified accounts become active @leecalcote (#6241)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.293</title><link>/cloud/reference/releases/v1.0.293/</link><pubDate>Mon, 19 Oct 2026 01:41:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.293/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): authorize invitation writes, validate their roles and teams, and restrict the events aggregate @jijillery (#6219)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @leecalcote, @pontusringblom and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.292</title><link>/cloud/reference/releases/v1.0.292/</link><pubDate>Sun, 18 Oct 2026 22:50:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.292/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): issue and verify a fresh Hydra authorize nonce per sign-in @leecalcote (#6239)&lt;/li&gt;
+&lt;li&gt;test(smoke): follow the Hydra sign-in chain in the custom-domain probe @leecalcote (#6238)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.291</title><link>/cloud/reference/releases/v1.0.291/</link><pubDate>Sun, 18 Oct 2026 22:36:28 +0000</pubDate><guid>/cloud/reference/releases/v1.0.291/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat: imported GitHub designs inventory, refresh from source, and idempotent re-import @jijillery (#6190)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @simihablo and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.290</title><link>/cloud/reference/releases/v1.0.290/</link><pubDate>Sun, 18 Oct 2026 21:57:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.290/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): scope team writes to the organization in the URL @leecalcote (#6164)&lt;/li&gt;
+&lt;li&gt;test(e2e): assert the Hydra-bounce /oidc/start contract in the OAuth redirect monitor @winkletinkle (#6237)&lt;/li&gt;
+&lt;li&gt;[Chore-UI] Fix Badge Overflow in Grid Layout @Katotodan (#6220)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Katotodan, @leecalcote, @pontusringblom and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.289</title><link>/cloud/reference/releases/v1.0.289/</link><pubDate>Sun, 18 Oct 2026 20:21:06 +0000</pubDate><guid>/cloud/reference/releases/v1.0.289/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): store an omitted invitation emails, roles or teams list as empty @jijillery (#6236)&lt;/li&gt;
+&lt;li&gt;feat(badges): award first-share badge on design share @Maanvi212006 (#6230)&lt;/li&gt;
+&lt;li&gt;[Chore]: Update to Sistent v0.24.2 @l5io (#6225)&lt;/li&gt;
+&lt;li&gt;fix(server): make the GitHub installation token cache safe for concurrent use @jijillery (#6231)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Maanvi212006, @arjunmehta-git, @carlosriosilva, @jijillery, @l5io, @leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.288</title><link>/cloud/reference/releases/v1.0.288/</link><pubDate>Sun, 18 Oct 2026 18:18:11 +0000</pubDate><guid>/cloud/reference/releases/v1.0.288/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): bounce custom-domain sign-up through tenant Hydra to mint a login_challenge @leecalcote (#6235)&lt;/li&gt;
+&lt;li&gt;refactor(badges): remove redundant duplicate first-design award block in save handler @Maanvi212006 (#6228)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@Maanvi212006 and @leecalcote&lt;/p&gt;</description></item><item><title>v1.0.287</title><link>/cloud/reference/releases/v1.0.287/</link><pubDate>Sun, 18 Oct 2026 00:26:04 +0000</pubDate><guid>/cloud/reference/releases/v1.0.287/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): act only through the caller&amp;rsquo;s verified GitHub App installations @jijillery (#6217)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.286</title><link>/cloud/reference/releases/v1.0.286/</link><pubDate>Sat, 17 Oct 2026 23:48:20 +0000</pubDate><guid>/cloud/reference/releases/v1.0.286/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(identity): return the stored row id from minted API tokens @leecalcote (#6227)&lt;/li&gt;
+&lt;li&gt;docs(skills): add a read-only production-diagnostics skill @leecalcote (#6226)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.285</title><link>/cloud/reference/releases/v1.0.285/</link><pubDate>Sat, 17 Oct 2026 22:10:29 +0000</pubDate><guid>/cloud/reference/releases/v1.0.285/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(invitations): add acceptanceOutcome picker and child-organization acceptance @leecalcote (#6167)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jamieplu, @leecalcote and @winkletinkle&lt;/p&gt;</description></item><item><title>v1.0.284</title><link>/cloud/reference/releases/v1.0.284/</link><pubDate>Sat, 17 Oct 2026 17:07:09 +0000</pubDate><guid>/cloud/reference/releases/v1.0.284/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(identity): native client sign-in via loopback redirect and PKCE @leecalcote (#6223)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @meshery-ci&lt;/p&gt;</description></item><item><title>v1.0.283</title><link>/cloud/reference/releases/v1.0.283/</link><pubDate>Fri, 16 Oct 2026 20:49:59 +0000</pubDate><guid>/cloud/reference/releases/v1.0.283/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(auth): allow Meshery server and playground login sources (P0 sign-in outage) @leecalcote (#6222)&lt;/li&gt;
+&lt;li&gt;docs(skills): make the Features &amp;amp; Permissions sheet the permission-key source of truth @pontusringblom (#6221)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @pontusringblom&lt;/p&gt;</description></item><item><title>v1.0.282</title><link>/cloud/reference/releases/v1.0.282/</link><pubDate>Fri, 16 Oct 2026 07:35:55 +0000</pubDate><guid>/cloud/reference/releases/v1.0.282/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(connect): reset stuck connect spinner on bfcache restore @leecalcote (#6170)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.281</title><link>/cloud/reference/releases/v1.0.281/</link><pubDate>Fri, 16 Oct 2026 05:57:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.281/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): refuse provider roles in organization and team role writes @jijillery (#6215)&lt;/li&gt;
+&lt;li&gt;fix(ui): report per-row failures of bulk user actions @jijillery (#6216)&lt;/li&gt;
+&lt;li&gt;deploy: provision GitHub App OAuth client credentials for production and staging @alexquincy (#6218)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @arjunmehta-git, @jijillery and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.280</title><link>/cloud/reference/releases/v1.0.280/</link><pubDate>Fri, 16 Oct 2026 04:58:38 +0000</pubDate><guid>/cloud/reference/releases/v1.0.280/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): restrict role, keychain and key grant writes to provider admins @jijillery (#6201)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery and @miacycle&lt;/p&gt;</description></item><item><title>v1.0.279</title><link>/cloud/reference/releases/v1.0.279/</link><pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate><guid>/cloud/reference/releases/v1.0.279/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(server): attribute every program-signup badge award in event_trackers @jijillery (#6186)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@jijillery, @meshery-ci, @sarajkrishnasingh and @suttonskate&lt;/p&gt;</description></item><item><title>v1.0.278</title><link>/cloud/reference/releases/v1.0.278/</link><pubDate>Thu, 15 Oct 2026 20:19:39 +0000</pubDate><guid>/cloud/reference/releases/v1.0.278/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(ui): shorten Canvas-first onboarding to land new users on Import from GitHub @jijillery (#6172)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @arjunmehta-git and @jijillery&lt;/p&gt;</description></item><item><title>v1.0.277</title><link>/cloud/reference/releases/v1.0.277/</link><pubDate>Thu, 15 Oct 2026 13:56:10 +0000</pubDate><guid>/cloud/reference/releases/v1.0.277/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(ui): normalize DEPLOY_ENVIRONMENT aliases for GITHUB_APP_URL resolution @leecalcote (#6169)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote&lt;/p&gt;</description></item><item><title>v1.0.276</title><link>/cloud/reference/releases/v1.0.276/</link><pubDate>Thu, 15 Oct 2026 12:47:49 +0000</pubDate><guid>/cloud/reference/releases/v1.0.276/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(connect): navigate to GitHub authorization instead of silently failing on connect @leecalcote (#6166)&lt;/li&gt;
+&lt;li&gt;fix(handlers): validate sign-in source against org custom domains @leecalcote (#6165)&lt;/li&gt;
+&lt;li&gt;feat(blowhorn): serve GET /api/blowhorn/health @leecalcote (#6168)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@leecalcote and @meshery-ci&lt;/p&gt;</description></item><item><title>v1.0.275</title><link>/cloud/reference/releases/v1.0.275/</link><pubDate>Fri, 09 Oct 2026 20:11:01 +0000</pubDate><guid>/cloud/reference/releases/v1.0.275/</guid><description>&lt;ul&gt;
+&lt;li&gt;feat(server): seed Blowhorn Free, Solo and Team plans for Cloud entitlement @leecalcote (#6161)&lt;/li&gt;
+&lt;li&gt;refactor(ui): child organizations use the generated schemas client @leecalcote (#6162)&lt;/li&gt;
+&lt;li&gt;feat(server): list an organization&amp;rsquo;s direct children @leecalcote (#6157)&lt;/li&gt;
+&lt;li&gt;fix(organizations): refuse deleting an organization that still has a live child @leecalcote (#6160)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="-dependencies" class="heading-link"&gt;
+ ⬆️ Dependencies
+ &lt;a href="#-dependencies" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;build(deps): bump @stripe/stripe-js from 9.17.0 to 10.0.0 in /ui @dependabot (#6143)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@alexquincy, @dependabot, @leecalcote and @sarajkrishnasingh&lt;/p&gt;</description></item><item><title>v1.0.274</title><link>/cloud/reference/releases/v1.0.274/</link><pubDate>Fri, 09 Oct 2026 03:57:24 +0000</pubDate><guid>/cloud/reference/releases/v1.0.274/</guid><description>&lt;ul&gt;
+&lt;li&gt;fix(handlers): hand live Cloud sessions back to kanvas.new sign-in @leecalcote (#6128)&lt;/li&gt;
+&lt;li&gt;feat(organizations): let a parent&amp;rsquo;s Organization Admin or Owner govern a direct child organization @leecalcote (#6156)&lt;/li&gt;
+&lt;li&gt;feat(ui): add a child organizations section to the organizations page @leecalcote (#6159)&lt;/li&gt;
+&lt;li&gt;feat(organizations): create a direct child organization under a parent @leecalcote (#6155)&lt;/li&gt;
+&lt;li&gt;feat(organizations): add nullable parent_id and OrgFromPathParam @leecalcote (#6154)&lt;/li&gt;
+&lt;li&gt;docs: add hierarchical organizations implementation plan @leecalcote (#6125)&lt;/li&gt;
+&lt;li&gt;fix(ui): scroll dashboard widgets that outgrow their cell instead of clipping them @leecalcote (#6136)&lt;/li&gt;
+&lt;li&gt;build(go): upgrade dependencies on go1.27.1 and align Go version references @miacycle (#6153)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="-contributors" class="heading-link"&gt;
+ 👨🏽‍💻 Contributors
+ &lt;a href="#-contributors" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Thank you to our contributors for making this release possible:
+@NSTKrishna, @alexquincy, @fitzergerald, @hamza-mohd, @jamieplu, @leecalcote, @meshery-ci, @miacycle, @sarajkrishnasingh, @suttonskate and @yi-nuo426&lt;/p&gt;</description></item><item><title>v1.0.273</title><link>/cloud/reference/releases/v1.0.273/</link><pubDate>Tue, 06 Oct 2026 23:41:40 +0000</pubDate><guid>/cloud/reference/releases/v1.0.273/</guid><description>&lt;ul&gt;
 &lt;li&gt;fix(ui): render unmeasured memberships as unknown @miacycle (#6152)&lt;/li&gt;
 &lt;/ul&gt;
 

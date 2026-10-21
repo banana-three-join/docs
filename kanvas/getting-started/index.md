@@ -20,7 +20,7 @@
 
 ## Sign in
 
-Kanvas can be explored anonymously, but saving to your account, sharing with teammates, and deploying require sign-in.
+Anonymous users can author designs and save them into a guest account. Sharing or publishing opens a sign-in prompt. On kanvas.new, Validate, Dry run, Deploy, Undeploy, connecting a cluster, and Operator mode open a prompt that directs you to the Meshery Playground or a self-hosted Meshery, including when you are signed in.
 
 <figure>
   <img src="images/auth-login.png" alt="Layer5 Cloud login with GitHub, Google, and email options" />
@@ -74,4 +74,18 @@ Choose **Designer** when you are authoring infrastructure; switch to **Operator*
 
 </div>
 
+
+## From a saved design to a cluster
+
+Validation checks every component against its schema and does not contact a cluster. A dry run sends the design to the target cluster without applying it. Deploy and undeploy apply to the Kubernetes contexts you select. If you select none, the action targets all connected clusters. Each resource Kanvas creates carries:
+
+| Metadata | Key | Value |
+| --- | --- | --- |
+| Label | `design.meshery.io/id` | The design's ID |
+| Annotation | `design.meshery.io/version` | The design version that was deployed |
+| Annotation | `component.meshery.io/id` | The component the resource came from |
+
+Validate Design permits both validation and dry runs. Deploy Design permits deploying. Undeploy Design permits undeploying. Those actions are disabled while the design is empty. Switching to Operator with unsaved changes asks "You have unsaved changes. Are you sure you want to leave?" A design's Operator view is named after the design, with `-View` appended, and filters on `design.meshery.io/id`.
+
+The steps live on [Validating Designs](/kanvas/tasks/designs/validating-designs/), [Dry Running a Design](/kanvas/tasks/designs/dry-running-a-design/), [Deploying Designs](/kanvas/tasks/designs/deploying-designs/), and [Undeploying Designs](/kanvas/tasks/designs/undeploying-designs/).
 

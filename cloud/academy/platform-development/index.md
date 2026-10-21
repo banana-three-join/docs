@@ -64,6 +64,8 @@ When its workflow is triggered, an automated process acts like a master assembly
 
 3.  **Deploys Online**: Finally, it takes the newly built website and automatically pushes it to the cloud platform, making the updates live for everyone to see.
 
+If the build fails, the previous version of your Academy stays live. The content repository's own workflow validates and notifies. It does not build the site learners see. Publishing a release is accepted only from an organization admin or owner.
+
 ## Developer Workflows
 
 ### How to Develop and Preview Locally
@@ -90,6 +92,8 @@ Use this workflow for rapid local development and iteration. If you're only chan
 3. `make site`: Starts the local Hugo development server.
 
 You can then view your content by navigating to `http://localhost:1313/academy`.
+
+Local preview shows structure, content, and links. It does not show your organization's branding, and it cannot score assessments, count attempts, or record progress, because those run on the Layer5 Cloud server.
 
 ### How to Develop the Academy Theme
 

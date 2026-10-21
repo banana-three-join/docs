@@ -40,33 +40,15 @@ This example demonstrates how to use the **Academy Content Template Creator** to
 
 **Understanding Access Status: Enabled vs Disabled**
 
-The Access Status setting in Step 3 controls the visibility and accessibility of your Academy content to users.
+Access status sets the invitation to enabled or disabled. It defaults to enabled. It does not by itself hide the catalog card. New content starts public, not ready, and beginner. Catalog visibility is that public flag. Access status only governs enrollment.
 
-**Enabled Status Behavior:**
-- **Visible**: Content appears in Academy catalogs and search results
-- **Accessible**: Users with proper permissions can view and interact with the content
-- **Active**: All features work normally (enrollment, progress tracking, badge awarding)
-- **Discoverable**: Content shows up in filtered searches and category browsing
+**Enabled:** a signed-in learner can enroll. Enrolling accepts the invitation.
 
-**Disabled Status Behavior:**
-- **Hidden**: Content does not appear in public Academy catalogs
-- **Inaccessible**: Users cannot access the content even with direct links
-- **Inactive**: No progress tracking or badge awarding occurs
-- **Non-discoverable**: Content is excluded from search results and browsing
+**Disabled:** the invitation blocks enrollment. Learners who already enrolled keep their role and team membership. Their progress is not paused.
 
-**For the Meshery Contributors Certification example:**
+**Content Access End Date** is the invitation's expiry. Leave it empty for no expiry. Expiry is checked at enrollment. After it passes, new learners cannot enroll. Learners who already enrolled keep their role and team membership.
 
-*If Enabled:*
-- Contributors can immediately find and enroll in the certification
-- Progress tracking begins upon enrollment
-- Badge is awarded upon successful completion
-- Content appears in the Contributors Program workspace
-
-*If Disabled:*
-- Certification is hidden from the Contributors Program
-- No new enrollments possible
-- Existing progress is paused
-- Content remains invisible until re-enabled
+The team field accepts one existing team. That team is added to the invitation, and learners join it when they enroll. You can type a new workspace name. The team must already exist.
 
 ### Step 4: Recognition
 ![Step 4: Recognition](images/template-creator-step4.png)
@@ -138,6 +120,8 @@ Provide a brief summary of what learners will gain.
 
 
 
+The `level` key in this output always reads `beginner`, whatever difficulty you picked on Content Details. Set it to `beginner`, `intermediate`, or `advanced` yourself. The creator also includes `tags` and `categories` when you entered them, and commented `competencies` and `prerequisite_knowledge` samples you can uncomment. `weight` is fixed at `1` until you change it.
+
 
 
 
@@ -147,7 +131,7 @@ Provide a brief summary of what learners will gain.
 <div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
   <h4 class="alert-heading" style="color: #3772ff;">Content ID Updates</h4>
   
-      If you click &ldquo;Back&rdquo; and return to Step 5, a new Content ID will be generated. Simply use the new ID and discard the previous one.
+      The creator writes the record when you advance from Recognition to Generate Template. You can go back and your entries stay, but advancing to the last step again creates another record with a new content ID and a new invitation. Use the ID on the final screen of your last run, and treat any earlier record as unused.
   
 </div>
 
@@ -174,25 +158,17 @@ The first column labeled "INVITATION" contains a shareable link that you can cop
 
 The auto-generated invitation link is a powerful tool that helps instructors efficiently manage learner access and streamline the enrollment process.
 
-### 1. Precise Team Access Control
+### 1. What accepting the invitation does
 
-Your invitation link provides targeted access management:
+Enrolling accepts the invitation. Acceptance is where access is decided.
 
-- **Specific Team Access**: Only members of your selected teams can access the content through this link
-- **Automatic Role Assignment**: Users who accept the invitation automatically receive the "Academy Learner" role
-- **Organization Boundary Protection**: Only users within your [organization](https://docs.layer5.io/cloud/concepts/identity-and-security/organizations/) can use this invitation
+- **Team**: The learner is added to the one team you picked, if they are not already a member. The creator does not assign several teams.
+- **Role**: Academy Learner is assigned in the organization if the learner does not already hold it.
+- **Who can accept**: The email list starts empty, so anyone who is signed in can accept. The invitation is not limited to people already in your organization, and it does not email the team for you. Add exact addresses or `@domain` entries on the invitation to restrict who can accept. See [User Invitations](/cloud/concepts/identity-and-security/users/user-invitations/).
 
-### 2. Flexible Sharing and Distribution
+### 2. Sharing the link
 
-**Automated Email Distribution:**
-- The system automatically sends invitation emails to specified team members
-- Emails include course descriptions and one-click access links
-- Reduces your manual notification workload and ensures consistent messaging
-
-**Direct Sharing Options:**
-- Copy and send the invitation link directly to team members
-- Share through collaboration tools like Slack, Microsoft Teams, or Discord
-- Embed the link in internal documentation, wikis, or learning portals
+Copy the invitation link from the invitation list and send it yourself. The link registers a learner for the content by accepting that invitation. It does not send mail on its own.
 
 
 ### Customize Invitation Properties
@@ -203,10 +179,9 @@ Click the pencil icon to access the invitation customization form.
 The invitation form contains eight properties. Three are automatically generated by the system for convenience, which you can modify according to your needs:
 
 **Auto-Generated Properties:**
-1. **Name**: Automatically formatted as "Academy Invitation for [your-content-name]"
-   *Example: "Academy Invitation for meshery-contributors-certification" (lowercase with dash)*
-2. **Description**: "Invitation to join organization [organization-name] for academy curricula [course-name]"
-3. **Roles**: Defaults to "Academy Learner" - [Learn more about Academy roles](https://docs.layer5.io/cloud/concepts/identity-and-security/roles/academy-roles/)
+1. **Name**: `Academy Invitation for <slug>`, using the generated slug, not the title you typed.
+2. **Description**: Identifies the organization and the curricula the invitation is for.
+3. **Roles**: Defaults to Academy Learner. [Academy roles](/cloud/concepts/identity-and-security/roles/academy-roles/) lists what that role can do. Empty quota means unlimited acceptances, and the invitation counts each person once.
 
 
 
@@ -227,11 +202,11 @@ The invitation form contains eight properties. Three are automatically generated
 
 ### 1. Emails - Invitation Email List
 
-Configure who receives the invitation:
+The email list restricts who may accept. It starts empty, and an empty list lets any signed-in user accept. It does not send the invitation for you.
 
 - **Supported Formats:**
   - Individual emails: `test@domain.com`
-  - Domain-wide invitations: `@domain.com` (invites all users from that domain)
+  - Domain entries: `@domain.com` (only addresses at that domain may accept)
 - **Duplicate Handling**: The system automatically merges duplicate entries
 - **Quantity Recommendations:**
   - Small team invitations: 10-50 email addresses
@@ -265,9 +240,8 @@ Set limits on how many users can accept the invitation:
 
 Specify which teams invited users will join:
 
-- **Team Selection**: Choose from available teams via dropdown menu
-- **Multiple Teams**: You can assign users to multiple teams
-- **No Teams Available**: If your organization has no teams, [create them](https://docs.layer5.io/cloud/concepts/identity-and-security/teams/) first. Users will be added to all successfully configured teams
+- **Team Selection**: Choose one existing team. The creator accepts a single team, and learners join that team when they enroll.
+- **No Teams Available**: If your organization has no teams, [create one](/cloud/concepts/identity-and-security/teams/) first.
 
 
 
@@ -300,8 +274,8 @@ Specify which teams invited users will join:
 
 Control invitation accessibility:
 
-- **Enabled**: Invitation functions normally
-- **Disabled**: If users open a disabled invitation link, they can choose to "Retry" or "Go to Dashboard"
+- **Enabled**: Enrollment can accept the invitation.
+- **Disabled**: Enrollment fails. Learners who already enrolled are not removed.
 
 
 
@@ -312,9 +286,15 @@ Control invitation accessibility:
 <div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
   <h4 class="alert-heading" style="color: #3772ff;">Invitation Idempotency</h4>
   
-      Users only need to accept one invitation, regardless of how many invitation emails they receive. Once accepted, additional invitations to the same user are automatically ignored.
+      Acceptance is idempotent. A learner who accepts twice gains no duplicate membership or role, and the invitation counts them once.
   
 </div>
 
 
+
+When an enrollment hits a disabled, expired, full, or email-restricted invitation, the request fails with a server error. The registration is recorded before the invitation is evaluated, so the learner can appear in the Learners view without having joined the organization or the team. Fix the invitation, then have the learner enroll again.
+
+Content created while the console is scoped to all organizations belongs to the provider organization. It has no attached invitation, so enrollment accepts nothing and grants no team or role.
+
+You can change the team, access status, and end date later from the Curricula view of the [Instructor Console](/cloud/academy/creating-content/instructor-console-guide/). To bring in a co-instructor, create an invitation with the Academy Admin role instead of Academy Learner.
 

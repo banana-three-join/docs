@@ -56,7 +56,7 @@
 &lt;li&gt;Open an existing design from &lt;strong&gt;File → Open…&lt;/strong&gt;, or clone a sample design and rename it.&lt;/li&gt;
 &lt;li&gt;Confirm the design name and autosave indicator appear in the top bar.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;You are ready to share when the canvas has loaded and the top-bar &lt;strong&gt;Share&lt;/strong&gt; control is available.&lt;/p&gt;</description></item><item><title>Sharing Designs</title><link>/kanvas/designer/sharing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/sharing/</guid><description>&lt;p&gt;In Kanvas, you can share your designs with other members of your organization and teams, and you can control access permissions. This page describes the different access types for designs and how to effectively use them.&lt;/p&gt;
+&lt;p&gt;You are ready to share when the canvas has loaded and the top-bar &lt;strong&gt;Share&lt;/strong&gt; control is available.&lt;/p&gt;</description></item><item><title>Sharing Designs</title><link>/kanvas/designer/sharing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/sharing/</guid><description>&lt;p&gt;In Kanvas, you can share a design with specific people and set its visibility. A grant is for one person and has no access level: there is no view-only or comment-only option. A person who can open a private design through a grant can edit it, comment on it, clone it, and download it, and can change its visibility between private and public.&lt;/p&gt;
 
 
 
@@ -104,7 +104,7 @@
  Understanding visibility levels
  &lt;a href="#understanding-visibility-levels" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Designs have visibility statuses that defines who can access your designs. These options offer different levels of exposure for content within your workspaces:&lt;/p&gt;</description></item><item><title>Working with Tags</title><link>/kanvas/designer/tagsets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/tagsets/</guid><description>&lt;p&gt;You can group components using tags. Tags are key-value pairs that help you organize and categorize components within your design. Tags can be used to visually group components. You can also use tags to filter components and view only those that match the tag criteria.&lt;/p&gt;
+&lt;p&gt;Designs have visibility statuses that defines who can access your designs. These options offer different levels of exposure for content within your workspaces:&lt;/p&gt;</description></item><item><title>Working with Tags</title><link>/kanvas/designer/tagsets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/designer/tagsets/</guid><description>&lt;p&gt;You can group components using tags. Tags are key-value pairs that help you organize and categorize components within your design. Tags can be used to visually group components. Designer has no filter that shows only components with a given tag. Operator mode filters live resources by namespace, kind, model, label, and free-text search. Palette search matches model and component names, not labels.&lt;/p&gt;
 
 
 

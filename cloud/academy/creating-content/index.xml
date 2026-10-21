@@ -46,31 +46,7 @@
  Gaining Access
  &lt;a href="#gaining-access" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;To view the Instructor Console, you must have the &lt;strong&gt;Academy Admin&lt;/strong&gt; role or be an &lt;strong&gt;organization admin&lt;/strong&gt;.&lt;/p&gt;
-
-
-
-
-
-
-&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
- &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Enterprise Feature&lt;/h4&gt;
- 
- The Instructor Console and custom academy features are available exclusively for organizations on an Enterprise plan. &lt;a href="https://layer5.io/pricing"&gt;Learn more&lt;/a&gt;
- 
-&lt;/div&gt;
-
-
-&lt;p&gt;
-
-
-
-
-&lt;div class="md__image"&gt;
- &lt;img src="./images/academy-admin.svg" onclick="openModal(this)" alt="Academy Admin Role"
- class="md-image-responsive" /&gt;
-&lt;/div&gt;
-&lt;/p&gt;</description></item><item><title>Building Certifications</title><link>/cloud/academy/creating-content/building-certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/building-certifications/</guid><description>&lt;p&gt;In &lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Academy&lt;/a&gt;, a &lt;strong&gt;Certification&lt;/strong&gt; is a formal assessment designed to validate a learner&amp;rsquo;s professional skills in a specific domain. Unlike a Learning Path, which guides a user through a curriculum, a Certification&amp;rsquo;s primary goal is evaluation.&lt;/p&gt;
+&lt;p&gt;Opening the console requires the &lt;strong&gt;View Academy Metrics&lt;/strong&gt; permission in the selected organization. Without it, the console shows a missing-permission message that names the permission. Academy Admin, Organization Admin, and Provider Admin hold the permission by default. Academy Learner holds content access only and cannot open the console. User, Team Admin, Workspace Admin, and Billing Manager cannot open it either, unless an operator has added the permission to the role. Provider Admin can view the combined all-organizations scope. In that scope the console skips the not-configured check and aggregates across organizations. Role assignments are seeded defaults and an operator can change them. See &lt;a href="/cloud/reference/default-permissions/"&gt;Roles and Permissions&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Building Certifications</title><link>/cloud/academy/creating-content/building-certifications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/academy/creating-content/building-certifications/</guid><description>&lt;p&gt;In &lt;a href="https://cloud.layer5.io/academy/"&gt;Layer5 Academy&lt;/a&gt;, a &lt;strong&gt;Certification&lt;/strong&gt; is a formal assessment designed to validate a learner&amp;rsquo;s professional skills in a specific domain. Unlike a Learning Path, which guides a user through a curriculum, a Certification&amp;rsquo;s primary goal is evaluation.&lt;/p&gt;
 &lt;p&gt;The successful completion of a Certification results in an official, shareable &lt;strong&gt;Certificate of Completion&lt;/strong&gt; and a valuable badge, signifying a verified level of proficiency.&lt;/p&gt;
 &lt;p&gt;
 

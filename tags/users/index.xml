@@ -9,7 +9,7 @@
 &lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
  &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Required permission&lt;/h4&gt;
  
- Managing invitations requires the &lt;strong&gt;Manage Invitations&lt;/strong&gt; permission within your organization. Contact your organization administrator if you need access.
+ From Layer5 Cloud v1.0.293, creating, editing, and deleting invitations requires the &lt;strong&gt;Manage Invitations&lt;/strong&gt; permission within your organization. That one permission also covers choosing the roles and teams an invitation grants, so anyone who can write an invitation, Academy Admins included, can specify its roles. Contact your organization administrator if you need access.
  
 &lt;/div&gt;
 
@@ -19,7 +19,7 @@
  Default organization state
  &lt;a href="#default-organization-state" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;By default, organizations are &lt;strong&gt;closed&lt;/strong&gt;: there is no open registration. A user cannot join your organization simply by navigating to a URL — they must either click a valid invitation link or register through a page associated with an organization that has a &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/#invitation-properties-explained"&gt;default invitation&lt;/a&gt; configured.&lt;/p&gt;</description></item><item><title>Users</title><link>/cloud/concepts/identity-and-security/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/</guid><description>&lt;h2 id="user-accounts" class="heading-link"&gt;
+&lt;p&gt;By default, organizations are &lt;strong&gt;closed&lt;/strong&gt;: there is no open registration. A user cannot join your organization simply by navigating to a URL. They must either open a valid invitation link or sign in through a page associated with an organization that has a &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/#invitation-properties-explained"&gt;default invitation&lt;/a&gt; configured.&lt;/p&gt;</description></item><item><title>Users</title><link>/cloud/concepts/identity-and-security/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/</guid><description>&lt;h2 id="user-accounts" class="heading-link"&gt;
  User Accounts
  &lt;a href="#user-accounts" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -27,7 +27,7 @@
 &lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
- &lt;strong&gt;Five&lt;/strong&gt; — Platform Engineer
+ &lt;strong&gt;Five&lt;/strong&gt;, Platform Engineer
  &lt;/div&gt;
 &lt;div class="card-body"&gt;
  &lt;p class="card-text"&gt;
@@ -35,7 +35,7 @@
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Orbital Labs&lt;br&gt;
 &lt;strong&gt;Role:&lt;/strong&gt; User (Platform Engineer)&lt;br&gt;
 &lt;strong&gt;Plan:&lt;/strong&gt; Team&lt;/p&gt;
-&lt;p&gt;Curious, enthusiastic, and reliably the first to discover that a feature works differently than the docs say it does.&lt;/p&gt;</description></item><item><title>User Management</title><link>/cloud/concepts/identity-and-security/users/user-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-management/</guid><description>&lt;p&gt;This guide outlines methods for creating user accounts, adding users to organizations, inviting new members, and managing user access within Layer5 Cloud to maintain a secure and organized environment.&lt;/p&gt;
+&lt;p&gt;Curious, enthusiastic, and reliably the first to discover that a feature works differently than the docs say it does.&lt;/p&gt;</description></item><item><title>User Management</title><link>/cloud/concepts/identity-and-security/users/user-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-management/</guid><description>&lt;p&gt;The Users page lists an organization&amp;rsquo;s members and carries the actions that put people into the organization, change what they can do, and take them out. To bring people in by invitation link, use &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/"&gt;User Invitations&lt;/a&gt;. For what an account is, read &lt;a href="/cloud/concepts/identity-and-security/users/"&gt;Users&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -50,95 +50,15 @@
  &lt;/picture&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-
-&lt;h2 id="create-user-account" class="heading-link"&gt;
- Create User Account
- &lt;a href="#create-user-account" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Seamlessly initiate new user accounts, ensuring a smooth onboarding process. Specify user details, such as email, and tailor their access by adding them to one or more organizations. Optionally assign roles, defining their scope within the platform. Complete the process by sending a personalized account setup email, streamlining the user&amp;rsquo;s introduction to Layer5 Cloud.&lt;/p&gt;</description></item><item><title>Default User Permissions</title><link>/cloud/concepts/identity-and-security/users/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/default-permissions/</guid><description>&lt;table class="td-initial"&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Permissions&lt;/th&gt;
- &lt;th&gt;User&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;View All Users&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Profile&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Designs&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Badges&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Activity&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Keys&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Catalog&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Invite Users&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Update User Profile&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Delete a user account&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Create a new user&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Leave a Team&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Roles&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Assign roles to team members&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Assign keys and keychains to the team members&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-
-
-
-
-
-
-&lt;div class="alert alert-custom" style="border-color: #EBC017;" role="alert"&gt;
- &lt;h4 class="alert-heading" style="color: #EBC017;"&gt;*Organization Owner&lt;/h4&gt;
- 
- &lt;em&gt;Permissions marked with * apply only if you are the owner of the organization.&lt;/em&gt;
- 
-&lt;/div&gt;
-
-
+&lt;p&gt;Each action needs a permission in the current organization. The server also checks your role for some actions, so holding the permission through another role is not always enough.&lt;/p&gt;</description></item><item><title>Default User Permissions</title><link>/cloud/concepts/identity-and-security/users/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/default-permissions/</guid><description>&lt;p&gt;The permissions a user holds are the keys from every role they hold in the selected organization. The full matrix of default roles and permissions is &lt;a href="/cloud/reference/default-permissions/"&gt;Default Permissions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Read that matrix for the User role. These points are easy to get wrong from older summaries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The User role holds View Catalog and View Designs. It also holds Leave Team.&lt;/li&gt;
+&lt;li&gt;The User role holds the view keys for tokens, sessions, keys, and keychains, plus Create Token and Download Token. See &lt;a href="/cloud/concepts/identity-and-security/tokens/"&gt;Tokens&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The User role does not hold Invite User to Team, Invite User to Organization, or Assign Roles to Team members.&lt;/li&gt;
+&lt;li&gt;The User role does not hold the keys that create, edit, or delete keychains and roles. Those require Provider Admin. See &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;Keychains&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A check mark with an asterisk on the matrix means the role holds the permission only on resources the user owns.&lt;/p&gt;</description></item><item><title>Account Consolidation</title><link>/cloud/concepts/identity-and-security/users/account-consolidation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/account-consolidation/</guid><description>&lt;p&gt;Account consolidation merges every duplicate Layer5 Cloud account that belongs to one person into a single canonical account. The canonical account takes ownership of the duplicates&amp;rsquo; designs, connections, memberships, roles, and other data, keeps their email addresses so old sign-ins still land in the right place, and retires the duplicates.&lt;/p&gt;
 
 
 
@@ -146,35 +66,18 @@
 
 
 &lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
- &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Customizable Permissions&lt;/h4&gt;
+ &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Operator-only&lt;/h4&gt;
  
- Default permissions can be easily customized by simply creating your own &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;keychains&lt;/a&gt; and &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;roles&lt;/a&gt;.
+ Consolidation is a command-line tool, &lt;code&gt;consolidate-users&lt;/code&gt;, that a deployment operator runs with direct database access. It is not an API, not a UI feature, and not automatic. Customers of the Layer5-hosted service cannot trigger it and have no control over it. Operators of a self-hosted Layer5 Cloud run it themselves.
  
-&lt;/div&gt;</description></item><item><title>Account Consolidation</title><link>/cloud/concepts/identity-and-security/users/account-consolidation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/account-consolidation/</guid><description>&lt;p&gt;Layer5 Cloud recognizes one account per verified email address, no matter which method you use to sign in.&lt;/p&gt;
+&lt;/div&gt;
+
+
 
 &lt;h2 id="what-changed" class="heading-link"&gt;
  What changed
  &lt;a href="#what-changed" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Previously, signing in with email/password, GitHub, or Google could each create a &lt;strong&gt;separate&lt;/strong&gt; account, even when they shared the same email address. This led to a confusing experience: designs, organizations, and workspaces created under one sign-in method would appear to &amp;ldquo;disappear&amp;rdquo; when you signed in with another.&lt;/p&gt;</description></item><item><title>Notification Preferences</title><link>/cloud/concepts/identity-and-security/users/notification-preferences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/notification-preferences/</guid><description>&lt;p&gt;Layer5 Cloud offers a range of user-configurable preferences that allows you to control the types of email notifications you receive.&lt;/p&gt;
-&lt;img src="images/notification-preferences.gif" alt="How to set your notifications preferences" /&gt;
-
-&lt;h2 id="to-change-the-notification-preferences" class="heading-link"&gt;
- To change the notification preferences
- &lt;a href="#to-change-the-notification-preferences" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Sign into &lt;a href="https://cloud.layer5.io"&gt;Layer5 Cloud&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;strong&gt;Account&lt;/strong&gt; &amp;gt; &lt;a href="https://cloud.layer5.io/account/preferences"&gt;Preferences&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Under “Notifications,” choose what notifications you want to receive:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Acknowledgment:&lt;/strong&gt; You&amp;rsquo;ll receive notifications about badges you&amp;rsquo;ve been awarded and related updates.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Approval Requests:&lt;/strong&gt; You&amp;rsquo;ll be notified about Workspace, Account, Permissions, Catalog&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;The identity provider behind Layer5 Cloud could create a separate account for each sign-in method one person used. A person who registered with a password and later signed in with GitHub or Google could end up with two or three accounts, even when they shared the same email address. Designs, organizations, and workspaces created under one sign-in method appeared to disappear when the person signed in with another.&lt;/p&gt;</description></item><item><title>Notification Preferences</title><link>/cloud/concepts/identity-and-security/users/notification-preferences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/notification-preferences/</guid><description>&lt;p&gt;Layer5 Cloud sends email when something happens that involves you: you earn a badge, your role changes, someone comments on your design. Notification preferences decide which of those emails reach you. Preferences belong to your account, so they apply in every organization you belong to.&lt;/p&gt;
+&lt;p&gt;Email is the only channel. Layer5 Cloud has no per-event choice between email and another channel.&lt;/p&gt;
+&lt;p&gt;You need the &lt;strong&gt;View Profile&lt;/strong&gt; permission, which the default user role holds. The preferences are on your own account, and you cannot set them for anyone else.&lt;/p&gt;</description></item></channel></rss>

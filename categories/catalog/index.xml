@@ -44,7 +44,7 @@
  How to Access the Leaderboard
  &lt;a href="#how-to-access-the-leaderboard" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;You can reach the Leaderboard page in two ways:&lt;/p&gt;</description></item><item><title>Exploring the Catalog</title><link>/cloud/concepts/catalog/exploring-the-catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/catalog/exploring-the-catalog/</guid><description>&lt;p&gt;The &lt;a href="https://cloud.layer5.io/catalog"&gt;Cloud Catalog&lt;/a&gt; is the central hub for well-architected cloud and cloud native patterns and best practices templates. Here, you can discover and share designs with the wider community.&lt;/p&gt;
+&lt;p&gt;The leaderboard is the catalog sorted by one of the usage counters. It is not a separate score. By default it sorts by Opens, highest first, ten rows per page. The dashboard also shows the leaderboard as a widget.&lt;/p&gt;</description></item><item><title>Exploring the Catalog</title><link>/cloud/concepts/catalog/exploring-the-catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/catalog/exploring-the-catalog/</guid><description>&lt;p&gt;The &lt;a href="https://cloud.layer5.io/catalog"&gt;Cloud Catalog&lt;/a&gt; holds published designs. Signed-out visitors can search, filter, and read every published design. Cloning, downloading, editing, and deleting need you to sign in and hold the matching permission. Cloning also needs an organization selected: the copy lands in your selected workspace, and Cloud refuses a clone while the all-organizations view is active (&lt;code&gt;orgID is not provided&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -60,13 +60,7 @@
  Viewing Catalog Items
  &lt;a href="#viewing-catalog-items" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Meshery Catalog displays all published designs in an organized, searchable format.&lt;/p&gt;
-
-&lt;h3 id="top-performers" class="heading-link"&gt;
- Top Performers
- &lt;a href="#top-performers" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;At the top of the page, you can find the &lt;strong&gt;Top Performers&lt;/strong&gt; section. This provides a snapshot of the &lt;strong&gt;Leaderboard&lt;/strong&gt;, highlighting the most popular designs based on various &lt;a href="/cloud/concepts/catalog/metrics/"&gt;metrics&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Catalog</title><link>/cloud/concepts/catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/catalog/</guid><description>&lt;div class="pageinfo"&gt;
+&lt;p&gt;Meshery Catalog displays all published designs in an organized, searchable format.&lt;/p&gt;</description></item><item><title>Catalog</title><link>/cloud/concepts/catalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/catalog/</guid><description>&lt;div class="pageinfo"&gt;
 &lt;p&gt;Public Catalog: &lt;a href="https://cloud.layer5.io/catalog"&gt;https://cloud.layer5.io/catalog&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;

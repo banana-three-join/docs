@@ -32,7 +32,7 @@
  Creating an Organization
  &lt;a href="#creating-an-organization" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;An Organization provides a way to structure your teams, users, and resource access for different projects or initiatives.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/concepts/identity-and-security/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/organizations/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy — and the core security boundary — inside of Layer5 Cloud. Everything else (teams, workspaces, roles, keychains, and keys) composes on top of the organization, and resources, billing, and access control are isolated per organization. Organizations can have any number of teams. Teams can have any number of users. Users can belong to any number of teams. Users may belong to any number of organizations.&lt;/p&gt;</description></item><item><title>Navigating Organizations</title><link>/cloud/guides/organizations/org-management/navigating-organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/org-management/navigating-organizations/</guid><description>&lt;p&gt;This guide explains how to switch between organizations in Layer5 Cloud and describes the order of precedence that determines your active organization context.&lt;/p&gt;
+&lt;p&gt;An Organization provides a way to structure your teams, users, and resource access for different projects or initiatives.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/concepts/identity-and-security/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/organizations/</guid><description>&lt;p&gt;An organization is the tenant boundary in Layer5 Cloud. It decides whose resources a request can reach, whose billing it counts against, and which roles apply. The organization is the unit of multi-tenancy and the core security boundary. Teams and workspaces belong to one organization, and users hold roles in it. Roles, keychains, and keys are defined once for the whole provider, but resources, billing, and access control are isolated per organization, so a role held in one organization grants nothing in another.&lt;/p&gt;</description></item><item><title>Navigating Organizations</title><link>/cloud/guides/organizations/org-management/navigating-organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/org-management/navigating-organizations/</guid><description>&lt;p&gt;This guide explains how to switch between organizations in Layer5 Cloud and describes the order of precedence that determines your active organization context.&lt;/p&gt;
 
 &lt;h2 id="understanding-organization-context" class="heading-link"&gt;
  Understanding Organization Context
@@ -58,12 +58,7 @@
 &lt;/div&gt;
 
 
-
-&lt;h2 id="order-of-precedence-for-organization-settings" class="heading-link"&gt;
- Order of Precedence for Organization Settings
- &lt;a href="#order-of-precedence-for-organization-settings" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Layer5 Cloud uses the following order of precedence to determine your active organization context:&lt;/p&gt;</description></item><item><title>Organization Configuration Scenarios</title><link>/cloud/guides/organizations/configuration-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/configuration-scenarios/</guid><description>&lt;p&gt;Every organization in Layer5 Cloud is configured based on two simple choices:
+&lt;p&gt;An organization can also have child organizations. Your active organization is always the one you have selected, and you can switch only into organizations you are a member of, so see &lt;a href="../child-organizations/"&gt;Child Organizations&lt;/a&gt; for how a parent administrator relates to a child.&lt;/p&gt;</description></item><item><title>Organization Configuration Scenarios</title><link>/cloud/guides/organizations/configuration-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/configuration-scenarios/</guid><description>&lt;p&gt;Every organization in Layer5 Cloud is configured based on two simple choices:
 &lt;strong&gt;where your users sign in&lt;/strong&gt; (your front door) and &lt;strong&gt;whose identity
 provider authenticates them&lt;/strong&gt;. Those two choices combine into a small set
 of named scenarios. This guide names each one, describes what your users
@@ -72,22 +67,71 @@ experience, and explains &lt;strong&gt;when you would choose one over the next&l
 &lt;a href="/cloud/guides/self-hosted/white-labeling/"&gt;White-labeling&lt;/a&gt; (themes, logos,
 custom domains) and &lt;a href="/cloud/guides/self-hosted/planning/identity-services/"&gt;Identity Services&lt;/a&gt;
 (bring-your-own-credentials and authentication boundaries). This page is
-the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/guides/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/</guid><description>&lt;p&gt;Use these guides to create, edit, invite members to, navigate, and delete organizations in Layer5 Cloud.&lt;/p&gt;</description></item><item><title>Teams</title><link>/cloud/concepts/identity-and-security/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/teams/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. Organizations can have any number of teams. Teams can have any number of users. Users can belong to any number of teams. Users may belong to any number of organizations.&lt;/p&gt;
-&lt;p&gt;Outside of grouping users together, teams offer control access to workspaces and to workspace resources such as environments and managed and unmanaged connections.&lt;/p&gt;
+the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/guides/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/</guid><description>&lt;p&gt;Use these guides to create, edit, invite members to, navigate, and delete organizations in Layer5 Cloud. For what an organization is, read &lt;a href="/cloud/concepts/identity-and-security/organizations/"&gt;Organizations&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;I want to&lt;/th&gt;
+ &lt;th&gt;Go to&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Create, edit, brand, switch between, or delete an organization&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/organizations/org-management/"&gt;Organization Management&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;See how the switcher and request order choose an organization&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/organizations/org-management/navigating-organizations/"&gt;Navigating Organizations&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Nest an organization inside another&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/organizations/org-management/child-organizations/"&gt;Child Organizations&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Send organization email through your own SMTP server&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/organizations/org-management/bring-your-own-mail-server/"&gt;Bring Your Own Mail Server&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Choose a custom domain and identity provider&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/organizations/configuration-scenarios/"&gt;Organization Configuration Scenarios&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Recognize members with badges&lt;/td&gt;
+ &lt;td&gt;&lt;a href="/cloud/guides/tutorials/assigning-user-badges/"&gt;Recognizing User and Contributor Milestones&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For people in an organization, see &lt;a href="/cloud/concepts/identity-and-security/teams/"&gt;Teams&lt;/a&gt;, &lt;a href="/cloud/concepts/identity-and-security/users/"&gt;Users&lt;/a&gt;, &lt;a href="/cloud/concepts/identity-and-security/users/user-management/"&gt;User Management&lt;/a&gt;, &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/"&gt;User Invitations&lt;/a&gt;, and &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;Roles&lt;/a&gt;. Domain changes require a Provider Admin. Creating an organization requires Create Organization, which Organization Admin and Provider Admin hold by default.&lt;/p&gt;</description></item><item><title>Teams</title><link>/cloud/concepts/identity-and-security/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/teams/</guid><description>&lt;p&gt;A team is a named group of users inside one organization. Teams exist so an administrator can give a set of people the same access once, instead of granting it person by person. A team carries two kinds of access: roles held by its members, and workspace assignments that give the whole team access to a workspace and the resources in it.&lt;/p&gt;
+&lt;p&gt;Organizations contain any number of teams. A team has any number of members, and a user can belong to any number of teams. Teams are flat: a team cannot contain another team.&lt;/p&gt;</description></item><item><title>Bring Your Own Mail Server</title><link>/cloud/guides/organizations/org-management/bring-your-own-mail-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/org-management/bring-your-own-mail-server/</guid><description>&lt;p&gt;By default, every email Layer5 Cloud sends to the members of your Organization leaves through Layer5&amp;rsquo;s shared mail server and arrives from a Layer5 address. The body of the message already carries your branding. The address it arrives from does not.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Email&lt;/strong&gt; tab of Edit Organization changes that. Your Organization registers its own SMTP server and its own from address, and once you have proven control of the sending domain and turned the server on, application mail such as invitations and notifications leaves through your server from your domain. Nothing about the message points to a shared provider.&lt;/p&gt;</description></item><item><title>Child Organizations</title><link>/cloud/guides/organizations/org-management/child-organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/org-management/child-organizations/</guid><description>&lt;p&gt;A &lt;strong&gt;child organization&lt;/strong&gt; is an organization created inside another organization, called its &lt;strong&gt;parent&lt;/strong&gt;. A child is otherwise an ordinary organization: it has its own members, teams, workspaces, invitations, domain, and credentials. The parent relationship adds one thing, which is that administrators of the parent can manage the child&amp;rsquo;s settings and membership from the parent.&lt;/p&gt;
 
-&lt;h2 id="example-orbital-labs-teams" class="heading-link"&gt;
- Example: Orbital Labs Teams
- &lt;a href="#example-orbital-labs-teams" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;The following teams illustrate how organizations use teams to segment access and responsibilities. Follow the full story at &lt;a href=""&gt;Meet Five and the Cast&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Bring Your Own Mail Server</title><link>/cloud/guides/organizations/org-management/bring-your-own-mail-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/org-management/bring-your-own-mail-server/</guid><description>&lt;p&gt;By default, every email Layer5 Cloud sends to the members of your Organization leaves through Layer5&amp;rsquo;s shared mail server and arrives from a Layer5 address. The body of the message already carries your branding. The address it arrives from does not.&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;Email&lt;/strong&gt; tab of Edit Organization changes that. Your Organization registers its own SMTP server and its own from address, and once you have proven control of the sending domain and turned the server on, application mail such as invitations and notifications leaves through your server from your domain. Nothing about the message points to a shared provider.&lt;/p&gt;</description></item><item><title>Identity and Security</title><link>/cloud/concepts/identity-and-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. The identity structure is highly flexible: organizations can have any number of teams, teams can have any number of users, and users can belong to any number of teams and organizations.&lt;/p&gt;
-&lt;p&gt;Below is an overview of the core identity components within the Layer5 Cloud.&lt;/p&gt;
 
-&lt;h2 id="identity" class="heading-link"&gt;
- Identity
- &lt;a href="#identity" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+
+
+
+
+&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
+ &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Permissions Required&lt;/h4&gt;
+ 
+ Creating a child organization requires the &lt;strong&gt;Create Organization&lt;/strong&gt; permission in the parent. Seeing the list of a parent&amp;rsquo;s children requires &lt;strong&gt;View Organizations&lt;/strong&gt; in the parent. Editing, deleting, or adding members to a child from the parent requires the Organization Administrator or Owner role in the parent. To understand the specific roles needed for each action, please refer to the &lt;a href="https://docs.layer5.io/cloud/reference/default-permissions/"&gt;Default Permissions reference&lt;/a&gt;.
+ 
+&lt;/div&gt;
+
+
+
+&lt;h2 id="how-organizations-nest" class="heading-link"&gt;
+ How Organizations Nest
+ &lt;a href="#how-organizations-nest" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Organizations serve as the fundamental component of multi-tenancy within the Layer5 Cloud.&lt;/p&gt;</description></item><item><title>User Invitations</title><link>/cloud/concepts/identity-and-security/users/user-invitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-invitations/</guid><description>&lt;p&gt;The &lt;a href="https://cloud.layer5.io/identity/invitations"&gt;invitation system&lt;/a&gt; gives you precise control over how members join your organization, allowing you to streamline onboarding and enhance security.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An organization can have any number of child organizations.&lt;/li&gt;
+&lt;li&gt;A child can have child organizations of its own, and those can have children of their own. There is no limit on depth.&lt;/li&gt;
+&lt;li&gt;The provider organization is never a child, and it cannot hold child organizations. Its child list is always empty, and it does not appear in the child organizations section. A tenant organization is not a child of the provider.&lt;/li&gt;
+&lt;li&gt;A child belongs to exactly one parent. A child cannot be moved to another parent after it is created.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A parent administers its &lt;strong&gt;direct&lt;/strong&gt; children only. An administrator of a grandparent does not administer a grandchild by virtue of that role; the administrator of the intermediate organization does.&lt;/p&gt;</description></item><item><title>Identity and Security</title><link>/cloud/concepts/identity-and-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. The identity structure is flexible: an organization has any number of teams, a team has any number of members, and a user can belong to any number of teams and organizations.&lt;/p&gt;
+&lt;p&gt;Identity and security answer two questions for every request: who is acting, and what that person may do in the organization the request runs in. Organization membership, the roles a person holds in that organization, and resources shared with them directly each contribute. The same person can hold different access in each organization they belong to.&lt;/p&gt;</description></item><item><title>User Invitations</title><link>/cloud/concepts/identity-and-security/users/user-invitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-invitations/</guid><description>&lt;p&gt;The &lt;a href="https://cloud.layer5.io/identity/invitations"&gt;invitation system&lt;/a&gt; gives you precise control over how members join your organization, allowing you to streamline onboarding and enhance security.&lt;/p&gt;
 &lt;p&gt;You can create highly customized invitations for any scenario, from onboarding specific individuals to launching large-scale community challenges. Each invitation can be configured with expiration dates, usage quotas, and pre-assigned roles, ensuring new members get the right access from the moment they join.&lt;/p&gt;
 
 
@@ -98,7 +142,7 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
 &lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
  &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Required permission&lt;/h4&gt;
  
- Managing invitations requires the &lt;strong&gt;Manage Invitations&lt;/strong&gt; permission within your organization. Contact your organization administrator if you need access.
+ From Layer5 Cloud v1.0.293, creating, editing, and deleting invitations requires the &lt;strong&gt;Manage Invitations&lt;/strong&gt; permission within your organization. That one permission also covers choosing the roles and teams an invitation grants, so anyone who can write an invitation, Academy Admins included, can specify its roles. Contact your organization administrator if you need access.
  
 &lt;/div&gt;
 
@@ -108,7 +152,7 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  Default organization state
  &lt;a href="#default-organization-state" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;By default, organizations are &lt;strong&gt;closed&lt;/strong&gt;: there is no open registration. A user cannot join your organization simply by navigating to a URL — they must either click a valid invitation link or register through a page associated with an organization that has a &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/#invitation-properties-explained"&gt;default invitation&lt;/a&gt; configured.&lt;/p&gt;</description></item><item><title>Users</title><link>/cloud/concepts/identity-and-security/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/</guid><description>&lt;h2 id="user-accounts" class="heading-link"&gt;
+&lt;p&gt;By default, organizations are &lt;strong&gt;closed&lt;/strong&gt;: there is no open registration. A user cannot join your organization simply by navigating to a URL. They must either open a valid invitation link or sign in through a page associated with an organization that has a &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/#invitation-properties-explained"&gt;default invitation&lt;/a&gt; configured.&lt;/p&gt;</description></item><item><title>Users</title><link>/cloud/concepts/identity-and-security/users/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/</guid><description>&lt;h2 id="user-accounts" class="heading-link"&gt;
  User Accounts
  &lt;a href="#user-accounts" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
@@ -116,7 +160,7 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
 &lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
- &lt;strong&gt;Five&lt;/strong&gt; — Platform Engineer
+ &lt;strong&gt;Five&lt;/strong&gt;, Platform Engineer
  &lt;/div&gt;
 &lt;div class="card-body"&gt;
  &lt;p class="card-text"&gt;
@@ -124,7 +168,7 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Orbital Labs&lt;br&gt;
 &lt;strong&gt;Role:&lt;/strong&gt; User (Platform Engineer)&lt;br&gt;
 &lt;strong&gt;Plan:&lt;/strong&gt; Team&lt;/p&gt;
-&lt;p&gt;Curious, enthusiastic, and reliably the first to discover that a feature works differently than the docs say it does.&lt;/p&gt;</description></item><item><title>User Management</title><link>/cloud/concepts/identity-and-security/users/user-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-management/</guid><description>&lt;p&gt;This guide outlines methods for creating user accounts, adding users to organizations, inviting new members, and managing user access within Layer5 Cloud to maintain a secure and organized environment.&lt;/p&gt;
+&lt;p&gt;Curious, enthusiastic, and reliably the first to discover that a feature works differently than the docs say it does.&lt;/p&gt;</description></item><item><title>User Management</title><link>/cloud/concepts/identity-and-security/users/user-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/user-management/</guid><description>&lt;p&gt;The Users page lists an organization&amp;rsquo;s members and carries the actions that put people into the organization, change what they can do, and take them out. To bring people in by invitation link, use &lt;a href="/cloud/concepts/identity-and-security/users/user-invitations/"&gt;User Invitations&lt;/a&gt;. For what an account is, read &lt;a href="/cloud/concepts/identity-and-security/users/"&gt;Users&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -139,95 +183,15 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/picture&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-
-&lt;h2 id="create-user-account" class="heading-link"&gt;
- Create User Account
- &lt;a href="#create-user-account" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Seamlessly initiate new user accounts, ensuring a smooth onboarding process. Specify user details, such as email, and tailor their access by adding them to one or more organizations. Optionally assign roles, defining their scope within the platform. Complete the process by sending a personalized account setup email, streamlining the user&amp;rsquo;s introduction to Layer5 Cloud.&lt;/p&gt;</description></item><item><title>Default User Permissions</title><link>/cloud/concepts/identity-and-security/users/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/default-permissions/</guid><description>&lt;table class="td-initial"&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Permissions&lt;/th&gt;
- &lt;th&gt;User&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;View All Users&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Profile&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Designs&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Badges&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View user Activity&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Keys&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Catalog&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Invite Users&lt;/td&gt;
- &lt;td&gt;✅&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Update User Profile&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Delete a user account&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Create a new user&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Leave a Team&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;View Roles&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Assign roles to team members&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;Assign keys and keychains to the team members&lt;/td&gt;
- &lt;td&gt;❌&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-
-
-
-
-
-
-&lt;div class="alert alert-custom" style="border-color: #EBC017;" role="alert"&gt;
- &lt;h4 class="alert-heading" style="color: #EBC017;"&gt;*Organization Owner&lt;/h4&gt;
- 
- &lt;em&gt;Permissions marked with * apply only if you are the owner of the organization.&lt;/em&gt;
- 
-&lt;/div&gt;
-
-
+&lt;p&gt;Each action needs a permission in the current organization. The server also checks your role for some actions, so holding the permission through another role is not always enough.&lt;/p&gt;</description></item><item><title>Default User Permissions</title><link>/cloud/concepts/identity-and-security/users/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/default-permissions/</guid><description>&lt;p&gt;The permissions a user holds are the keys from every role they hold in the selected organization. The full matrix of default roles and permissions is &lt;a href="/cloud/reference/default-permissions/"&gt;Default Permissions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Read that matrix for the User role. These points are easy to get wrong from older summaries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The User role holds View Catalog and View Designs. It also holds Leave Team.&lt;/li&gt;
+&lt;li&gt;The User role holds the view keys for tokens, sessions, keys, and keychains, plus Create Token and Download Token. See &lt;a href="/cloud/concepts/identity-and-security/tokens/"&gt;Tokens&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The User role does not hold Invite User to Team, Invite User to Organization, or Assign Roles to Team members.&lt;/li&gt;
+&lt;li&gt;The User role does not hold the keys that create, edit, or delete keychains and roles. Those require Provider Admin. See &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;Keychains&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A check mark with an asterisk on the matrix means the role holds the permission only on resources the user owns.&lt;/p&gt;</description></item><item><title>Account Consolidation</title><link>/cloud/concepts/identity-and-security/users/account-consolidation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/account-consolidation/</guid><description>&lt;p&gt;Account consolidation merges every duplicate Layer5 Cloud account that belongs to one person into a single canonical account. The canonical account takes ownership of the duplicates&amp;rsquo; designs, connections, memberships, roles, and other data, keeps their email addresses so old sign-ins still land in the right place, and retires the duplicates.&lt;/p&gt;
 
 
 
@@ -235,41 +199,24 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
 
 
 &lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
- &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Customizable Permissions&lt;/h4&gt;
+ &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Operator-only&lt;/h4&gt;
  
- Default permissions can be easily customized by simply creating your own &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;keychains&lt;/a&gt; and &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;roles&lt;/a&gt;.
+ Consolidation is a command-line tool, &lt;code&gt;consolidate-users&lt;/code&gt;, that a deployment operator runs with direct database access. It is not an API, not a UI feature, and not automatic. Customers of the Layer5-hosted service cannot trigger it and have no control over it. Operators of a self-hosted Layer5 Cloud run it themselves.
  
-&lt;/div&gt;</description></item><item><title>Account Consolidation</title><link>/cloud/concepts/identity-and-security/users/account-consolidation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/account-consolidation/</guid><description>&lt;p&gt;Layer5 Cloud recognizes one account per verified email address, no matter which method you use to sign in.&lt;/p&gt;
+&lt;/div&gt;
+
+
 
 &lt;h2 id="what-changed" class="heading-link"&gt;
  What changed
  &lt;a href="#what-changed" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Previously, signing in with email/password, GitHub, or Google could each create a &lt;strong&gt;separate&lt;/strong&gt; account, even when they shared the same email address. This led to a confusing experience: designs, organizations, and workspaces created under one sign-in method would appear to &amp;ldquo;disappear&amp;rdquo; when you signed in with another.&lt;/p&gt;</description></item><item><title>Notification Preferences</title><link>/cloud/concepts/identity-and-security/users/notification-preferences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/notification-preferences/</guid><description>&lt;p&gt;Layer5 Cloud offers a range of user-configurable preferences that allows you to control the types of email notifications you receive.&lt;/p&gt;
-&lt;img src="images/notification-preferences.gif" alt="How to set your notifications preferences" /&gt;
-
-&lt;h2 id="to-change-the-notification-preferences" class="heading-link"&gt;
- To change the notification preferences
- &lt;a href="#to-change-the-notification-preferences" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Sign into &lt;a href="https://cloud.layer5.io"&gt;Layer5 Cloud&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;strong&gt;Account&lt;/strong&gt; &amp;gt; &lt;a href="https://cloud.layer5.io/account/preferences"&gt;Preferences&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Under “Notifications,” choose what notifications you want to receive:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Acknowledgment:&lt;/strong&gt; You&amp;rsquo;ll receive notifications about badges you&amp;rsquo;ve been awarded and related updates.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Approval Requests:&lt;/strong&gt; You&amp;rsquo;ll be notified about Workspace, Account, Permissions, Catalog&lt;/p&gt;</description></item><item><title>Default Permissions</title><link>/cloud/reference/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/reference/default-permissions/</guid><description>&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
+&lt;p&gt;The identity provider behind Layer5 Cloud could create a separate account for each sign-in method one person used. A person who registered with a password and later signed in with GitHub or Google could end up with two or three accounts, even when they shared the same email address. Designs, organizations, and workspaces created under one sign-in method appeared to disappear when the person signed in with another.&lt;/p&gt;</description></item><item><title>Notification Preferences</title><link>/cloud/concepts/identity-and-security/users/notification-preferences/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/users/notification-preferences/</guid><description>&lt;p&gt;Layer5 Cloud sends email when something happens that involves you: you earn a badge, your role changes, someone comments on your design. Notification preferences decide which of those emails reach you. Preferences belong to your account, so they apply in every organization you belong to.&lt;/p&gt;
+&lt;p&gt;Email is the only channel. Layer5 Cloud has no per-event choice between email and another channel.&lt;/p&gt;
+&lt;p&gt;You need the &lt;strong&gt;View Profile&lt;/strong&gt; permission, which the default user role holds. The preferences are on your own account, and you cannot set them for anyone else.&lt;/p&gt;</description></item><item><title>Default Permissions</title><link>/cloud/reference/default-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/reference/default-permissions/</guid><description>&lt;div class="alert alert-custom" style="border-color: #3772ff;" role="alert"&gt;
  &lt;h4 class="alert-heading" style="color: #3772ff;"&gt;Customizable Permissions&lt;/h4&gt;
  
- Default permissions can be easily customized by simply creating your own &lt;a href="/cloud/concepts/identity-and-security/keychains/#keychains-management"&gt;keychains&lt;/a&gt; and &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;roles&lt;/a&gt;.
+ Only a Provider Admin can create or change &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;keychains&lt;/a&gt; and &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;roles&lt;/a&gt;. On hosted Layer5 Cloud, Layer5 operates the Provider Admin role, so an organization cannot build a custom permission set itself. On a self-hosted deployment, the operator&amp;rsquo;s Provider Admins can. Changing the keychains of a role changes that role for every organization that uses it.
  
 &lt;/div&gt;
 
@@ -361,6 +308,28 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -1311,6 +1280,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -3609,6 +3586,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -5072,6 +5057,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -5785,6 +5778,860 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tbody&gt;
+ &lt;/table&gt;
+ 
+ &lt;h2&gt;Content Pieces Permissions&lt;/h2&gt;
+ &lt;table class="csvtable td-initial"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Permission&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;Description&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/user-role"&gt;User&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/team-roles"&gt;Team Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles"&gt;Academy Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/academy-roles/#learner"&gt;Leaner&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/workspace-roles"&gt;Workspace Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Billing Manager&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/organization-roles"&gt;Org Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;th&gt;&lt;a href="/cloud/concepts/identity-and-security/roles/#provider-admin-role"&gt;Provider Admin&lt;/a&gt;&lt;/th&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ View Content Pieces
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ View the content pieces of the organization
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Create Content Piece
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Create a content piece in the organization
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Edit Content Piece
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Edit a content piece of the organization
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ &lt;tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Delete Content Piece
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ Delete a content piece of the organization
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ❌
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ &lt;td&gt;
+ 
+ 
+ ✅
+ 
+ 
+ &lt;/td&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  
@@ -5906,6 +6753,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -6685,6 +7540,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -7207,6 +8070,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -9139,6 +10010,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -10874,6 +11753,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -11846,6 +12733,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -13070,6 +13965,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -14022,6 +14925,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -15526,6 +16437,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -16448,6 +17367,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -18238,6 +19165,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -18499,6 +19434,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -19549,6 +20492,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -20014,6 +20965,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  &lt;tr&gt;
  
  
@@ -20263,6 +21222,14 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -24009,6 +24976,470 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;tr&gt;
  &lt;td&gt;Delete WASM Filter &lt;/td&gt;
  &lt;td&gt;Delete WASM filter permanently from catalog.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Content Pieces &lt;/td&gt;
+ &lt;td&gt;View the content pieces of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Create Content Piece &lt;/td&gt;
+ &lt;td&gt;Create a content piece in the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Edit Content Piece &lt;/td&gt;
+ &lt;td&gt;Edit a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete Content Piece &lt;/td&gt;
+ &lt;td&gt;Delete a content piece of the organization&lt;/td&gt;
  &lt;/tr&gt;
  
  
@@ -32777,6 +34208,430 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -55557,6 +57412,430 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
  &lt;/tbody&gt;
  &lt;/table&gt;
  &lt;/div&gt;
@@ -58884,6 +61163,470 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;tr&gt;
  &lt;td&gt;Delete WASM Filter &lt;/td&gt;
  &lt;td&gt;Delete WASM filter permanently from catalog.&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;View Content Pieces &lt;/td&gt;
+ &lt;td&gt;View the content pieces of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Create Content Piece &lt;/td&gt;
+ &lt;td&gt;Create a content piece in the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Edit Content Piece &lt;/td&gt;
+ &lt;td&gt;Edit a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete Content Piece &lt;/td&gt;
+ &lt;td&gt;Delete a content piece of the organization&lt;/td&gt;
  &lt;/tr&gt;
  
  
@@ -67802,6 +70545,430 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
  
  
  
@@ -82648,6 +85815,470 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  &lt;tr&gt;
+ &lt;td&gt;View Content Pieces &lt;/td&gt;
+ &lt;td&gt;View the content pieces of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Create Content Piece &lt;/td&gt;
+ &lt;td&gt;Create a content piece in the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Edit Content Piece &lt;/td&gt;
+ &lt;td&gt;Edit a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete Content Piece &lt;/td&gt;
+ &lt;td&gt;Delete a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
  &lt;td&gt;Install extension &lt;/td&gt;
  &lt;td&gt;Install or enable or disabble extensions in Meshery&lt;/td&gt;
  &lt;/tr&gt;
@@ -95123,6 +98754,470 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  
  
  &lt;tr&gt;
+ &lt;td&gt;View Content Pieces &lt;/td&gt;
+ &lt;td&gt;View the content pieces of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Create Content Piece &lt;/td&gt;
+ &lt;td&gt;Create a content piece in the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Edit Content Piece &lt;/td&gt;
+ &lt;td&gt;Edit a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
+ &lt;td&gt;Delete Content Piece &lt;/td&gt;
+ &lt;td&gt;Delete a content piece of the organization&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ &lt;tr&gt;
  &lt;td&gt;Install extension &lt;/td&gt;
  &lt;td&gt;Install or enable or disabble extensions in Meshery&lt;/td&gt;
  &lt;/tr&gt;
@@ -104177,4 +108272,10 @@ the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item><i
  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/div&gt;
+
+&lt;h2 id="how-permission-checks-work" class="heading-link"&gt;
+ How permission checks work
+ &lt;a href="#how-permission-checks-work" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A permission is a named key that allows one action, such as Create Team. A keychain groups keys, and a role groups keychains. Layer5 Cloud checks the key, never the role name. Before it runs a guarded action, Cloud resolves the organization the request names, then checks whether the user holds the key through a role in that organization. A user&amp;rsquo;s permissions are the union of the keys from every role the user holds there.&lt;/p&gt;</description></item></channel></rss>

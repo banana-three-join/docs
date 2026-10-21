@@ -403,7 +403,13 @@ Stumptown PBR&amp;B keytar plaid street art, forage XOXO pitchfork selvage affog
 
 ```
 This is the final element on the page and there should be no margin below this.
-``` --&gt;</description></item><item><title>Deploying Designs</title><link>/kanvas/tasks/designs/deploying-designs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/tasks/designs/deploying-designs/</guid><description>&lt;ol&gt;
+``` --&gt;
+
+&lt;h2 id="current-behavior" class="heading-link"&gt;
+ Current behavior
+ &lt;a href="#current-behavior" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Undeploy needs Undeploy Design. It is disabled on an empty design. Selecting no context targets all connected clusters. The dialog title is &lt;code&gt;Undeploy design &amp;quot;&amp;lt;name&amp;gt;&amp;quot;&lt;/code&gt;. You can dry-run an undeploy first. kanvas.new does not undeploy. If every component fails an undeploy dry run, the objects are not on the cluster.&lt;/p&gt;</description></item><item><title>Deploying Designs</title><link>/kanvas/tasks/designs/deploying-designs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/kanvas/tasks/designs/deploying-designs/</guid><description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;To deploy a design, navigate to the &lt;strong&gt;Actions&lt;/strong&gt; button at the top of the Design canvas.&lt;/p&gt;
 &lt;/li&gt;

@@ -55,3 +55,7 @@ There is no Apply button. Edits are written into the design shortly after you st
 * **[Understanding Design Components](/kanvas/designer/understanding-design-component/):** What the components on the palette represent.
 * **[Understanding Tool Modes](/kanvas/designer/understanding-tool-modes/):** Every mouse interaction available on the canvas, including the ones that open this panel.
 
+## Palette search
+
+Typing in the palette search box queries the Meshery registry after you pause for one second. Results appear in two groups, Models and Components. An empty result reads "Sorry, no matching records found". Search matches model and component names only. It does not match labels.
+

@@ -31,13 +31,9 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The Organization Owner&lt;/li&gt;
+&lt;li&gt;An Organization Admin of that organization, a holder of Assign User Roles there, or a Provider Admin. The person must already be a member, unless the caller is a Provider Admin.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creation of new organization or User Account creation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;How many instances of these roles?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default Workspace Roles</title><link>/cloud/concepts/identity-and-security/roles/workspace-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/workspace-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default Workspace Roles</title><link>/cloud/concepts/identity-and-security/roles/workspace-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/workspace-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-body"&gt;
  &lt;p class="card-text"&gt;
@@ -63,17 +59,9 @@
  &lt;p class="card-text"&gt;
  &lt;p&gt;&lt;strong&gt;What is the purpose of this role?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Administration of a workspace along with curation of content for the organization&amp;rsquo;s catalog (for each organization for which the user has this role assigned)&lt;/li&gt;
+&lt;li&gt;Managing workspaces, environments, teams, and lifecycle actions, and reviewing catalog requests, in each organization where the user holds the role. It is not limited to a single workspace, and there is no Workspace Owner role that assigns it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Organization Administrators or Workspace Owner&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creation of a new workspace&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;How many instances of these roles?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default Team Roles</title><link>/cloud/concepts/identity-and-security/roles/team-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/team-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default Team Roles</title><link>/cloud/concepts/identity-and-security/roles/team-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/team-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
  Default Team Roles
@@ -101,22 +89,13 @@
  &lt;p class="card-text"&gt;
  &lt;p&gt;&lt;strong&gt;What is the purpose of this role?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Administration of teams&lt;/li&gt;
+&lt;li&gt;Administering one team. The keys apply across every organization the team is mapped into, not only inside the team. The role includes team, user-viewing, and security management permissions.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Organization Administrator or Team owner&lt;/li&gt;
+&lt;li&gt;Team Admin of that team, an Organization Admin or holder of Assign User Roles for a team mapped to the organization, or a Provider Admin. Teams accept no other role.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creation of new team or User Account creation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;How many instances of these roles?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Min: 1, Max: many (based on plan)&lt;/li&gt;
-&lt;li&gt;Only first Team Admin would be the owner&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Who can remove assignment of this role?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default User Role</title><link>/cloud/concepts/identity-and-security/roles/user-role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/user-role/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Default User Role</title><link>/cloud/concepts/identity-and-security/roles/user-role/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/user-role/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
  Default User Role
@@ -148,20 +127,10 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Organization Administrators, Workspace Administrators and Team Administrators&lt;/li&gt;
+&lt;li&gt;An Organization Admin of that organization, a holder of Assign User Roles there, or a Provider Admin. Workspace Admin and Team Admin do not assign organization roles. Team scope accepts only Team Admin.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatically assigned to members on joining an Organization.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;How many instances of these roles?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Identity and Security</title><link>/cloud/concepts/identity-and-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. The identity structure is highly flexible: organizations can have any number of teams, teams can have any number of users, and users can belong to any number of teams and organizations.&lt;/p&gt;
-&lt;p&gt;Below is an overview of the core identity components within the Layer5 Cloud.&lt;/p&gt;
-
-&lt;h2 id="identity" class="heading-link"&gt;
- Identity
- &lt;a href="#identity" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Organizations serve as the fundamental component of multi-tenancy within the Layer5 Cloud.&lt;/p&gt;</description></item><item><title>Default Academy Roles</title><link>/cloud/concepts/identity-and-security/roles/academy-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/academy-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;p&gt;&lt;strong&gt;When this role first assigned?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Identity and Security</title><link>/cloud/concepts/identity-and-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. The identity structure is flexible: an organization has any number of teams, a team has any number of members, and a user can belong to any number of teams and organizations.&lt;/p&gt;
+&lt;p&gt;Identity and security answer two questions for every request: who is acting, and what that person may do in the organization the request runs in. Organization membership, the roles a person holds in that organization, and resources shared with them directly each contribute. The same person can hold different access in each organization they belong to.&lt;/p&gt;</description></item><item><title>Default Academy Roles</title><link>/cloud/concepts/identity-and-security/roles/academy-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/academy-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
  Academy Administrator
@@ -250,10 +219,16 @@
 &lt;li&gt;Used for debugging and monitoring.&lt;/li&gt;
 &lt;li&gt;Applicable to platform engineering team and on-prem users.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Keychains</title><link>/cloud/concepts/identity-and-security/keychains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/keychains/</guid><description>&lt;p&gt;In Layer5 Cloud, a collection of permissions is represented as a keychain. One or more keychains can are grouped together and assigned to a &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;role&lt;/a&gt;. Later, a role can be assigned to a user. This is the general flow of how keychains are assigned to a user.&lt;/p&gt;
-&lt;p&gt;For instance, consider a system shipped default keychain &lt;code&gt;Team Management&lt;/code&gt;, which is a collection of eight keys: &lt;code&gt;View All Teams&lt;/code&gt;, &lt;code&gt;Add User to Team&lt;/code&gt;, &lt;code&gt;Invite User to Team&lt;/code&gt;, &lt;code&gt;Remove User from Team&lt;/code&gt;, &lt;code&gt;Create Team&lt;/code&gt;, &lt;code&gt;Delete Team&lt;/code&gt;, &lt;code&gt;Remove User Role from Team&lt;/code&gt;, and &lt;code&gt;Assign User Role in a Team&lt;/code&gt;. This implies that you can perform all these operations only if your user account possesses a role to which &lt;code&gt;Team Management&lt;/code&gt; keychain is assigned in a given organization.&lt;/p&gt;</description></item><item><title>Keys</title><link>/cloud/concepts/identity-and-security/keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/keys/</guid><description>&lt;p&gt;In Layer5 Cloud, permissions are represented as keys, each serving as a unique identifier for a specific permission. One or more keys can be grouped together and assigned to a &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;keychain&lt;/a&gt;. Then this keychain can be assigned to a &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;role&lt;/a&gt; and that role can be assigned to a user. This is the general flow of how keys are assigned to a user.&lt;/p&gt;
-&lt;p&gt;For instance, consider a system shipped default key &lt;code&gt;Create Organization&lt;/code&gt;, which corresponds to the permission to create an organization in the Cloud. This implies that to create an organization, you need to have &lt;code&gt;Create Organization&lt;/code&gt; key assigned to a keychain, which, in turn, is assigned to a role that&amp;rsquo;s associated with your user account for a given organization.&lt;/p&gt;</description></item><item><title>Sessions</title><link>/cloud/concepts/identity-and-security/sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/sessions/</guid><description>&lt;h2 id="what-sessions-are" class="heading-link"&gt;
+&lt;p&gt;&lt;strong&gt;Who can assign this role?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Keychains</title><link>/cloud/concepts/identity-and-security/keychains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/keychains/</guid><description>&lt;p&gt;In Layer5 Cloud, a collection of permissions is represented as a keychain. One or more keychains are grouped together and assigned to a &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;role&lt;/a&gt;. Later, a role can be assigned to a user. This is the general flow of how keychains reach a user.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href="/cloud/concepts/identity-and-security/keys/"&gt;key&lt;/a&gt; allows one action, such as Create Token.&lt;/li&gt;
+&lt;li&gt;A keychain groups related keys, such as everything needed to manage teams.&lt;/li&gt;
+&lt;li&gt;A role groups keychains, and users hold roles in an organization or team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A user&amp;rsquo;s effective keys in an organization are the union of the keys in every keychain of every role the user holds there. A keychain grants nothing by itself. It takes effect only through a role that includes it.&lt;/p&gt;</description></item><item><title>Keys</title><link>/cloud/concepts/identity-and-security/keys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/keys/</guid><description>&lt;p&gt;In Layer5 Cloud, permissions are represented as keys, each serving as a unique identifier for a specific permission. One or more keys can be grouped together and assigned to a &lt;a href="/cloud/concepts/identity-and-security/keychains/"&gt;keychain&lt;/a&gt;. Then this keychain can be assigned to a &lt;a href="/cloud/concepts/identity-and-security/roles/"&gt;role&lt;/a&gt; and that role can be assigned to a user. A user never receives a key directly. This is the general flow of how keys reach a user.&lt;/p&gt;
+&lt;p&gt;Keys, keychains, and roles are defined once for the whole Layer5 Cloud deployment. They are not copied or customized per organization. What varies per organization is which roles a user holds there. A user&amp;rsquo;s effective keys in an organization are the union of the keys from every role they hold in that organization, so the same person can hold a key in one organization and lack it in another. Holding an additional role only adds keys. It never removes any. Provider Admin holds every key and passes every check in every organization. For how this fits with authentication and cross-organization resource sharing, see &lt;a href="/cloud/concepts/identity-and-security/#security-boundaries"&gt;Security Boundaries&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Sessions</title><link>/cloud/concepts/identity-and-security/sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/sessions/</guid><description>&lt;h2 id="what-sessions-are" class="heading-link"&gt;
  What sessions are
  &lt;a href="#what-sessions-are" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;A session represents a user authenticated connection to Layer5 Cloud. Sessions are created each time a user successfully authenticates. Sessions expire after a period of 24 hours. Before reaching their expiration time, sessions can be refreshed by an associated refresh token, which is also automatically generated at the time a user authenticates (at the same time that the adjoining session token is generated). Refresh token have an expiration period of 36 hours. Active sessions are automatically refreshed (kept alive) by the refresh token until such time as the refresh token expires, and subsequently, the session token expires thereafter.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;A session is the credential Layer5 Cloud issues each time someone signs in. It is what keeps a browser tab, a second device, or a connected Meshery Server signed in, and it is what you end when you want one of those sign-ins to stop working. Sessions expire on their own. &lt;a href="/cloud/concepts/identity-and-security/tokens/"&gt;API tokens&lt;/a&gt; do not.&lt;/p&gt;
+&lt;p&gt;Layer5 Cloud sessions use &lt;a href="https://oauth.net/2/"&gt;OAuth 2.0&lt;/a&gt; for authentication. OAuth 2.0 is a standard protocol for authorization and focuses on client developer simplicity while providing specific authorization flows for web applications, desktop applications, mobile phones, and so on.&lt;/p&gt;</description></item></channel></rss>

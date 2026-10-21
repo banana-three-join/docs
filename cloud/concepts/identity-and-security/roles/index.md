@@ -42,15 +42,15 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 </ul>
 <p><strong>Who can assign this role?</strong></p>
 <ul>
-<li>Provider Admins</li>
+<li>Provider Admins only. Provider roles are deployment-wide and never appear in an organization or team assignment.</li>
 </ul>
 <p><strong>When this role is first assigned?</strong></p>
 <ul>
-<li>On ☁️ boot-up (using build args)</li>
+<li>On boot-up of a deployment (using build args). It is not granted to ordinary sign-ups.</li>
 </ul>
 <p><strong>How many instances of these roles?</strong></p>
 <ul>
-<li>Min: 1, Max: many (based on plan)</li>
+<li>Any number. Layer5 Cloud does not guard the last Provider Admin. A Provider Admin can remove the role from every Provider Admin, themselves included. Confirm another Provider Admin exists first. Built-in roles are available on every plan.</li>
 </ul>
 <p><strong>Who can remove assignment of this role?</strong></p>
 <ul>
@@ -58,7 +58,7 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 </ul>
 <p><strong>What permissions does this role have?</strong></p>
 <ul>
-<li>Can create, view, edit and delete every resource</li>
+<li>Every key. Provider Admin passes every permission check, including in organizations the person is not a member of. Treat it as administration of the deployment, not of a single organization.</li>
 </ul>
 </p>
       </div>
@@ -108,55 +108,19 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 </ul>
 <p><strong>Who can assign this role?</strong></p>
 <ul>
-<li>The Organization Owner</li>
+<li>An Organization Admin of that organization, a holder of Assign User Roles there, or a Provider Admin. The person must already be a member, unless the caller is a Provider Admin.</li>
 </ul>
 <p><strong>When this role is first assigned?</strong></p>
 <ul>
-<li>Creation of new organization or User Account creation</li>
+<li>When an authorized administrator assigns it. Creating a user account does not assign Organization Admin. The creator of an organization is its owner and keeps administrator access through ownership, which is separate from this role.</li>
 </ul>
 <p><strong>How many instances of these roles?</strong></p>
 <ul>
-<li>Min: 1, Max: many (based on plan)</li>
-<li>By default, the first Organization Admin is the owner (the creator of the organization).</li>
+<li>Any number, on every plan. Layer5 Cloud does not stop you removing the last Organization Admin. The owner keeps administrator access through ownership. Anyone else can be left without it. Confirm a second administrator holds the role before you remove it from the first.</li>
 </ul>
 <p><strong>Who can remove assignment of this role?</strong></p>
 <ul>
-<li>Organization Owner</li>
-</ul>
-</p>
-      </div>
-  </div>
-
-<div class="td-card card border me-4">
-<div class="card-header">
-      
-<h3 id="organization-billing-manager" class="heading-link">
-  <a href='https://docs.layer5.io/cloud/reference/default-permissions/#Org+Billing+Manager' target='_blank'>Organization Billing Manager</a>
-  <a href="#organization-billing-manager" class="heading-anchor" aria-label="Permalink to this heading">🔗</a>
-</h3>
-
-    </div>
-<div class="card-body">
-    <p class="card-text">
-        <p><strong>What is the purpose of this role?</strong></p>
-<ul>
-<li>Administration of subscriptions, plans, payments, billing methods and information, spending limits, invoice mgmt etc.</li>
-</ul>
-<p><strong>Who can assign this role?</strong></p>
-<ul>
-<li>Organization Owner</li>
-</ul>
-<p><strong>When this role is first assigned?</strong></p>
-<ul>
-<li>Manually by Organization Owner</li>
-</ul>
-<p><strong>How many instances of these roles?</strong></p>
-<ul>
-<li>Min: 0, Max: many</li>
-</ul>
-<p><strong>Who can remove assignment of this role?</strong></p>
-<ul>
-<li>Organization Owner</li>
+<li>The same people who can assign it. Submit the set of roles the member should keep. Roles you leave out are removed.</li>
 </ul>
 </p>
       </div>
@@ -164,6 +128,8 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 
 </div>
 
+
+Layer5 Cloud has no Organization Billing Manager role. Organization-scoped roles are Organization Admin, User, Workspace Admin, Workspace Manager, Academy Admin, and Academy Learner. See the pages for [workspace roles](/cloud/concepts/identity-and-security/roles/workspace-roles/), the [user role](/cloud/concepts/identity-and-security/roles/user-role/), and [academy roles](/cloud/concepts/identity-and-security/roles/academy-roles/).
 
 
 
@@ -179,10 +145,10 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 <div class="alert alert-primary" role="alert">
   <h4 class="alert-heading">Organization owners as entitlements</h4>
   
-      <p>It&rsquo;s essential to understand that owners are not roles, but entitlements.</p>
-<p>Organization owners carry the organization administrator role, and may be joined in their organization administration duties by any number of other users carrying the organization administrator role. However, the organization owner also has the administrative privilege to delete the organization.</p>
-<p>The entitlement of &ldquo;organization owner&rdquo; is automatically bestowed to the creator of a organization. The individual user who created a given organization initially is therefore granted certain administrative privileges beyond that of other organization administrators. Specifically, organization owners retain the sole permission to delete the organization.</p>
-<p>For more information, see <a href="/cloud/concepts/identity-and-security/organizations/">Organization</a>.</p>
+      <p>Owners are not roles. They are a fixed attribute of the organization.</p>
+<p>The creator of an organization is its owner. Ownership cannot be transferred, and the owner cannot be removed. The owner can delete the organization. An Organization Admin who is not the owner cannot. A Provider Admin, or an Organization Admin or owner of the live parent, can also delete it.</p>
+<p>The owner keeps administrator access through ownership even if the Organization Admin role is removed from them. Other members do not.</p>
+<p>For more information, see <a href="/cloud/concepts/identity-and-security/organizations/">Organizations</a>.</p>
 
   
 </div>
@@ -226,24 +192,23 @@ Roles map permissions to users. Roles contain any number of keychains, which con
     <p class="card-text">
         <p><strong>What is the purpose of this role?</strong></p>
 <ul>
-<li>Administration of a workspace along with curation of content for an organization&rsquo;s catalog (for each organization for which the user has this role assigned)</li>
+<li>Managing workspaces, environments, teams, and lifecycle actions, and reviewing catalog requests, in each organization where the user holds this role. It is an organization-scoped role, not a role on a single workspace.</li>
 </ul>
 <p><strong>Who can assign this role?</strong></p>
 <ul>
-<li>Organization Administrators or Workspace Owner</li>
+<li>An Organization Admin of that organization, a holder of Assign User Roles there, or a Provider Admin</li>
 </ul>
 <p><strong>When this role is first assigned?</strong></p>
 <ul>
-<li>Creation of new workspace</li>
+<li>When an authorized administrator assigns it. Creating a workspace does not by itself assign Workspace Admin.</li>
 </ul>
 <p><strong>How many instances of these roles?</strong></p>
 <ul>
-<li>Min: 1, Max: many</li>
-<li>By default, the first Workspace Administrator is the owner (the creator) of the workspace.</li>
+<li>Any number, on every plan</li>
 </ul>
 <p><strong>Who can remove assignment of this role?</strong></p>
 <ul>
-<li>Organization Administrators or Workspace Owner</li>
+<li>The same people who can assign it. The list you submit replaces the roles held in that organization.</li>
 </ul>
 </p>
       </div>
@@ -252,28 +217,9 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 </div>
 
 
+**Workspace Manager** is a separate organization role. It covers workspace, environment, team, and lifecycle management, plus the designs, environments, and connections inside the workspaces where the user holds the role. It does not include catalog curation. Organization Admins assign it, the same way they assign Workspace Admin.
 
-
-
-
-
-
-
-
-
-
-
-<div class="alert alert-primary" role="alert">
-  <h4 class="alert-heading">Workspace owners as entitlements</h4>
-  
-      <p>It&rsquo;s essential to understand that owners are not roles, but entitlements.</p>
-<p>Workspace owners carry the organization administrator role, and may be joined in their workspace administration duties by any number of other users carrying the workspace administrator role. However, the workspace owner also has the administrative privilege to delete the workspace.</p>
-<p>The entitlement of &ldquo;workspace owner&rdquo; is automatically bestowed to the creator of a workspace. The individual user who created a given workspace initially is therefore granted certain administrative privileges beyond that of other workspace administrators. Specifically, workspace owners retain the sole permission to delete the workspace.</p>
-
-  
-</div>
-
-
+There is no Workspace Owner role, and creating a workspace does not grant a role that only the creator can hold. Delete Workspace is a permission key, not a privilege reserved to a workspace owner. See [Roles and Permissions](/cloud/reference/default-permissions/).
 
 ## Team Roles
 
@@ -316,52 +262,22 @@ Roles map permissions to users. Roles contain any number of keychains, which con
 </ul>
 <p><strong>Who can assign and unassign this role?</strong></p>
 <ul>
-<li>Organization Administrator or Team owner</li>
+<li>Team Admin of that team, an Organization Admin or holder of Assign User Roles for a team mapped to the organization, or a Provider Admin. Teams accept only Team Admin.</li>
 </ul>
 <p><strong>When is this role first assigned?</strong></p>
 <ul>
-<li>Creation of new team or User Account creation</li>
-<li>By default, the first Team Admin is owner (the team creator)</li>
-</ul>
-<p><strong>How many instances of these roles?</strong>
-Min: 1, Max: many</p>
-</p>
-      </div>
-  </div>
-
-<div class="td-card card border me-4">
-<div class="card-header">
-      
-<h3 id="team-manager" class="heading-link">
-  Team Manager
-  <a href="#team-manager" class="heading-anchor" aria-label="Permalink to this heading">🔗</a>
-</h3>
-
-    </div>
-<div class="card-body">
-    <p class="card-text">
-        <p><strong>What is the purpose of this role?</strong></p>
-<ul>
-<li>Administration of teams (without delete access)</li>
-</ul>
-<p><strong>Who can assign and unassign this role?</strong></p>
-<ul>
-<li>Organization Administrators or Team Owner</li>
-</ul>
-<p><strong>When is this role first assigned?</strong></p>
-<ul>
-<li>Manually by Organization Administrator or Team Owner</li>
+<li>A team created from the Teams page makes its creator a Team Admin as well as the owner. Creating a user account does not assign Team Admin. A team created through the API alone records an owner but no Team Admin until someone assigns it.</li>
 </ul>
 <p><strong>How many instances of these roles?</strong></p>
-<ul>
-<li>Min: 0, Max: many</li>
-</ul>
+<p>Any number, on every plan. Layer5 Cloud does not stop you removing the last Team Admin.</p>
 </p>
       </div>
   </div>
 
-  </div>
+</div>
 
+
+Layer5 Cloud has no Team Manager role. Team Admin is the only team-scoped role.
 
 
 
@@ -377,9 +293,9 @@ Min: 1, Max: many</p>
 <div class="alert alert-primary" role="alert">
   <h4 class="alert-heading">Owners as entitlements, not roles</h4>
   
-      <p>It&rsquo;s essential to understand that owners are not roles, but entitlements.</p>
-<p>Team owners carry the team administrator role, and may be joined in their team administration duties by any number of other users carrying the team administrator role. However, the team owner also has the administrative privilege to delete the team.</p>
-<p>The entitlement of &ldquo;team owner&rdquo; is automatically bestowed to the creator of a team. The individual user who created a given team initially is therefore granted certain administrative privileges beyond that of other team administrators. Specifically, team owners retain the sole permission to delete the team.</p>
+      <p>Team owner is not a role. The user who created the team is its owner. Ownership cannot be transferred, and the owner cannot leave the team.</p>
+<p>Owner alone cannot delete the team, and Team Admin alone cannot delete it. Delete requires an Organization Admin or the organization owner, a Provider Admin, or the person who is both owner and Team Admin of the team.</p>
+<p>Team Admin permissions apply across the organization the team is mapped into, not only inside the team.</p>
 <p>For more information, see <a href="/cloud/concepts/identity-and-security/teams/">Teams</a>.</p>
 
   
@@ -396,7 +312,7 @@ The following illustrates how Provider Admin, Org Admin, and Team Admin roles st
 <div class="td-card-group card-group p-0 mb-4">
 <div class="td-card card border me-4">
 <div class="card-header">
-      <strong>Dr. Aiko Sato</strong> — Provider Admin
+      <strong>Dr. Aiko Sato</strong>, Provider Admin
     </div>
 <div class="card-body">
     <p class="card-text">
@@ -409,27 +325,27 @@ The following illustrates how Provider Admin, Org Admin, and Team Admin roles st
 
 <div class="td-card card border me-4">
 <div class="card-header">
-      <strong>Maya Chen</strong> — Organization Administrator
+      <strong>Maya Chen</strong>, Organization Administrator
     </div>
 <div class="card-body">
     <p class="card-text">
         <p><strong>Organization:</strong> Orbital Labs<br>
-<strong>Scope:</strong> All resources within Orbital Labs</p>
-<p>Maya Chen holds the Org Admin role for Orbital Labs. She manages user accounts, team membership, workspace creation, and role assignments within Orbital Labs. She also serves as Team Admin for the Development team — an Org Admin may administer any team in their organization.</p>
+<strong>Scope:</strong> Orbital Labs</p>
+<p>Maya Chen holds the Org Admin role for Orbital Labs. She manages user accounts, workspace creation, and organization role assignments within Orbital Labs. She also holds Team Admin for the Development team. Organization Admin alone does not add or remove members of a team she does not own and does not administer.</p>
 </p>
       </div>
   </div>
 
 <div class="td-card card border me-4">
 <div class="card-header">
-      <strong>Zara Osei</strong> — Team Administrator
+      <strong>Zara Osei</strong>, Team Administrator
     </div>
 <div class="card-body">
     <p class="card-text">
         <p><strong>Organization:</strong> Orbital Labs<br>
 <strong>Team:</strong> Infrastructure<br>
-<strong>Scope:</strong> Infrastructure team members and their workspace access</p>
-<p>Zara Osei holds the Team Admin role for Orbital Labs&rsquo; Infrastructure team. She manages keychain assignments for Five and controls which environments the Infrastructure team can access. Access requests go through Zara&rsquo;s 48-hour SLA — no exceptions, no matter how urgent Five thinks the situation is.</p>
+<strong>Scope:</strong> The Team Admin keys apply across Orbital Labs, not only inside the Infrastructure team</p>
+<p>Zara Osei holds the Team Admin role for Orbital Labs&rsquo; Infrastructure team. That role&rsquo;s keys apply in the organization the team is mapped into. She does not assign provider roles, and she does not create user accounts.</p>
 </p>
       </div>
   </div>
@@ -446,9 +362,95 @@ The following illustrates how Provider Admin, Org Admin, and Team Admin roles st
 <div class="alert alert-custom" style="border-color: #3772ff;" role="alert">
   <h4 class="alert-heading" style="color: #3772ff;">Info</h4>
   
-      Role assignments are org-scoped. Dr. Aiko&rsquo;s Provider Admin role spans all tenants; Maya&rsquo;s Org Admin role applies only within Orbital Labs; Zara&rsquo;s Team Admin role applies only to the Infrastructure team within Orbital Labs.
+      Role assignments are scoped. Dr. Aiko&rsquo;s Provider Admin role passes every check in every tenant. Maya&rsquo;s Org Admin role applies only within Orbital Labs. Zara&rsquo;s Team Admin role adds its keys across every organization the Infrastructure team is mapped into, not only inside that team.
   
 </div>
 
 
+
+## Other built-in roles
+
+| Role | What it is for | Assigned by |
+|---|---|---|
+| Kanvas | Makes the Kanvas extension available when a Meshery Server connects. It holds no keychains. | Provider Admin, automatically at sign-up. Anonymous accounts receive it alongside Anonymous User. |
+| Curator | Managing catalog content. In a default install it holds no keychains. Catalog curation keys come through Organization Admin and Workspace Admin. | Provider Admin |
+| User | Viewing and editing users, plus learning paths and challenges | Organization Admin |
+| Workspace Manager | Workspace, environment, team, and lifecycle management, plus designs, environments, and connections in the workspaces where the user holds the role. No catalog curation. | Organization Admin |
+| Academy Admin | Academy, team, and workspace management | Organization Admin |
+| Academy Learner | Academy content access | Organization Admin |
+| Anonymous User | Using Kanvas without signing in | Applied automatically. It cannot be assigned and never appears in a role list. |
+
+Provider roles are Provider Admin, Kanvas, and Curator. The organization role list shows every role except those three, custom roles included. The team role list shows Team Admin. Viewing the list requires View All Roles, which User, Team Admin, Workspace Admin, Organization Admin, and Provider Admin hold by default.
+
+## Assign or change roles
+
+Every assignment has a scope.
+
+| Scope | Roles you can assign | Who assigns | The person must |
+| --- | --- | --- | --- |
+| Provider | Provider Admin, Kanvas, Curator | Provider Admin | Have an account |
+| Organization | Every role except the provider roles and Anonymous User, custom roles included | Organization Admin of the organization, a holder of Assign User Roles, or Provider Admin | Be a live member, unless you are a Provider Admin |
+| Team | Team Admin only | Team Admin of that team, Organization Admin or holder of Assign User Roles for a team mapped to the organization, or Provider Admin | Be a live member, unless you are a Provider Admin |
+
+Open the member on the Users page and edit their roles. Confirm the organization in your session is the one you mean to change.
+
+| Rule | Behavior |
+| --- | --- |
+| Replace, not append | The list you submit is the complete set for that scope. Roles you leave out are removed. An empty list removes every role in the scope and keeps the membership. |
+| Membership required | The person must already be a member, unless you are a Provider Admin. An unauthorized or non-member row is skipped and reported, not applied. |
+| Provider roles refused in org or team rows | A request that names Provider Admin, Kanvas, Curator, or Anonymous User in an organization or team row is refused with HTTP 403 for every caller, a Provider Admin included, and nothing in the request is applied. |
+| Unknown role | A role name that does not exist is refused with HTTP 400 and nothing is applied. |
+| All or nothing for refusals | One refused row stops the whole request before any write. If a write fails after screening, rows written earlier in the same request stay written. |
+
+A role change can email the person only when you ask for it. A failed send is reported and does not undo the change. The welcome email option is honored only for Provider Admins.
+
+Granting Team Admin to a person who is in the organization but not yet on the team also adds them to the team. Each team row writes only to its own team.
+
+A request from anyone other than a Provider Admin that includes provider roles skips those rows and reports `<email> unauthorized to assign provider roles`. That message can also appear on an ordinary organization role change made by a non-Provider-Admin, because the provider portion is skipped. It does not mean the organization change failed.
+
+To remove roles, assign the set the person should keep. Removing every role in a scope leaves the membership. To end access to an organization, remove the person from it. See [User Management](/cloud/concepts/identity-and-security/users/user-management/#removing-users-from-an-organization).
+
+## Confirm a change
+
+A role write answers with HTTP 200 and a JSON array of strings. An empty array means every row was applied. Each string is a row that was skipped or a step that failed, for example `<email> unauthorized to assign org roles` or `role assigned:role change notification failed`.
+
+The Users page reports success whenever the answer is 200, so it does not display the strings. After a role change, check the member's roles in the Users table. The audit trail records `<actor> assigned roles: [<names>] to <person>` or `<actor> removed roles for <person>`.
+
+## Custom roles
+
+The Roles page offers creating a role (a name, a description, and a set of keychains), editing it, and deleting it. The interface gates each action on Create Custom Roles, Update Custom Roles, or Delete Custom Roles.
+
+The server is stricter. It accepts a new role, or a change to an existing role, only from a Provider Admin and refuses everyone else with HTTP 403. Those keys belong to the Provider Management keychain, which only Provider Admin holds by default. Holding the matching key through another role is not enough.
+
+- **Hosted Layer5 Cloud.** An organization cannot create a custom role itself. Layer5 operates the Provider Admin role.
+- **Self-hosted Layer5 Cloud.** The operator's Provider Admins create custom roles for their deployment.
+
+A custom role is a name (at most 50 characters), a description, and a set of keychains. The server does not reject an empty name up front, and it accepts a duplicate name. It resolves a role by name when you assign it, so two roles with the same name make assignment ambiguous. A custom role is assigned at organization scope. Teams accept only Team Admin.
+
+Creating a role is two steps: the role is saved, then each keychain is attached. Confirm the keychains afterward. The role appears in every organization on the deployment.
+
+## Changing a role changes it everywhere
+
+Roles and keychains are defined once for the whole deployment. Adding a keychain to a role, or removing one, changes that role for every user who holds it in every organization. This applies to built-in roles as well as custom ones.
+
+Only a Provider Admin can include a keychain in a role or remove it. The Assign Keychains to Roles key belongs to the Provider Management keychain, and the server also confirms that the caller holds the Provider Admin role for the whole deployment. Organization Admins and Team Admins cannot attach or detach keychains, whatever keys their roles hold. To change what people in one organization can do, change which roles they hold in that organization.
+
+The interface refuses to edit Provider Admin, Kanvas, and Curator. The server does not distinguish them from other roles, so do not rely on the interface when you automate. Renaming a role changes the name that assignment looks up. Existing holders keep the role.
+
+Layer5 Cloud has no way to delete a role. The delete control on the Roles page is disabled. To retire a role, remove it from every member who holds it and stop assigning it.
+
+## Why checks test keys, not role names
+
+Layer5 Cloud never asks whether the user has a particular role name. It asks whether the user holds the key the action requires, in the organization of the request. A custom role that holds the same keys as a built-in role passes the same checks.
+
+A refused action returns HTTP 403 with a JSON body:
+
+```json
+{
+  "error": "You do not hold the permission this action requires in this organization",
+  "code": "<error code>"
+}
+```
+
+A 403 means the user is signed in but none of their roles in the organization in context holds the required key. See [Roles and Permissions](/cloud/reference/default-permissions/).
 

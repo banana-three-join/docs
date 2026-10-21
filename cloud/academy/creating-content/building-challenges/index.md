@@ -233,7 +233,7 @@ A full tour of each widget, and what to do about what it tells you, is in the [A
 
 ## Learner Outcomes: Badges
 
-Completing all the required components of a challenge earns the learner a digital badge - a verifiable credential they can share on their professional profiles. Unlike a Certification, a Challenge does not issue a paid Certificate of Completion; its outcome is the score, the rank, and the badge.
+The badge is awarded when the learner passes the final test of the challenge. Unlike a Certification, a Challenge does not issue a paid Certificate of Completion. Its outcome is the score, the rank, and the badge, which the learner can share on professional profiles. A badge setting that points at a badge that no longer exists awards nothing, and the failure is logged.
 
 See [Earning Badges and Certificates](/cloud/academy/using-the-academy/#earning-badges-and-certificates) for the learner's side of this.
 
